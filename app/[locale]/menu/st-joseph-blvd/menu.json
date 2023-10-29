@@ -1,0 +1,92 @@
+{
+    "main_dishes": [
+        {
+            "id": "1",
+            "key": "lamb_mandi"
+        },
+        {
+            "id": "2",
+            "key": "chicken_mandi"
+        },
+        {
+            "id": "3",
+            "key": "lamb_haneeth"
+        },
+        {
+            "id": "25",
+            "key": "vege_motabaq"
+        }
+    ],
+    "entrées": [
+        {
+            "id": "6",
+            "key": "oat_soup"
+        },
+        {
+            "id": "17",
+            "key": "maraq"
+        },
+        {
+            "id": "7",
+            "key": "signature_salad"
+        },
+        {
+            "id": "8",
+            "key": "tabeekh"
+        },
+        {
+            "id": "16",
+            "key": "cucumber_yoghurt_salad"
+        }
+    ],
+    "desserts": [
+        {
+            "id": "9",
+            "key": "maasoub"
+        },
+        {
+            "id": "15",
+            "key": "hareesa"
+        }
+    ],
+    "drinks": [
+        {
+            "id": "10",
+            "key": "adani_tea"
+        },
+        {
+            "id": "11",
+            "key": "red_tea"
+        },
+        {
+            "id": "12",
+            "key": "ayran"
+        },
+        {
+            "id": "13",
+            "key": "soft_drinks"
+        },
+        {
+            "id": "14",
+            "key": "water"
+        }
+    ],
+    "extras": [
+        {
+            "id": "18",
+            "key": "sahawiq"
+        },
+        {
+            "id": "24",
+            "key": "mandi_rice"
+        },
+        {
+            "id": "19",
+            "key": "raisins"
+        },
+        {
+            "id": "20",
+            "key": "thin_sliced_almonds"
+        }
+    ]
+}

@@ -1,0 +1,210 @@
+{
+    "navigation": {
+        "home": "Home",
+        "menu": "Menu",
+        "about": "About",
+        "contact": "Contact",
+        "catering": "Catering"
+    },
+    "page": {
+        "home": {
+            "title": "Authantic Yemeni Taste",
+            "subtitle": "In Yemen Gate, We offer authentic Yemeni food and adhere to health and quality standards in the selection of ingredients and in the method of preparation. Our kitchen is distinguished by its flavor, freshness and special spices. Traditional dishes are our signature, our hospitality and gratitude are our nature."
+        },
+        "slider" : {
+            "slide_1_title": "Healthy Yemeni Cuisine: A Delicious Journey to Wellness",
+            "slide_1_subtitle": "Experience the fusion of nutritious ingredients and authentic Yemeni flavors at Yemen Gate. Our menu is designed to cater to health-conscious individuals without compromising on taste.",
+            "slide_2_title": "Authentic Yemeni Cuisine: A Taste of Tradition",
+            "slide_2_subtitle": "Yemen Gate is your gateway to Yemeni culture and history through its authentic culinary heritage. We honor tradition with every dish, using locally sourced ingredients and time-honored techniques.",
+            "slide_3_title": "Rich Flavor: Yemeni Cuisine's Culinary Symphony",
+            "slide_3_subtitle": "Savor a symphony of bold, rich flavors at Yemen Gate. Our chefs are culinary maestros, creating dishes that are a vibrant celebration of Yemeni cuisine's renowned taste and complexity."
+        },
+        "menu": {
+            "orderHeader": "Ready to Order?",
+            "ourMenu": "Our Menu",
+            "menuTitle": "Menu"
+        },
+        "catering": {
+            "title": "Please fill the form"
+        },
+        "contact": {
+            "title": "Let's keep in touch"
+        },
+        "notFound": {
+            "backButton": "Back Home"
+        },
+        "branch": {
+            "title": "",
+            "location": "Location",
+            "workHours": "Work Hours",
+            "contact": "Contact info",
+            "sat": "Saturday",
+            "sun": "Sunday",
+            "mon": "Monday",
+            "tues": "Tuesday",
+            "wed": "Wednesday",
+            "thu": "Thursday",
+            "fri": "Friday",
+            "phone": "Phone number"
+        }
+    },
+    "category": {
+        "main_dishes": "Main Dishes",
+        "entrées": "Entrées",
+        "desserts": "Desserts",
+        "drinks": "Drinks",
+        "extras": "Extras"
+    },
+    "menu": {
+        "main_dishes":
+            [{
+                "lamb_mandi": {
+                    "title": "Lamb Mandi",
+                    "description": "A flavorful, smoky and aromatic Yemeni meal consists mainly of lamb and ice. Blended with Yemeni Spices, topped with onions, almond, raisins. Served with hot sauce (sahawiq)",
+                    "mealKey": "lamb_mandi"
+                },
+                "chicken_mandi": {
+                    "title": "Chicken Mandi",
+                    "description": "A flavorful, smoky and aromatic Yemeni meal consists mainly of chicken and rice. Blended with Yemeni Spices, topped with onions, almond, raisins. Served with hot sauce (sahawiq)",
+                    "mealKey": "chicken_mandi"
+                },
+                "lamb_haneeth": {
+                    "title": "Slow Roasted Lamb (Haneeth)",
+                    "description": "Steam cooked Basmati Rice with Slow Roasted Lamb. Infused with secret spices, topped with a mixer of almond, raisins and onion. Severed with Yemeni hot sauce (sahawiq)",
+                    "mealKey": "lamb_haneeth"
+                },
+                "family_mix_mandi": {
+                    "title": "Family Mix Mandi",
+                    "description": "A flavorful, smoky and aromatic Yemeni meal consists mainly of meat and chicken, and rice. Blended with Yemeni Spices, topped with onions, almond, raisins. Served with hot sauce (sahawiq)",
+                    "mealKey": "family_mix_mandi"
+                },
+                "family_mandi_lamb": {
+                    "title": "Family Mandi Lamb",
+                    "description": "A flavorful, smoky and aromatic Yemeni meal consists mainly of Lamb and rice. Blended with Yemeni Spices, topped with onions, almond, raisins. Served with hot sauce (sahawiq)",
+                    "mealKey": "family_mandi_lamb"
+                },
+                "vege_motabaq": {
+                    "title": "Arabian Quesadilla Vegetables (Murtabak)",
+                    "description": "Folded bread with bits of vegetables and eggs. Served with lemon and green pepper",
+                    "mealKey": "vege_motabaq"
+                }
+            }],
+            "entrées": [{
+                "maraq": {
+                    "title": "Lamb Broth",
+                    "description": "A lamb soup cooked with the yemeni tradetional spices.",
+                    "mealKey": "maraq"
+                },
+                "oat_soup": {
+                    "title": "Oat Soup",
+                    "description": "Made with a spiced light tomato broth, with cooked oats in it. It's a classic soup in the Gulf region that you will fell in love with it at first sip.",
+                    "mealKey": "oat_soup"
+                },
+                "signature_salad": {
+                    "title": "Signature Salad",
+                    "description": "In House Salad Served with Salad Sauce",
+                    "mealKey": "signature_salad"
+                },
+                "cucumber_yoghurt_salad": {
+                    "title": "Cucumber yoghurt salad",
+                    "description": "Mixed of sliced cucumber and spices with yoghurt",
+                    "mealKey": "cucumber_yoghurt_salad"
+                },
+                "tabeekh": {
+                    "title": "Vegetable Mix Stew",
+                    "description": "Yemeni Stewed vegetables, potatoes, carrots, and eggplant simmered in tomato gravy packed with nutrients.",
+                    "mealKey": "tabeekh"
+                },
+                "lentil_soup" : {
+                    "title": "Lentil Soup",
+                    "description": "Roasted lentils with onions, broth, spices, coriander and parsley",
+                    "mealKey": "lentil_soup"
+                },
+                "okra_soup": {
+                    "title": "Okra Soup",
+                    "description": "It is made with okra, a vegetable that is high in fiber and nutrients, and is often flavored with spices and herbs like onions, garlic, and cumin.",
+                    "mealKey": "okra_soup"
+                },
+                "mulukhiyah_soup": {
+                    "title": "Mulukhiyah Soup",
+                    "description": "Soft mallow leaves with broth, garlic, onions, and tomatoes added.",
+                    "mealKey": "mulukhiyah_soup"
+                }
+            }],
+            "desserts": [{
+                "maasoub": {
+                    "title": "Ma'asoub",
+                    "description": "Ma'asoub is a tradition Yemeni dessert. Masoob is a banana-based dessert made from over-ripe bananas, ground flat bread, cream, topped with honey. It is popular in Yemen, Saudi Arabia and the UAE.",
+                    "mealKey": "maasoub"
+                },
+                "hareesa": {
+                    "title": "Hareesa",
+                    "description": "Hareesa is a tradition Yemeni dessert that contains nut. (250g)",
+                    "mealKey": "hareesa"
+                }
+            }],
+            "drinks": [{
+                "adani_tea": {
+                    "title": "Adani Tea",
+                    "description": "Black Tea with Milk. Made with Yemeni Spices.",
+                    "mealKey": "adani_tea"
+                },
+                "red_tea": {
+                    "title": "Red Tea",
+                    "mealKey": "red_tea"
+                },
+                "ayran": {
+                    "title": "Ayran",
+                    "description": "A cold savory yogurt-based beverage of yogurt and water.",
+                    "mealKey": "ayran"
+                },
+                "soft_drinks": {
+                    "title": "Soft Drinks",
+                    "mealKey": "soft_drinks"
+                },
+                "water": {
+                    "title": "Water",
+                    "mealKey": "water"                
+                }
+            }],
+            "extras": [{
+                "sahawiq": {
+                    "title": "Sahawiq",
+                    "description": "",
+                    "mealKey": "sahawiq"
+                },
+                "raisins": {
+                    "title": "Mixed Raisins",
+                    "mealKey": "raisins"
+                },
+                "thin_sliced_almonds": {
+                    "title": "Thin Sliced Almonds",
+                    "mealKey": "thin_sliced_almonds"
+                },
+                "mandi_rice": {
+                    "title": "Mandi Rice",
+                    "mealKey": "mandi_rice"
+                }
+            }]
+    },
+    "form": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "date": "Date",
+        "message": "Message",
+        "thanksMsg": "Thank you for sending your order!",
+        "respondMsg": "We will contact you soon.",
+        "placeholder": {
+            "name": "Full name",
+            "email": "example@domain.com",
+            "phone": "123 456 7890",
+            "message": "Please write your note here"
+        }
+    },
+    "footer": {
+        "contact": "Contact us",
+        "follow": "Follow us",
+        "rightsReserved": "2023 Yemeni Gate. All Rights Reserved"
+    }
+}
