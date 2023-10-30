@@ -8,7 +8,7 @@
     },
     "page": {
         "home": {
-            "title": "Authantic Yemeni Taste",
+            "title": "Authentic Yemeni Taste",
             "subtitle": "In Yemen Gate, We offer authentic Yemeni food and adhere to health and quality standards in the selection of ingredients and in the method of preparation. Our kitchen is distinguished by its flavor, freshness and special spices. Traditional dishes are our signature, our hospitality and gratitude are our nature."
         },
         "slider" : {
@@ -60,22 +60,22 @@
             [{
                 "lamb_mandi": {
                     "title": "Lamb Mandi",
-                    "description": "A flavorful, smoky and aromatic Yemeni meal consists mainly of lamb and ice. Blended with Yemeni Spices, topped with onions, almond, raisins. Served with hot sauce (sahawiq)",
+                    "description": "A flavorful, smoky and aromatic Yemeni meal consists mainly of lamb and ice. Blended with Yemeni Spices, topped with onions, almonds, raisins. Served with hot sauce (sahawiq)",
                     "mealKey": "lamb_mandi"
                 },
                 "chicken_mandi": {
                     "title": "Chicken Mandi",
-                    "description": "A flavorful, smoky and aromatic Yemeni meal consists mainly of chicken and rice. Blended with Yemeni Spices, topped with onions, almond, raisins. Served with hot sauce (sahawiq)",
+                    "description": "A flavorful, smoky and aromatic Yemeni meal consists mainly of chicken and rice. Blended with Yemeni Spices, topped with onions, almonds, raisins. Served with hot sauce (sahawiq)",
                     "mealKey": "chicken_mandi"
                 },
                 "lamb_haneeth": {
                     "title": "Slow Roasted Lamb (Haneeth)",
-                    "description": "Steam cooked Basmati Rice with Slow Roasted Lamb. Infused with secret spices, topped with a mixer of almond, raisins and onion. Severed with Yemeni hot sauce (sahawiq)",
+                    "description": "Steam-cooked Basmati Rice with Slow Roasted Lamb. Infused with secret spices, topped with a mixer of almonds, raisins and onion. Severed with Yemeni hot sauce (sahawiq)",
                     "mealKey": "lamb_haneeth"
                 },
                 "family_mix_mandi": {
                     "title": "Family Mix Mandi",
-                    "description": "A flavorful, smoky and aromatic Yemeni meal consists mainly of meat and chicken, and rice. Blended with Yemeni Spices, topped with onions, almond, raisins. Served with hot sauce (sahawiq)",
+                    "description": "A flavorful, smoky and aromatic Yemeni meal consists mainly of meat and chicken, and rice. Blended with Yemeni Spices, topped with onions, almonds, raisins. Served with hot sauce (sahawiq)",
                     "mealKey": "family_mix_mandi"
                 },
                 "family_mandi_lamb": {
@@ -92,23 +92,23 @@
             "entrées": [{
                 "maraq": {
                     "title": "Lamb Broth",
-                    "description": "A lamb soup cooked with the yemeni tradetional spices.",
+                    "description": "A lamb soup cooked with the Yemeni traditional spices.",
                     "mealKey": "maraq"
                 },
                 "oat_soup": {
                     "title": "Oat Soup",
-                    "description": "Made with a spiced light tomato broth, with cooked oats in it. It's a classic soup in the Gulf region that you will fell in love with it at first sip.",
+                    "description": "Made with a spiced light tomato broth, with cooked oats in it. It's a classic soup in the Gulf region that you will fall in love with at first sip.",
                     "mealKey": "oat_soup"
                 },
                 "signature_salad": {
                     "title": "Signature Salad",
-                    "description": "In House Salad Served with Salad Sauce",
+                    "description": "House Salad Served with Salad Sauce",
                     "mealKey": "signature_salad"
                 },
-                "cucumber_yoghurt_salad": {
-                    "title": "Cucumber yoghurt salad",
-                    "description": "Mixed of sliced cucumber and spices with yoghurt",
-                    "mealKey": "cucumber_yoghurt_salad"
+                "cucumber_yogurt_salad": {
+                    "title": "Cucumber yogurt salad",
+                    "description": "Mixed sliced cucumber and spices with yogurt",
+                    "mealKey": "cucumber_yogurt_salad"
                 },
                 "tabeekh": {
                     "title": "Vegetable Mix Stew",
@@ -134,12 +134,12 @@
             "desserts": [{
                 "maasoub": {
                     "title": "Ma'asoub",
-                    "description": "Ma'asoub is a tradition Yemeni dessert. Masoob is a banana-based dessert made from over-ripe bananas, ground flat bread, cream, topped with honey. It is popular in Yemen, Saudi Arabia and the UAE.",
+                    "description": "Ma'asoub is a traditional Yemeni dessert. Masoob is a banana-based dessert made from over-ripe bananas, ground flatbread, and cream, topped with honey. It is popular in Yemen, Saudi Arabia, and the UAE.",
                     "mealKey": "maasoub"
                 },
                 "hareesa": {
                     "title": "Hareesa",
-                    "description": "Hareesa is a tradition Yemeni dessert that contains nut. (250g)",
+                    "description": "Hareesa is a traditional Yemeni dessert that contains nuts. (250g)",
                     "mealKey": "hareesa"
                 }
             }],

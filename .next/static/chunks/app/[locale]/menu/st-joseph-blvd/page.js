@@ -6,7 +6,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/[locale]/menu/bank-st/page"],{
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/[locale]/menu/st-joseph-blvd/page"],{
 
 /***/ "?506d":
 /*!******************************************!*\

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                      http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+  <!-- Home Page -->
+  <url>
+    <loc>https://www.yemengate.ca/</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/en/</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/ar/</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/fr/</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Menu Pages -->
+  <url>
+    <loc>https://www.yemengate.ca/en/menu/st-joseph-blvd</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/ar/menu/st-joseph-blvd</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/fr/menu/st-joseph-blvd</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/en/menu/bank-st</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/ar/menu/bank-st</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/fr/menu/bank-st</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Us Page -->
+  <url>
+    <loc>https://www.yemengate.ca/en/contact-us</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/ar/contact-us</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/fr/contact-us</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

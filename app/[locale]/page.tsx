@@ -1,10 +1,13 @@
 import {Link, useTranslations} from 'next-intl';
 import { FC } from 'react';
 import { LangParamProps } from '@/interfaces/commonProps.interface';
+import Head from 'next/head';
 
 const Home : FC<LangParamProps> = ({ params: {locale}}) => {
 
   const t = useTranslations('page');
+
+  const canonicalUrl: string = `/${locale}`;
 
   const OurMenuComponent: FC = () => {
     return (
@@ -20,6 +23,9 @@ const Home : FC<LangParamProps> = ({ params: {locale}}) => {
 
   return (
     <div className='slide_container'>
+      <Head>
+        <link rel="canonical" href={canonicalUrl} />
+      </Head>
       <div className="slide">
         <div className="slide_wrapper slide_wrapper_1">
           <h2>{t("slider.slide_1_title")}</h2>

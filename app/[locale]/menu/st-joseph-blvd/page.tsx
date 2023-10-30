@@ -1,10 +1,13 @@
 import { CardBox } from "../../components/Card";
 import { Meal, MealKey } from "@/interfaces/meal.interface";
 import { useTranslations } from "next-intl";
+import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
 const StJospehMenu = ({params}: {params: { locale: string}}) => {
+  const canonicalUrl: string = `/${params.locale}/branch/st-joseph-blvd`;
+
   const t = useTranslations();
   const translateObj = require(`../../../../messages/${params.locale}.json`); // Import menu data
   const menuData = require('./menu.json'); // Import menu data
@@ -33,6 +36,9 @@ const StJospehMenu = ({params}: {params: { locale: string}}) => {
 
   return (
     <div className="card_box_container">
+      <Head>
+        <link rel="canonical" href={canonicalUrl} />
+      </Head>
       <div className="blank_block"></div>
       <div className="branch_bg_container bank_st_bg">
         <h1>St. Joseph Blvd <br/> (Orleans) {t('page.menu.menuTitle')}</h1>

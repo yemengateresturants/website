@@ -718,6 +718,11 @@ ul div ul a {
   margin-bottom: 0;
   text-align: center;
 }
+@media screen and (max-width: 480px) {
+  .card_box_container h1 {
+    font-size: 2.5rem;
+  }
+}
 @media screen and (max-width: 600px) {
   .card_box {
     width: 300px;

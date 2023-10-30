@@ -1,8 +1,8 @@
-// File: /Users/omar/Desktop/website/app/[locale]/menu/bank-st/layout.tsx
-import * as entry from '../../../../../../app/[locale]/menu/bank-st/layout.js'
+// File: /Users/omar/Desktop/website/app/[locale]/[...not_found]/page.tsx
+import * as entry from '../../../../../app/[locale]/[...not_found]/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../../app/[locale]/menu/bank-st/layout.js')
+type TEntry = typeof import('../../../../../app/[locale]/[...not_found]/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{
@@ -23,11 +23,11 @@ checkFields<Diff<{
 }, TEntry, ''>>()
 
 // Check the prop type of the entry function
-checkFields<Diff<LayoutProps, FirstArg<TEntry['default']>, 'default'>>()
+checkFields<Diff<PageProps, FirstArg<TEntry['default']>, 'default'>>()
 
 // Check the arguments and return type of the generateMetadata function
 if ('generateMetadata' in entry) {
-  checkFields<Diff<LayoutProps, FirstArg<MaybeField<TEntry, 'generateMetadata'>>, 'generateMetadata'>>()
+  checkFields<Diff<PageProps, FirstArg<MaybeField<TEntry, 'generateMetadata'>>, 'generateMetadata'>>()
   checkFields<Diff<ResolvingMetadata, SecondArg<MaybeField<TEntry, 'generateMetadata'>>, 'generateMetadata'>>()
 }
 

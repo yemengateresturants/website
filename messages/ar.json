@@ -100,10 +100,10 @@
                     "description": "سلطة منزلية تقدم مع صلصة السلطة",
                     "mealKey": "signature_salad"
                 },
-                "cucumber_yoghurt_salad": {
+                "cucumber_yogurt_salad": {
                     "title": "سلطة لبن بالخيار",
                     "description": "مزيج من الخيار و البهارات مخلوطة مع الزبادي",
-                    "mealKey": "cucumber_yoghurt_salad"
+                    "mealKey": "cucumber_yogurt_salad"
                 },
                 "tabeekh": {
                     "title": "ايدام خضار",

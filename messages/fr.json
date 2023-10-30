@@ -1,206 +1,205 @@
 {
     "navigation": {
-        "home": "Maison",
+        "home": "Accueil",
         "menu": "Menu",
         "about": "A prop",
-        "contact": "Contact",
-        "catering": "Catering"
+        "contact": "Nous joindre",
+        "catering": "Restauration"
     },
     "page": {
         "home": {
-            "title": "Authantic Yemeni Taste",
-            "subtitle": "En Yemen Gate, Nous offer authentic Yemeni food and adhere to health and quality standards in the selection of ingredients and in the method of preparation. Our kitchen is distinguished by its flavor, freshness and special spices. Traditional dishes are our signature, our hospitality and gratitude are our nature."
+            "title": "Goût yéménite authentique",
+            "subtitle": "Chez Yemen Gate, nous proposons une cuisine yéménite authentique et adhérons aux normes de santé et de qualité dans la sélection des ingrédients et dans la méthode de préparation. Notre cuisine se distingue par sa saveur, sa fraîcheur et ses épices particulières. Les plats traditionnels sont notre signature, notre hospitalité et notre gratitude sont notre nature."
         },
         "slider" : {
-            "slide_1_title": "Healthy Yemeni Cuisine: A Delicious Journey to Wellness",
-            "slide_1_subtitle": "Experience the fusion of nutritious ingredients and authentic Yemeni flavors at Yemen Gate. Our menu is designed to cater to health-conscious individuals without compromising on taste.",
-            "slide_2_title": "Authentic Yemeni Cuisine: A Taste of Tradition",
-            "slide_2_subtitle": "Yemen Gate is your gateway to Yemeni culture and history through its authentic culinary heritage. We honor tradition with every dish, using locally sourced ingredients and time-honored techniques.",
-            "slide_3_title": "Rich Flavor: Yemeni Cuisine's Culinary Symphony",
-            "slide_3_subtitle": "Savor a symphony of bold, rich flavors at Yemen Gate. Our chefs are culinary maestros, creating dishes that are a vibrant celebration of Yemeni cuisine's renowned taste and complexity."
+            "slide_1_title": "Cuisine yéménite saine : un délicieux voyage vers le bien-être",
+            "slide_1_subtitle": "Découvrez la fusion d'ingrédients nutritifs et de saveurs yéménites authentiques à la porte du Yémen. Notre menu est conçu pour répondre aux personnes soucieuses de leur santé sans compromettre le goût.",
+            "slide_2_title": "Cuisine yéménite authentique : un avant-goût de la tradition",
+            "slide_2_subtitle": "Yémen Gate est votre porte d'entrée vers la culture et l'histoire yéménites à travers son patrimoine culinaire authentique. Nous honorons la tradition avec chaque plat, en utilisant des ingrédients locaux et des techniques ancestrales.",
+            "slide_3_title": "Saveur riche : la symphonie culinaire de la cuisine yéménite",
+            "slide_3_subtitle": "Savourez une symphonie de saveurs riches et audacieuses à Yémen Gate. Nos chefs sont des maestros culinaires, créant des plats qui célèbrent de manière vibrante le goût et la complexité renommée de la cuisine yéménite."
         },
         "menu": {
-            "orderHeader": "Ready to Order?",
-            "ourMenu": "Notre menu",
+            "orderHeader": "Prêt à commander?",
+            "ourMenu": "Notre carte",
             "menuTitle": "Menu"
         },
         "catering": {
-            "title": "Let&apos;s keep in touch"
+            "title": "Restons en contact"
         },
         "contact": {
-            "title": ""
+            "title": "Nous joindre"
         },
         "notFound": {
-            "backButton": "Retour Home"
+            "backButton": "Retour à la page d'accueil"
         },
         "branch": {
             "title": "",
-            "location": "Location",
-            "workHours": "Work Hours",
-            "contact": "Contact info",
-            "sat": "Saturday",
-            "sun": "Sunday",
-            "mon": "Monday",
-            "tues": "Tuesday",
-            "wed": "Wednesday",
-            "thu": "Thursday",
-            "fri": "Friday",
-            "phone": "Phone number"
+            "location": "Emplacement",
+            "workHours": "Heures de travail",
+            "contact": "Coordonnées",
+            "sat": "Samedi",
+            "sun": "Dimanche",
+            "mon": "Lundi",
+            "tues": "Mardi",
+            "wed": "Mercredi",
+            "thu": "Jeudi",
+            "fri": "Vendredi",
+            "phone": "Numéro de téléphone"
         }
     },
     "category": {
-        "main_dishes": "Main Dishes",
+        "main_dishes": "Plats principaux",
         "entrées": "Entrées",
         "desserts": "Desserts",
-        "drinks": "Drinks",
-        "extras": "Extras"
+        "drinks": "Boissons",
+        "extras": "Suppléments"
     },
     "menu": {
         "main_dishes":
             [{
                 "lamb_mandi": {
-                    "title": "",
-                    "description": "",
+                    "title": "Mandi d'agneau",
+                    "description": "Un repas yéménite savoureux, fumé et aromatique se compose principalement d'agneau et de glace. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
                     "mealKey": "lamb_mandi"
                 },
                 "chicken_mandi": {
-                    "title": "",
-                    "description": "",
+                    "title": "Mandi au poulet",
+                    "description": "A flavorful, smoky and aromatic Yemeni meal consists mainly of chicken and rice. Blended with Yemeni Spices, topped with onions, almonds, raisins. Served with hot sauce (sahawiq)",
                     "mealKey": "chicken_mandi"
                 },
                 "lamb_haneeth": {
-                    "title": "",
-                    "description": "",
+                    "title": "Agneau rôti lentement (Haneeth)",
+                    "description": "Riz basmati cuit à la vapeur avec agneau rôti lentement. Infusé d'épices secrètes, surmonté d'un mélange d'amandes, de raisins secs et d'oignons. Coupé avec de la sauce piquante yéménite (sahawiq)",
                     "mealKey": "lamb_haneeth"
                 },
                 "family_mix_mandi": {
-                    "title": "",
-                    "description": "",
+                    "title": "Mélange familial Mandi",
+                    "description": "Un repas yéménite savoureux, fumé et aromatique se compose principalement de viande, de poulet et de riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
                     "mealKey": "family_mix_mandi"
                 },
                 "family_mandi_lamb": {
-                    "title": "",
-                    "description": "",
+                    "title": "Famille Mandi Agneau",
+                    "description": "Un repas yéménite savoureux, fumé et aromatique se compose principalement d'agneau et de riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
                     "mealKey": "family_mandi_lamb"
                 }
             }],
             "entrées": [{
                 "maraq": {
-                    "title": "",
-                    "description": "",
+                    "title": "Bouillon d'Agneau",
+                    "description": "Une soupe d'agneau cuisinée avec les épices traditionnelles yéménites.",
                     "mealKey": "maraq"
                 },
                 "oat_soup": {
-                    "title": "",
-                    "description": "",
+                    "title": "Soupe à l'Avoine",
+                    "description": "Fait avec un bouillon de tomates léger épicé, avec de l'avoine cuite dedans. C'est une soupe classique de la région du Golfe dont vous tomberez amoureux dès la première gorgée.",
                     "mealKey": "oat_soup"
                 },
                 "signature_salad": {
-                    "title": "",
-                    "description": "",
+                    "title": "Salade Signature",
+                    "description": "Salade maison servie avec sauce à salade",
                     "mealKey": "signature_salad"
                 },
-                "cucumber_yoghurt_salad": {
-                    "title": "",
-                    "description": "",
-                    "mealKey": "cucumber_yoghurt_salad"
+                "cucumber_yogurt_salad": {
+                    "title": "Salade de yaourt au concombre",
+                    "description": "Mélange de tranches de concombre et d'épices avec du yaourt",
+                    "mealKey": "cucumber_yogurt_salad"
                 },
                 "tabeekh": {
-                    "title": "",
-                    "description": "",
+                    "title": "Ragoût de mélange de légumes",
+                    "description": "Yéménite Compote de légumes, pommes de terre, carottes et aubergines mijotées dans une sauce tomate riche en nutriments.",
                     "mealKey": "tabeekh"
                 },
                 "lentil_soup" : {
-                    "title": "",
-                    "description": "",
-                    "mealKey": ""
+                    "title": "Soupe aux lentilles",
+                    "description": "Lentilles rôties aux oignons, bouillon, épices, coriandre et persil.",
+                    "mealKey": "lentil_soup"
                 },
                 "okra_soup": {
-                    "title": "",
-                    "description": "",
-                    "mealKey": ""
+                    "title": "Soupe au gombo",
+                    "description": "Il est fait de gombo, un légume riche en fibres et en nutriments, et est souvent aromatisé avec des épices et des herbes comme les oignons, l'ail et le cumin.",
+                    "mealKey": "okra_soup"
                 },
                 "mulukhiyah_soup": {
-                    "title": "Mulukhiyah Soup",
-                    "description": "",
+                    "title": "Soupe Mulukhiyah",
+                    "description": "Feuilles de mauve molles avec bouillon, ail, oignons et tomates ajoutés.",
                     "mealKey": "mulukhiyah_soup"
                 }
             }],
             "desserts": [{
                 "maasoub": {
-                    "title": "",
-                    "description": "",
+                    "title": "Ma'asoub",
+                    "description": "Le Ma'asoub est un dessert traditionnel yéménite. Le masoob est un dessert à base de bananes trop mûres, de pain plat moulu et de crème, garni de miel. Il est populaire au Yémen, en Arabie saoudite et aux Émirats arabes unis.",
                     "mealKey": "maasoub"
                 },
                 "hareesa": {
                     "title": "Hareesa",
-                    "description": "Hareesa is a tradition Yemeni dessert that contains nut. (250g)",
+                    "description": "Hareesa est un dessert traditionnel yéménite qui contient des noix. (250g)",
                     "mealKey": "hareesa"
                 }
             }],
             "drinks": [{
                 "adani_tea": {
-                    "title": "",
-                    "description": "",
+                    "title": "Thé Adani",
+                    "description": "Thé noir au lait. Fabriqué avec des épices yéménites.",
                     "mealKey": "adani_tea"
                 },
                 "red_tea": {
-                    "title": "",
-                    "description": "",
+                    "title": "Thé rouge",
                     "mealKey": "red_tea"
                 },
                 "ayran": {
-                    "title": "",
-                    "description": "",
+                    "title": "Ayran",
+                    "description": "Une boisson froide et salée à base de yaourt et d'eau.",
                     "mealKey": "ayran"
                 },
                 "soft_drinks": {
-                    "title": "",
+                    "title": "Boissons non alcoolisées",
                     "mealKey": "soft_drinks"
                 },
                 "water": {
-                    "title": "",
+                    "title": "Eau",
                     "mealKey": "water"               
                 }
             }],
             "extras": [{
                 "sahawiq": {
-                    "title": "",
+                    "title": "Sahawiq",
                     "description": "",
                     "mealKey": "sahawiq"
                 },
                 "raisins": {
-                    "title": "",
+                    "title": "Raisins secs mélangés",
                     "mealKey": "raisins"
                 },
                 "thin_sliced_almonds": {
-                    "title": "",
+                    "title": "Amandes tranchées finement",
                     "mealKey": "thin_sliced_almonds"
                 },
                 "mandi_rice": {
-                    "title": "",
+                    "title": "Riz Mandi",
                     "mealKey": "mandi_rice"
                 }
             }]
     },
     "form": {
-        "name": "Name",
-        "email": "Email",
-        "phone": "Phone",
-        "date": "Date",
-        "message": "Message",
-        "thanksMsg": "Thank you for sending your order!",
-        "respondMsg": "We will contact you soon.",
+        "name": "Nom",
+        "email": "Courriel",
+        "phone": "Numéro de téléphone",
+        "date": "La datte",
+        "message": "le message",
+        "thanksMsg": "Merci d'avoir envoyé votre commande!",
+        "respondMsg": "Nous vous contacterons bientôt.",
         "placeholder": {
-            "name": "Full name",
+            "name": "Nom",
             "email": "example@domain.com",
             "phone": "123 456 7890",
-            "message": "Please write your note here"
+            "message": "Veuillez écrire votre note ici"
         }
     },
     "footer": {
-        "contact": "Contact us",
-        "follow": "Follow us",
-        "rightsReserved": "2023 Yemeni Gate. All Rights Reserved"
+        "contact": "Nous joindre",
+        "follow": "Suivez-nous",
+        "rightsReserved": "2023 Yemeni Gate. Tous droits réservés"
     }
 }

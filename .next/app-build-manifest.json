@@ -1,25 +1,30 @@
 {
   "pages": {
-    "/[locale]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/page.js"
-    ],
     "/[locale]/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/[locale]/layout.css",
       "static/chunks/app/[locale]/layout.js"
     ],
-    "/[locale]/menu/bank-st/layout": [
+    "/[locale]/[...not_found]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/menu/bank-st/layout.js"
+      "static/chunks/app/[locale]/[...not_found]/page.js"
     ],
-    "/[locale]/menu/bank-st/page": [
+    "/[locale]/menu/st-joseph-blvd/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/menu/bank-st/page.js"
+      "static/chunks/app/[locale]/menu/st-joseph-blvd/layout.js"
+    ],
+    "/[locale]/menu/st-joseph-blvd/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/menu/st-joseph-blvd/page.js"
+    ],
+    "/[locale]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/page.js"
     ]
   }
 }

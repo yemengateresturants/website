@@ -1,0 +1,6 @@
+Sitemap: https://www.yemengate.com/sitemap.xml
+
+User-agent: *
+Disallow: /*/branch/bank-st
+Disallow: /*/branch/st-joseph-blvd
+Disallow: /*/404
