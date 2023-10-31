@@ -819,6 +819,7 @@ div.dropdown-wrapper {
     left: 0;
     right: 0;
     top: 75px;
+    background-repeat: no-repeat;
 }
 
 .blank_block {
@@ -826,11 +827,11 @@ div.dropdown-wrapper {
 }
 
 .bank_st_bg {
-    background-image: url('/images/branch.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: url('/images/bank-st.jpg');
+}
 
-    
+.st_joseph_bg {
+    background-image: url('/images/branch.jpg');
 }
 
 .catering_bg {

@@ -69,9 +69,14 @@
                     "description": "Consists of chicken and rice. Blended with Yemeni Spices, topped with onions, almonds, raisins. Served with hot sauce (sahawiq)",
                     "mealKey": "chicken_mandi"
                 },
+                "chicken_mazbi": {
+                    "title": "Chicken Mazbi",
+                    "description": "Consists of stone-grilled chicken served with rice and hot sauce (sahawiq)",
+                    "mealKey": "chicken_mazbi"
+                },
                 "lamb_haneeth": {
                     "title": "Slow Roasted Lamb (Haneeth)",
-                    "description": "Consists of steam-cooked Basmati Rice with Slow Roasted Lamb. Infused with secret spices, topped with a mixer of almonds, raisins and onion. Severed with Yemeni hot sauce (sahawiq)",
+                    "description": "Consists of steam-cooked Basmati Rice with Slow Roasted Lamb. Infused with secret spices, topped with a mixer of almonds, raisins and onion. Served with Yemeni hot sauce (sahawiq)",
                     "mealKey": "lamb_haneeth"
                 },
                 "family_mix_mandi": {
@@ -146,12 +151,12 @@
             "entrées": [{
                 "maraq": {
                     "title": "Lamb Broth",
-                    "description": "Cooked with the Yemeni traditional spices.",
+                    "description": "Cooked with the Yemeni traditional spices",
                     "mealKey": "maraq"
                 },
                 "oat_soup": {
                     "title": "Oat Soup",
-                    "description": "Consists of a spiced light tomato broth, with cooked oats in it. It's a classic soup in the Gulf region that you will fall in love with at first sip.",
+                    "description": "Consists of a spiced light tomato broth, with cooked oats in it",
                     "mealKey": "oat_soup"
                 },
                 "signature_salad": {

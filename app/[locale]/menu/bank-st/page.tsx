@@ -54,6 +54,9 @@ const BankStMenu: FC<LangParamProps> = ({params}: {params: { locale: string }}) 
           <Link href="https://www.ubereats.com/ca/store/yemen-gate-bank-st/OmTvklAUU_urFj2CD2SOgQ">
             <Image className="order-btn" src="/images/uber_eats.jpg" width='150' height='75' alt="Uber Eats Button" />
           </Link>
+          <Link href="https://www.skipthedishes.com/yemen-gate-bank">
+            <Image className="order-btn" src="/images/skip.png" width='150' height='75' alt="Doordash Button" />
+          </Link>
         </div>
       </div>
     </div>

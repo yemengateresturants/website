@@ -61,139 +61,164 @@
             [{
                 "lamb_mandi": {
                     "title": "Mandi d'agneau",
-                    "description": "Un repas yéménite savoureux, fumé et aromatique se compose principalement d'agneau et de glace. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
+                    "description": "Se compose d'agneau et de riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
                     "mealKey": "lamb_mandi"
                 },
                 "chicken_mandi": {
                     "title": "Mandi au poulet",
-                    "description": "A flavorful, smoky and aromatic Yemeni meal consists mainly of chicken and rice. Blended with Yemeni Spices, topped with onions, almonds, raisins. Served with hot sauce (sahawiq)",
+                    "description": "Se compose de poulet et de riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
                     "mealKey": "chicken_mandi"
+                },
+                "chicken_mazbi": {
+                    "title": "Mazbi au poulet",
+                    "description": "Se compose de poulet grillé sur pierre servi avec du riz et de la sauce piquante (sahawiq)",
+                    "mealKey": "chicken_mazbi"
                 },
                 "lamb_haneeth": {
                     "title": "Agneau rôti lentement (Haneeth)",
-                    "description": "Riz basmati cuit à la vapeur avec agneau rôti lentement. Infusé d'épices secrètes, surmonté d'un mélange d'amandes, de raisins secs et d'oignons. Coupé avec de la sauce piquante yéménite (sahawiq)",
+                    "description": "Se compose de riz basmati cuit à la vapeur et d'agneau rôti lentement. Infusé d'épices secrètes, surmonté d'un mélange d'amandes, de raisins secs et d'oignons. Servi avec sauce piquante yéménite (sahawiq)",
                     "mealKey": "lamb_haneeth"
                 },
                 "family_mix_mandi": {
                     "title": "Mélange familial Mandi",
-                    "description": "Un repas yéménite savoureux, fumé et aromatique se compose principalement de viande, de poulet et de riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
+                    "description": "Se compose de viande, de poulet et de riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
                     "mealKey": "family_mix_mandi"
                 },
                 "family_mandi_lamb": {
                     "title": "Famille Mandi Agneau",
-                    "description": "Un repas yéménite savoureux, fumé et aromatique se compose principalement d'agneau et de riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
+                    "description": "Se compose d'agneau et de riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
                     "mealKey": "family_mandi_lamb"
                 },
-                "tabbouleh": {
-                    "title": "Tabbouleh",
-                    "description": "Il se compose de boulgour fin, de Darsie, d'oignons, de concombres, de citrons, de tomates, de menthe et d'huile d'olive",
-                    "mealKey": "tabbouleh"
+                "vege_motabaq": {
+                    "title": "Légumes quesadilla arabes (Murtabak)",
+                    "description": "Se compose de pain plié avec des morceaux de légumes et des œufs. Servi avec citron et poivron vert",
+                    "mealKey": "vege_motabaq"
                 },
-                "fattoush": {
-                    "title": "Fattoush",
-                    "description": "Il se compose de morceaux de pain grillé avec un mélange homogène de légumes, tomates, concombres, radis et laitue",
-                    "mealKey": "fattoush"
+                "fahsa": {
+                    "title": "Fahsa",
+                    "description": "Se compose de morceaux de viande, d'ail, de tomates, de cumin et d'autres épices",
+                    "mealKey": "fahsa"
                 },
-                "hummus": {
-                    "title": "Hummus",
-                    "description": "Pois chiches, tahini, citron, ail et piment",
-                    "mealKey": "hummus"
+                "salta": {
+                    "title": "Salta",
+                    "description": "Se compose de fenugrec, de bouillon, de viande et d'épices",
+                    "mealKey": "salta"
+                },
+                "lamb_pot": {
+                    "title": "Marmite d'agneau",
+                    "description": "Se compose de viande avec divers légumes et épices",
+                    "mealKey": "lamb_pot"
                 }
             }],
             "breakfast":
             [{
                 "qilabat_meat": {
                     "title": "Viande de Qilabat",
-                    "description": "Le plat se compose de viande en cubes et rôtie, cuite avec de l'huile, du poivre et de l'ail, agrémentée d'épices spéciales",
+                    "description": "Se compose de viande en cubes et rôtie, cuite avec de l'huile, du poivre et de l'ail, agrémentée d'épices spéciales",
                     "mealKey": "qilabat_meat"
                 },
                 "liver": {
                     "title": "Foie",
-                    "description": "The liver is prepared from fried liver with oil, onions. garlic, pepper and spices to give a delicious taste",
+                    "description": "Se compose de foie frit avec de l'huile et des oignons. ail, poivre et épices pour donner un goût délicieux",
                     "mealKey": "liver"
                 },
                 "dry_pot_beans": {
                     "title": "Haricots secs/en pot",
-                    "description": "Un plat se compose de haricots, de viande hachée et d'épices spéciales pour ce délicieux plat",
+                    "description": "Se compose de haricots, de viande hachée et d'épices spéciales pour ce délicieux plat",
                     "mealKey": "dry_pot_beans"
                 },
                 "beans_mudara": {
                     "title": "Haricots Mudara",
-                    "description": "Le plat se compose de haricots aux tomates. coriandre et cumin",
+                    "description": "Se compose de haricots aux tomates. coriandre et cumin",
                     "mealKey": "beans_mudara"
                 },
                 "shakshouka": {
                     "title": "Shakshouka",
-                    "description": "Le plat shakshuka se compose d'un mélange de légumes, d'oignons, de tomates, de poivrons et d'épices, en plus d'œufs.",
+                    "description": "Se compose d'un mélange de légumes, oignons, tomates, poivrons et épices, en plus des œufs",
                     "mealKey": "shakshouka"
                 },
                 "yemeni_foul": {
                     "title": "Faute yéménite",
-                    "description": "Le délicieux plat de haricots se compose de fèves avec du tahini, en plus de légumes, de tomates et d'ail.",
+                    "description": "Se compose de fèves avec du tahini, en plus de légumes, de tomates et d'ail",
                     "mealKey": "yemeni_foul"
                 },
                 "tuna_with_peas": {
                     "title": "Thon et petits pois",
-                    "description": "Ce plat se compose de thon et de petits pois, en plus de concentré de tomate. maïs et carottes",
+                    "description": "Se compose de thon et de petits pois, en plus de concentré de tomate. maïs et carottes",
                     "mealKey": "tuna_with_peas"
                 }
             }],
             "entrées": [{
                 "maraq": {
                     "title": "Bouillon d'Agneau",
-                    "description": "Une soupe d'agneau cuisinée avec les épices traditionnelles yéménites.",
+                    "description": "Cuit avec les épices traditionnelles yéménites",
                     "mealKey": "maraq"
                 },
                 "oat_soup": {
                     "title": "Soupe à l'Avoine",
-                    "description": "Fait avec un bouillon de tomates léger épicé, avec de l'avoine cuite dedans. C'est une soupe classique de la région du Golfe dont vous tomberez amoureux dès la première gorgée.",
+                    "description": "Se compose d'un bouillon de tomates léger épicé, avec de l'avoine cuite dedans",
                     "mealKey": "oat_soup"
                 },
                 "signature_salad": {
                     "title": "Salade Signature",
-                    "description": "Salade maison servie avec sauce à salade",
+                    "description": "Servi avec sauce à salade",
                     "mealKey": "signature_salad"
                 },
                 "cucumber_yogurt_salad": {
                     "title": "Salade de yaourt au concombre",
-                    "description": "Mélange de tranches de concombre et d'épices avec du yaourt",
+                    "description": "Se compose d'un mélange de concombres tranchés et d'épices avec du yaourt",
                     "mealKey": "cucumber_yogurt_salad"
                 },
                 "tabeekh": {
                     "title": "Ragoût de mélange de légumes",
-                    "description": "Yéménite Compote de légumes, pommes de terre, carottes et aubergines mijotées dans une sauce tomate riche en nutriments.",
+                    "description": "Se compose de légumes cuits, de pommes de terre, de carottes et d'aubergines mijotées dans une sauce tomate riche en nutriments",
                     "mealKey": "tabeekh"
                 },
                 "lentil_soup" : {
                     "title": "Soupe aux lentilles",
-                    "description": "Lentilles rôties aux oignons, bouillon, épices, coriandre et persil.",
+                    "description": "Se compose de lentilles rôties avec oignons, bouillon, épices, coriandre et persil",
                     "mealKey": "lentil_soup"
                 },
                 "okra_soup": {
                     "title": "Soupe au gombo",
-                    "description": "Il est fait de gombo, un légume riche en fibres et en nutriments, et est souvent aromatisé avec des épices et des herbes comme les oignons, l'ail et le cumin.",
+                    "description": "Se compose de gombo, d'épices et d'herbes comme les oignons, l'ail et le cumin",
                     "mealKey": "okra_soup"
                 },
                 "mulukhiyah_soup": {
                     "title": "Soupe Mulukhiyah",
-                    "description": "Feuilles de mauve molles avec bouillon, ail, oignons et tomates ajoutés.",
+                    "description": "Se compose de feuilles de mauve molles additionnées de bouillon, d'ail, d'oignons et de tomates",
                     "mealKey": "mulukhiyah_soup"
+                },
+                "tabbouleh": {
+                    "title": "Tabbouleh",
+                    "description": "Se compose de boulgour fin, de Darsie, d'oignons, de concombres, de citrons, de tomates, de menthe et d'huile d'olive",
+                    "mealKey": "tabbouleh"
+                },
+                "fattoush": {
+                    "title": "Fattoush",
+                    "description": "Se compose de morceaux de pain grillé avec un mélange homogène de légumes, tomates, concombres, radis et laitue",
+                    "mealKey": "fattoush"
+                },
+                "hummus": {
+                    "title": "Hummus",
+                    "description": "Se compose de pois chiches, tahini, citron, ail et piment",
+                    "mealKey": "hummus"
                 }
             }],
             "desserts": [{
                 "maasoub": {
                     "title": "Ma'asoub",
-                    "description": "Le Ma'asoub est un dessert traditionnel yéménite. Le masoob est un dessert à base de bananes trop mûres, de pain plat moulu et de crème, garni de miel. Il est populaire au Yémen, en Arabie saoudite et aux Émirats arabes unis.",
+                    "description": "Se compose d'un dessert à base de bananes trop mûres, de pain plat moulu et de crème, garni de miel",
                     "mealKey": "maasoub"
                 },
                 "hareesa": {
                     "title": "Hareesa",
-                    "description": "Hareesa est un dessert traditionnel yéménite qui contient des noix. (250g)",
+                    "description": "Contient des noix. (250g)",
                     "mealKey": "hareesa"
                 },
                 "date_fattah": {
                     "title": "Date Fattah",
-                    "description": "Les dattes fatteh sont un dessert traditionnel yéménite. Ce sont des dattes mélangées à de la farine. beurre et huile végétale. et on y ajoute des graines noires",
+                    "description": "Dattes mélangées à de la farine, du beurre, de l'huile végétale et des graines noires",
                     "mealKey": "date_fattah"
                 },
                 "baklava": {
@@ -268,7 +293,7 @@
                 },
                 "mandi_rice": {
                     "title": "Riz Mandi",
-                    "description": "Mandi rice, topped with onions, almonds and raisins",
+                    "description": "Riz Mandi, garni d'oignons, d'amandes et de raisins secs",
                     "mealKey": "mandi_rice"
                 },
                 "white_basmati_rice": {
@@ -277,12 +302,12 @@
                 },
                 "yemeni_roti": {
                     "title": "Roti yéménite",
-                    "description": "Le pain roti spongieux est fabriqué à partir d'un mélange de farine, de lait, de vanille et d'œufs.",
+                    "description": "Fabriqué à partir d'un mélange de farine, de lait, de vanille et d'œufs",
                     "mealKey": "yemeni_roti"
                 },
                 "rashoosh_bread": {
                     "title": "Pain Rashoosh",
-                    "description": "Le délicieux pain yéménite Rashoosh est composé d'un mélange de farine avec du beurre et des graines noires",
+                    "description": "Se compose d'un mélange de farine avec du beurre et des graines noires",
                     "mealKey": "rashoosh_bread"
                 }
             }]

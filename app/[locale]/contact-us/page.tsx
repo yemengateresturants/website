@@ -13,7 +13,7 @@ export default function Contact() {
         <div className="contact_container">
           <h1 className="contact-title">{t('home.title')}</h1>
           <h2 className="contact-subtitle">{t('home.subtitle')}</h2>
-          <h2 className="contact-form-title">{t('catering.title')}</h2>
+          <h2 className="contact-form-title">{t('contact.title')}</h2>
           <ContactForm />
         </div>
       </>

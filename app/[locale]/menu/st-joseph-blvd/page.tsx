@@ -40,7 +40,7 @@ const StJospehMenu = ({params}: {params: { locale: string}}) => {
         <link rel="canonical" href={canonicalUrl} />
       </Head>
       <div className="blank_block"></div>
-      <div className="branch_bg_container bank_st_bg">
+      <div className="branch_bg_container st_joseph_bg">
         <h1>St. Joseph Blvd <br/> (Orleans) {t('page.menu.menuTitle')}</h1>
       </div>
       {categories.map((category: string) => (
@@ -57,9 +57,6 @@ const StJospehMenu = ({params}: {params: { locale: string}}) => {
         <div className="order_btns_wrapper">
           <Link href="https://www.ubereats.com/ca/store/%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%8A%D9%85%D9%86-yemen-gate-orleans/EhgbbBiDW96XNXaZ8N1xOw">
             <Image className="order-btn" src="/images/uber_eats.jpg" width='150' height='75' alt="Uber Eats Button" />
-          </Link>
-          <Link href="https://www.skipthedishes.com/yemen-gate-bank">
-            <Image className="order-btn" src="/images/skip.png" width='150' height='75' alt="Doordash Button" />
           </Link>
         </div>
       </div>

@@ -39,6 +39,10 @@
             "key": "chicken_mandi"
         },
         {
+            "id": "53",
+            "key": "chicken_mazbi"
+        },
+        {
             "id": "3",
             "key": "lamb_haneeth"
         },
@@ -65,20 +69,28 @@
             "key": "maraq"
         },
         {
-            "id": "7",
-            "key": "signature_salad"
-        },
-        {
             "id": "8",
             "key": "tabeekh"
         },
         {
-            "id": "16",
-            "key": "cucumber_yogurt_salad"
+            "id": "50",
+            "key": "mulukhiyah_soup"
         },
         {
-            "id": "30",
-            "key": "hummus"
+            "id": "51",
+            "key": "okra_soup"
+        },
+        {
+            "id": "52",
+            "key": "lentil_soup"
+        },
+        {
+            "id": "7",
+            "key": "signature_salad"
+        },
+        {
+            "id": "16",
+            "key": "cucumber_yogurt_salad"
         },
         {
             "id": "31",
@@ -87,6 +99,10 @@
         {
             "id": "32",
             "key": "tabbouleh"
+        },
+        {
+            "id": "30",
+            "key": "hummus"
         }
     ],
     "desserts": [
