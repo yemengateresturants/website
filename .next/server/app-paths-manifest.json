@@ -1,3 +1,11 @@
 {
+  "/_not-found": "app/_not-found.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/[...not_found]/page": "app/[locale]/[...not_found]/page.js",
+  "/[locale]/branches/st-joseph-blvd/page": "app/[locale]/branches/st-joseph-blvd/page.js",
+  "/[locale]/contact-us/page": "app/[locale]/contact-us/page.js",
+  "/[locale]/branches/bank-st/page": "app/[locale]/branches/bank-st/page.js",
+  "/[locale]/menu/bank-st/page": "app/[locale]/menu/bank-st/page.js",
   "/[locale]/menu/st-joseph-blvd/page": "app/[locale]/menu/st-joseph-blvd/page.js"
 }

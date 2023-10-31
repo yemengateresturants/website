@@ -49,6 +49,7 @@
         }
     },
     "category": {
+        "breakfast": "Le petit déjeuner",
         "main_dishes": "Plats principaux",
         "entrées": "Entrées",
         "desserts": "Desserts",
@@ -82,6 +83,59 @@
                     "title": "Famille Mandi Agneau",
                     "description": "Un repas yéménite savoureux, fumé et aromatique se compose principalement d'agneau et de riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
                     "mealKey": "family_mandi_lamb"
+                },
+                "tabbouleh": {
+                    "title": "Tabbouleh",
+                    "description": "Il se compose de boulgour fin, de Darsie, d'oignons, de concombres, de citrons, de tomates, de menthe et d'huile d'olive",
+                    "mealKey": "tabbouleh"
+                },
+                "fattoush": {
+                    "title": "Fattoush",
+                    "description": "Il se compose de morceaux de pain grillé avec un mélange homogène de légumes, tomates, concombres, radis et laitue",
+                    "mealKey": "fattoush"
+                },
+                "hummus": {
+                    "title": "Hummus",
+                    "description": "Pois chiches, tahini, citron, ail et piment",
+                    "mealKey": "hummus"
+                }
+            }],
+            "breakfast":
+            [{
+                "qilabat_meat": {
+                    "title": "Viande de Qilabat",
+                    "description": "Le plat se compose de viande en cubes et rôtie, cuite avec de l'huile, du poivre et de l'ail, agrémentée d'épices spéciales",
+                    "mealKey": "qilabat_meat"
+                },
+                "liver": {
+                    "title": "Foie",
+                    "description": "The liver is prepared from fried liver with oil, onions. garlic, pepper and spices to give a delicious taste",
+                    "mealKey": "liver"
+                },
+                "dry_pot_beans": {
+                    "title": "Haricots secs/en pot",
+                    "description": "Un plat se compose de haricots, de viande hachée et d'épices spéciales pour ce délicieux plat",
+                    "mealKey": "dry_pot_beans"
+                },
+                "beans_mudara": {
+                    "title": "Haricots Mudara",
+                    "description": "Le plat se compose de haricots aux tomates. coriandre et cumin",
+                    "mealKey": "beans_mudara"
+                },
+                "shakshouka": {
+                    "title": "Shakshouka",
+                    "description": "Le plat shakshuka se compose d'un mélange de légumes, d'oignons, de tomates, de poivrons et d'épices, en plus d'œufs.",
+                    "mealKey": "shakshouka"
+                },
+                "yemeni_foul": {
+                    "title": "Faute yéménite",
+                    "description": "Le délicieux plat de haricots se compose de fèves avec du tahini, en plus de légumes, de tomates et d'ail.",
+                    "mealKey": "yemeni_foul"
+                },
+                "tuna_with_peas": {
+                    "title": "Thon et petits pois",
+                    "description": "Ce plat se compose de thon et de petits pois, en plus de concentré de tomate. maïs et carottes",
+                    "mealKey": "tuna_with_peas"
                 }
             }],
             "entrées": [{
@@ -136,6 +190,15 @@
                     "title": "Hareesa",
                     "description": "Hareesa est un dessert traditionnel yéménite qui contient des noix. (250g)",
                     "mealKey": "hareesa"
+                },
+                "date_fattah": {
+                    "title": "Date Fattah",
+                    "description": "Les dattes fatteh sont un dessert traditionnel yéménite. Ce sont des dattes mélangées à de la farine. beurre et huile végétale. et on y ajoute des graines noires",
+                    "mealKey": "date_fattah"
+                },
+                "baklava": {
+                    "title": "Baklava",
+                    "mealKey": "baklava"
                 }
             }],
             "drinks": [{
@@ -147,6 +210,33 @@
                 "red_tea": {
                     "title": "Thé rouge",
                     "mealKey": "red_tea"
+                },
+                "espresso_coffee": {
+                    "title": "Café expresso",
+                    "description": "Grains de café torréfiés dissous et concentrés avec de l'eau bouillante",
+                    "mealKey": "espresso_coffee"
+                },
+                "black_coffee": {
+                    "title": "Café noir",
+                    "description": "Les grains de café torréfiés et moulus se dissolvent dans l'eau",
+                    "mealKey": "black_coffee"
+                },
+                "orange_juice": {
+                    "title": "Du jus d'orange",
+                    "mealKey": "orange_juice"
+                },
+                "lemon_juice": {
+                    "title": "Jus de citron",
+                    "mealKey": "lemon_juice"
+                },
+                "mango_juice": {
+                    "title": "Jus de mangue",
+                    "mealKey": "mango_juice"
+                },
+                "earayiysi": {
+                    "title": "Earayiysi",
+                    "description": "A mixture or mango, apple, banana, date paste concentrated milk and halva",
+                    "mealKey": "earayiysi"
                 },
                 "ayran": {
                     "title": "Ayran",
@@ -178,7 +268,22 @@
                 },
                 "mandi_rice": {
                     "title": "Riz Mandi",
+                    "description": "Mandi rice, topped with onions, almonds and raisins",
                     "mealKey": "mandi_rice"
+                },
+                "white_basmati_rice": {
+                    "title": "Riz basmati blanc",
+                    "mealKey": "white_basmati_rice"
+                },
+                "yemeni_roti": {
+                    "title": "Roti yéménite",
+                    "description": "Le pain roti spongieux est fabriqué à partir d'un mélange de farine, de lait, de vanille et d'œufs.",
+                    "mealKey": "yemeni_roti"
+                },
+                "rashoosh_bread": {
+                    "title": "Pain Rashoosh",
+                    "description": "Le délicieux pain yéménite Rashoosh est composé d'un mélange de farine avec du beurre et des graines noires",
+                    "mealKey": "rashoosh_bread"
                 }
             }]
     },
