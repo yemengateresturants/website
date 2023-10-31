@@ -160,7 +160,7 @@
                     "mealKey": "oat_soup"
                 },
                 "signature_salad": {
-                    "title": "Signature Salad",
+                    "title": "Green Salad",
                     "description": "Served with Salad Sauce",
                     "mealKey": "signature_salad"
                 },
@@ -186,7 +186,7 @@
                 },
                 "mulukhiyah_soup": {
                     "title": "Mulukhiyah Soup",
-                    "description": "Consists of soft mallow leaves with broth, garlic, onions, and tomatoes added",
+                    "description": "Consists of soft mallow leaves with broth, and garlic",
                     "mealKey": "mulukhiyah_soup"
                 },
                 "tabbouleh": {

@@ -160,7 +160,7 @@
                     "mealKey": "oat_soup"
                 },
                 "signature_salad": {
-                    "title": "Salade Signature",
+                    "title": "Salade Vert",
                     "description": "Servi avec sauce à salade",
                     "mealKey": "signature_salad"
                 },
@@ -186,7 +186,7 @@
                 },
                 "mulukhiyah_soup": {
                     "title": "Soupe Mulukhiyah",
-                    "description": "Se compose de feuilles de mauve molles additionnées de bouillon, d'ail, d'oignons et de tomates",
+                    "description": "Se compose de feuilles de mauve molles additionnées de bouillon et d'ail",
                     "mealKey": "mulukhiyah_soup"
                 },
                 "tabbouleh": {

@@ -160,12 +160,12 @@
                     "mealKey": "oat_soup"
                 },
                 "signature_salad": {
-                    "title": "سلطة فاخرة",
-                    "description": "تقدم مع صلصة السلطة",
+                    "title": "سلطة خضراء",
+                    "description": "تقدم مع صوص السلطة",
                     "mealKey": "signature_salad"
                 },
                 "cucumber_yogurt_salad": {
-                    "title": "سلطة لبن بالخيار",
+                    "title": "سلطة خيار باللبن",
                     "description": "مزيج من الخيار و البهارات مخلوطة مع الزبادي",
                     "mealKey": "cucumber_yogurt_salad"
                 },
@@ -180,13 +180,13 @@
                     "mealKey": "lentil_soup"
                 },
                 "okra_soup": {
-                    "title": "ايدام بامية",
+                    "title": "بامية",
                     "description": "مصنوعة من البامية و التوابل والأعشاب مثل البصل والثوم والكمون",
                     "mealKey": "okra_soup"
                 },
                 "mulukhiyah_soup": {
-                    "title": "ملخوية",
-                    "description": "تضاف أوراق الملوخية الناعمة مع المرق والثوم والبصل والطماطم",
+                    "title": "ملوخية",
+                    "description": "تضاف أوراق الملوخية الناعمة مع المرق والثوم",
                     "mealKey": "mulukhiyah_soup"
                 },
                 "tabbouleh": {
@@ -195,7 +195,7 @@
                     "mealKey": "tabbouleh"
                 },
                 "fattoush": {
-                    "title": "فاتوش",
+                    "title": "فاتووش",
                     "description": "تتكون من قطع الخبز المحمص مع خليط متجانس من الخضار، الطماطم، الخيار، الفجل، والخس",
                     "mealKey": "fattoush"
                 },
