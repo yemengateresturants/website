@@ -12,7 +12,7 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.yemengate.ca/en/</loc>
+    <loc>https://www.yemengate.ca/</loc>
     <lastmod>2023-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -32,7 +32,7 @@
 
   <!-- Menu Pages -->
   <url>
-    <loc>https://www.yemengate.ca/en/menu/st-joseph-blvd</loc>
+    <loc>https://www.yemengate.ca/menu/st-joseph-blvd</loc>
     <lastmod>2023-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -50,7 +50,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.yemengate.ca/en/menu/bank-st</loc>
+    <loc>https://www.yemengate.ca/menu/bank-st</loc>
     <lastmod>2023-10-30</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -68,9 +68,47 @@
     <priority>0.8</priority>
   </url>
 
+ <!-- Branches Pages -->
+  <url>
+    <loc>https://www.yemengate.ca/branches/st-joseph-blvd</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/ar/branches/st-joseph-blvd</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/fr/branches/st-joseph-blvd</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/branches/bank-st</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/ar/branches/bank-st</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.yemengate.ca/fr/branches/bank-st</loc>
+    <lastmod>2023-10-30</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
   <!-- Contact Us Page -->
   <url>
-    <loc>https://www.yemengate.ca/en/contact-us</loc>
+    <loc>https://www.yemengate.ca/contact-us</loc>
     <lastmod>2023-10-30</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>

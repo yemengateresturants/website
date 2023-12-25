@@ -9,7 +9,7 @@ import { NextIntlClientProvider } from 'next-intl';
 export const metadata: Metadata = {
   title: "Yemeni Gate - Home",
   description: "Discover Ottawa's Best Yemeni Cuisine - Immerse in Authentic Flavors and Tradition at Yemen gate",
-  keywords: "Ottawa Vegetarian Yemeni Food, Catering Yemeni Events in Ottawa, Yemeni Restaurant Reviews, Ottawa Local Yemeni Flavors, Yemeni Cuisine Near Me, Ottawa Outdoor Dining Yemeni, Yemeni Restaurant Reservations"
+  keywords: "Ottawa Vegetarian Yemeni Food, Catering Yemeni Events in Ottawa, Yemeni Restaurant Reviews, Ottawa Local Yemeni Flavors, Yemeni Cuisine Near Me, Ottawa Outdoor Dining Yemeni, Yemeni Restaurant Reservations, mandi, mazbi, مظبي , مندي , خليجي ,يمني , اكل خليجي, اكل يمني, فطور يمني"
 }  
 
 export default function RootLayout({
