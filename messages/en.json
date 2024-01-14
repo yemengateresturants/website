@@ -106,7 +106,7 @@
                 },
                 "lamb_pot": {
                     "title": "Lamb Pot",
-                    "description": "Consists of meat with various vegetables and spices",
+                    "description": "Consists of lamb broth, potato and lamb pieces",
                     "mealKey": "lamb_pot"
                 }
             }

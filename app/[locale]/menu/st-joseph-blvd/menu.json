@@ -286,17 +286,12 @@
         {
             "id": "19",
             "key": "raisins",
-            "price": "1.95"
+            "price": ".50"
         },
         {
             "id": "20",
             "key": "thin_sliced_almonds",
-            "price": "2.95"
-        },
-        {
-            "id": "28",
-            "key": "yemeni_roti",
-            "price": "1.75"
+            "price": ".50"
         },
         {
             "id": "29",

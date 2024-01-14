@@ -106,7 +106,7 @@
                 },
                 "lamb_pot": {
                     "title": "Marmite d'agneau",
-                    "description": "Se compose de viande avec divers légumes et épices",
+                    "description": "Se compose de bouillon d'agneau, de pommes de terre et de morceaux d'agneau",
                     "mealKey": "lamb_pot"
                 }
             }

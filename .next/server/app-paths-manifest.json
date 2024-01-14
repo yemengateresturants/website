@@ -1,4 +1,4 @@
 {
-  "/[locale]/menu/bank-st/page": "app/[locale]/menu/bank-st/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
   "/[locale]/menu/st-joseph-blvd/page": "app/[locale]/menu/st-joseph-blvd/page.js"
 }
