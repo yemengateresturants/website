@@ -1,11 +1,11 @@
 import { CardBox } from "../../components/Card";
-import { Meal, MealKey } from "@/interfaces/meal.interface";
+import { Meal, MealKey, MealWithPrice } from "@/interfaces/meal.interface";
 import { useTranslations } from "next-intl";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
-const StJospehMenu = ({params}: {params: { locale: string}}) => {
+const StJospehMenu = ({ params }: { params: { locale: string } }) => {
   const canonicalUrl: string = `/${params.locale}/branch/st-joseph-blvd`;
 
   const t = useTranslations();
@@ -17,16 +17,16 @@ const StJospehMenu = ({params}: {params: { locale: string}}) => {
 
   const generateMeals = (category: string): Meal[] => {
     const categoryData = menuData[category];
-    const branchMenu: Meal[] = [];
-    
+    const branchMenu: MealWithPrice[] = [];
+
     // Filter and create a new object with matching keys
     Object.fromEntries(
       Object.entries(menuObj).filter(([key, _]: any) => {
         categoryData.forEach((mealKey: MealKey) => {
           const meal: Meal = _[0][mealKey.key];
-          if(!meal) return;
-          if(mealKey.key === meal.mealKey) {
-            branchMenu.push(meal);
+          if (!meal) return;
+          if (mealKey.key === meal.mealKey) {
+            branchMenu.push({ ...meal, price: mealKey.price })
           }
         })
       }));
@@ -41,12 +41,12 @@ const StJospehMenu = ({params}: {params: { locale: string}}) => {
       </Head>
       <div className="blank_block"></div>
       <div className="branch_bg_container st_joseph_bg">
-        <h1>St. Joseph Blvd <br/> (Orleans) {t('page.menu.menuTitle')}</h1>
+        <h1>St. Joseph Blvd <br /> (Orleans) {t('page.menu.menuTitle')}</h1>
       </div>
       {categories.map((category: string) => (
         <div className="category_container" key={category}>
           <h2 className="category_title">{t(`category.${category}`)}</h2>
-          { generateMeals(category).map((meal: Meal) => {
+          {generateMeals(category).map((meal: Meal) => {
             return <CardBox key={meal.mealKey} meal={meal} />
           })
           }

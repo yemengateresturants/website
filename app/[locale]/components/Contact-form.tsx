@@ -7,10 +7,10 @@ const ContactForm: FC = () => {
 
     const t = useTranslations('form');
 
-    const [ hasSent , setHasSent] = useState(false);
-    const [ name, setName] = useState('');
-    const [ email, setEmail] = useState('');
-    const [ textMessage, setTextMessage] = useState('');
+    const [hasSent, setHasSent] = useState(false);
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [textMessage, setTextMessage] = useState('');
 
     // let tomorrow = new Date();
 
@@ -34,33 +34,33 @@ const ContactForm: FC = () => {
         <div className="form_container">
             {
                 hasSent ?
-                <div className="welcome_container">
-                    <h2>
-                        { t('thanksMsg') }
-                    </h2>
-                    <h3>{ t('respondMsg') }</h3>
-                </div>
-                 :
-                <form className="form_wrapper" onSubmit={e => {
-                    sendEmail(e, setHasSent);
-                    resetForm();
+                    <div className="welcome_container">
+                        <h2>
+                            {t('thanksMsg')}
+                        </h2>
+                        <h3>{t('respondMsg')}</h3>
+                    </div>
+                    :
+                    <form className="form_wrapper" onSubmit={e => {
+                        sendEmail(e, setHasSent);
+                        resetForm();
                     }}>
-                    <div className="input_wrapper">
-                        <label>
-                        { t('name') }:
-                        </label>
-                        <input type="text" value={name} onChange={e => handleChange(e, setName)}
-                        placeholder={ t('placeholder.name') } name="name" autoComplete='off' required/>
-                    </div>
-                    <div className="input_wrapper">
-                        <label>
-                        { t('email') }:
-                        </label>
-                        <input type="email" value={email} onChange={e => handleChange(e, setEmail)}
-                        pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-]+)(\.[a-zA-Z]{2,5}){1,2}$"
-                        placeholder={ t('placeholder.email') } name="email" autoComplete='off' required/>
-                    </div>
-                    {/* <div className="input_wrapper">
+                        <div className="input_wrapper">
+                            <label>
+                                {t('name')}:
+                            </label>
+                            <input type="text" value={name} onChange={e => handleChange(e, setName)}
+                                placeholder={t('placeholder.name')} name="name" autoComplete='off' required />
+                        </div>
+                        <div className="input_wrapper">
+                            <label>
+                                {t('email')}:
+                            </label>
+                            <input type="email" value={email} onChange={e => handleChange(e, setEmail)}
+                                pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-]+)(\.[a-zA-Z]{2,5}){1,2}$"
+                                placeholder={t('placeholder.email')} name="email" autoComplete='off' required />
+                        </div>
+                        {/* <div className="input_wrapper">
                         <label>
                         { t('phone') }:
                         </label>
@@ -68,24 +68,24 @@ const ContactForm: FC = () => {
                         onKeyPress={(e) => !/[0-9]/.test(e.key) && e.preventDefault()} 
                         placeholder={ t('placeholder.phone') } name="phone" autoComplete='off' maxLength={10} required/>
                     </div> */}
-                    {/* <div className="input_wrapper">
+                        {/* <div className="input_wrapper">
                         <label>
                         { t('date') }:
                         </label>
                         <input type="date" value={date} onChange={e => handleChange(e, setDate)}
                             name="date" autoComplete='off' maxLength={10} min={dateStr} required/>
                     </div> */}
-                    <div className="input_wrapper">
-                        <label>
-                        { t('message') }:
-                        </label>
-                        <textarea placeholder={ t('placeholder.message') } name="message"
-                        autoComplete='off' value={textMessage} onChange={e => handleChange(e, setTextMessage)} required/>
-                    </div>
-                    <button className="brown-btn">
-                        { t('submit') }
-                    </button>
-                </form>
+                        <div className="input_wrapper">
+                            <label>
+                                {t('message')}:
+                            </label>
+                            <textarea placeholder={t('placeholder.message')} name="message"
+                                autoComplete='off' value={textMessage} onChange={e => handleChange(e, setTextMessage)} required />
+                        </div>
+                        <button className="brown-btn">
+                            {t('submit')}
+                        </button>
+                    </form>
             }
         </div>
     )

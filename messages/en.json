@@ -11,7 +11,7 @@
             "title": "Authentic Yemeni Taste",
             "subtitle": "In Yemen Gate, We offer authentic Yemeni food and adhere to health and quality standards in the selection of ingredients and in the method of preparation. Our kitchen is distinguished by its flavor, freshness and special spices. Traditional dishes are our signature, our hospitality and gratitude are our nature."
         },
-        "slider" : {
+        "slider": {
             "slide_1_title": "Healthy Yemeni Cuisine: A Delicious Journey to Wellness",
             "slide_1_subtitle": "Experience the fusion of nutritious ingredients and authentic Yemeni flavors at Yemen Gate. Our menu is designed to cater to health-conscious individuals without compromising on taste.",
             "slide_2_title": "Authentic Yemeni Cuisine: A Taste of Tradition",
@@ -57,8 +57,8 @@
         "extras": "Extras"
     },
     "menu": {
-        "main_dishes":
-            [{
+        "main_dishes": [
+            {
                 "lamb_mandi": {
                     "title": "Lamb Mandi",
                     "description": "Consists of lamb and rice. Blended with Yemeni Spices, topped with onions, almonds, raisins. Served with hot sauce (sahawiq)",
@@ -109,9 +109,10 @@
                     "description": "Consists of meat with various vegetables and spices",
                     "mealKey": "lamb_pot"
                 }
-            }],
-            "breakfast":
-            [{
+            }
+        ],
+        "breakfast": [
+            {
                 "qilabat_meat": {
                     "title": "Qilabat Meat",
                     "description": "Consists of cubed and roasted meat, cooked with oil, pepper, and garlic, enhanced with special spices",
@@ -143,12 +144,14 @@
                     "mealKey": "yemeni_foul"
                 },
                 "tuna_with_peas": {
-                    "title": "Arabian Quesadilla Vegetables (Murtabak)",
+                    "title": "Tuna with peas",
                     "description": "Consists of tuna and peas, in addition to tomato paste. corn and carrots",
                     "mealKey": "tuna_with_peas"
                 }
-            }],
-            "entrées": [{
+            }
+        ],
+        "entrées": [
+            {
                 "maraq": {
                     "title": "Lamb Broth",
                     "description": "Cooked with the Yemeni traditional spices",
@@ -174,7 +177,7 @@
                     "description": "Consists of stewed vegetables, potatoes, carrots, and eggplant simmered in tomato gravy packed with nutrients",
                     "mealKey": "tabeekh"
                 },
-                "lentil_soup" : {
+                "lentil_soup": {
                     "title": "Lentil Soup",
                     "description": "Consists of roasted lentils with onions, broth, spices, coriander and parsley",
                     "mealKey": "lentil_soup"
@@ -204,8 +207,10 @@
                     "description": "Consists of chickpeas, tahini, lemon, garlic and hot pepper",
                     "mealKey": "hummus"
                 }
-            }],
-            "desserts": [{
+            }
+        ],
+        "desserts": [
+            {
                 "maasoub": {
                     "title": "Ma'asoub",
                     "description": "Consists of a banana-based dessert made from over-ripe bananas, ground flatbread, and cream, topped with honey",
@@ -224,9 +229,15 @@
                 "baklava": {
                     "title": "Baklava",
                     "mealKey": "baklava"
+                },
+                "knafeh": {
+                    "title": "Künafe",
+                    "knafeh": "knafeh"
                 }
-            }],
-            "drinks": [{
+            }
+        ],
+        "drinks": [
+            {
                 "adani_tea": {
                     "title": "Adani Tea",
                     "description": "Black Tea with Milk. Made with Yemeni Spices",
@@ -236,10 +247,10 @@
                     "title": "Red Tea",
                     "mealKey": "red_tea"
                 },
-                "espresso_coffee": {
-                    "title": "Espresso Coffee",
+                "turkish_coffee": {
+                    "title": "Turkish Coffee",
                     "description": "Roasted coffee beans dissolved and concentrated with boiling water",
-                    "mealKey": "espresso_coffee"
+                    "mealKey": "turkish_coffee"
                 },
                 "black_coffee": {
                     "title": "Black Coffee",
@@ -258,10 +269,10 @@
                     "title": "Mango Juice",
                     "mealKey": "mango_juice"
                 },
-                "earayiysi": {
-                    "title": "earayiysi",
+                "signature_cocktail": {
+                    "title": "Signature Cocktail",
                     "description": "A mixture or mango, apple, banana, date paste concentrated milk and halva",
-                    "mealKey": "earayiysi"
+                    "mealKey": "signature_cocktail"
                 },
                 "ayran": {
                     "title": "Ayran",
@@ -274,10 +285,12 @@
                 },
                 "water": {
                     "title": "Water",
-                    "mealKey": "water"                
+                    "mealKey": "water"
                 }
-            }],
-            "extras": [{
+            }
+        ],
+        "extras": [
+            {
                 "sahawiq": {
                     "title": "Sahawiq",
                     "description": "",
@@ -310,7 +323,18 @@
                     "description": "Consists of a mixture of flour with butter and black seeds",
                     "mealKey": "rashoosh_bread"
                 }
-            }]
+            }
+        ]
+    },
+    "price": {
+        "single_price": "Single",
+        "double_price": "Double",
+        "quart_price": "Quart chicken",
+        "half_price": "Half chicken",
+        "whole_price": "Whole chicken",
+        "family_price": "Family meal",
+        "lamb_mandi": "Mandi Lamb",
+        "mix_lamb_chicken": "Mix Lamb & Chicken"
     },
     "form": {
         "name": "Name",

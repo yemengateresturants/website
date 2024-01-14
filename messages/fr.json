@@ -11,7 +11,7 @@
             "title": "Goût yéménite authentique",
             "subtitle": "Chez Yemen Gate, nous proposons une cuisine yéménite authentique et adhérons aux normes de santé et de qualité dans la sélection des ingrédients et dans la méthode de préparation. Notre cuisine se distingue par sa saveur, sa fraîcheur et ses épices particulières. Les plats traditionnels sont notre signature, notre hospitalité et notre gratitude sont notre nature."
         },
-        "slider" : {
+        "slider": {
             "slide_1_title": "Cuisine yéménite saine : un délicieux voyage vers le bien-être",
             "slide_1_subtitle": "Découvrez la fusion d'ingrédients nutritifs et de saveurs yéménites authentiques à la porte du Yémen. Notre menu est conçu pour répondre aux personnes soucieuses de leur santé sans compromettre le goût.",
             "slide_2_title": "Cuisine yéménite authentique : un avant-goût de la tradition",
@@ -57,8 +57,8 @@
         "extras": "Suppléments"
     },
     "menu": {
-        "main_dishes":
-            [{
+        "main_dishes": [
+            {
                 "lamb_mandi": {
                     "title": "Mandi d'agneau",
                     "description": "Se compose d'agneau et de riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
@@ -109,9 +109,10 @@
                     "description": "Se compose de viande avec divers légumes et épices",
                     "mealKey": "lamb_pot"
                 }
-            }],
-            "breakfast":
-            [{
+            }
+        ],
+        "breakfast": [
+            {
                 "qilabat_meat": {
                     "title": "Viande de Qilabat",
                     "description": "Se compose de viande en cubes et rôtie, cuite avec de l'huile, du poivre et de l'ail, agrémentée d'épices spéciales",
@@ -147,8 +148,10 @@
                     "description": "Se compose de thon et de petits pois, en plus de concentré de tomate. maïs et carottes",
                     "mealKey": "tuna_with_peas"
                 }
-            }],
-            "entrées": [{
+            }
+        ],
+        "entrées": [
+            {
                 "maraq": {
                     "title": "Bouillon d'Agneau",
                     "description": "Cuit avec les épices traditionnelles yéménites",
@@ -174,7 +177,7 @@
                     "description": "Se compose de légumes cuits, de pommes de terre, de carottes et d'aubergines mijotées dans une sauce tomate riche en nutriments",
                     "mealKey": "tabeekh"
                 },
-                "lentil_soup" : {
+                "lentil_soup": {
                     "title": "Soupe aux lentilles",
                     "description": "Se compose de lentilles rôties avec oignons, bouillon, épices, coriandre et persil",
                     "mealKey": "lentil_soup"
@@ -204,8 +207,10 @@
                     "description": "Se compose de pois chiches, tahini, citron, ail et piment",
                     "mealKey": "hummus"
                 }
-            }],
-            "desserts": [{
+            }
+        ],
+        "desserts": [
+            {
                 "maasoub": {
                     "title": "Ma'asoub",
                     "description": "Se compose d'un dessert à base de bananes trop mûres, de pain plat moulu et de crème, garni de miel",
@@ -224,9 +229,15 @@
                 "baklava": {
                     "title": "Baklava",
                     "mealKey": "baklava"
+                },
+                "knafeh": {
+                    "title": "Künafe",
+                    "knafeh": "knafeh"
                 }
-            }],
-            "drinks": [{
+            }
+        ],
+        "drinks": [
+            {
                 "adani_tea": {
                     "title": "Thé Adani",
                     "description": "Thé noir au lait. Fabriqué avec des épices yéménites.",
@@ -236,10 +247,10 @@
                     "title": "Thé rouge",
                     "mealKey": "red_tea"
                 },
-                "espresso_coffee": {
-                    "title": "Café expresso",
+                "turkish_coffee": {
+                    "title": "Café turc",
                     "description": "Grains de café torréfiés dissous et concentrés avec de l'eau bouillante",
-                    "mealKey": "espresso_coffee"
+                    "mealKey": "turkish_coffee"
                 },
                 "black_coffee": {
                     "title": "Café noir",
@@ -258,10 +269,10 @@
                     "title": "Jus de mangue",
                     "mealKey": "mango_juice"
                 },
-                "earayiysi": {
-                    "title": "Earayiysi",
+                "signature_cocktail": {
+                    "title": "Cocktail Signature",
                     "description": "A mixture or mango, apple, banana, date paste concentrated milk and halva",
-                    "mealKey": "earayiysi"
+                    "mealKey": "signature_cocktail"
                 },
                 "ayran": {
                     "title": "Ayran",
@@ -274,10 +285,12 @@
                 },
                 "water": {
                     "title": "Eau",
-                    "mealKey": "water"               
+                    "mealKey": "water"
                 }
-            }],
-            "extras": [{
+            }
+        ],
+        "extras": [
+            {
                 "sahawiq": {
                     "title": "Sahawiq",
                     "description": "",
@@ -310,7 +323,18 @@
                     "description": "Se compose d'un mélange de farine avec du beurre et des graines noires",
                     "mealKey": "rashoosh_bread"
                 }
-            }]
+            }
+        ]
+    },
+    "price": {
+        "single_price": "Prix ​​unique",
+        "double_price": "Double prix",
+        "quart_price": "Quart de poulet",
+        "half_price": "Demi poulet",
+        "whole_price": "Poulet entier",
+        "family_price": "Repas de famille",
+        "lamb_mandi": "Mandi d'agneau",
+        "mix_lamb_chicken": "Mélange d'agneau et de poulet"
     },
     "form": {
         "name": "Nom",
