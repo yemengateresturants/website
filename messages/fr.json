@@ -347,6 +347,8 @@
         ]
     },
     "price": {
+        "small": "Petit",
+        "large": "Grand",
         "single_price": "Prix ​​unique",
         "double_price": "Double prix",
         "quart_price": "Quart de poulet",
@@ -354,7 +356,9 @@
         "whole_price": "Poulet entier",
         "family_price": "Repas de famille",
         "lamb_mandi": "Mandi d'agneau",
-        "mix_lamb_chicken": "Mélange d'agneau et de poulet"
+        "mix_lamb_chicken": "Mélange d'agneau et de poulet",
+        "small_person": "Petit (pour 2-3 personnes)",
+        "large_person": "Grand (pour 4-5 personnes)"
     },
     "form": {
         "name": "Nom",
@@ -374,6 +378,6 @@
     "footer": {
         "contact": "Nous joindre",
         "follow": "Suivez-nous",
-        "rightsReserved": "2023 Yemeni Gate. Tous droits réservés"
+        "rightsReserved": "2024 Yemeni Gate. Tous droits réservés"
     }
 }

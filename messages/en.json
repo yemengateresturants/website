@@ -347,6 +347,8 @@
         ]
     },
     "price": {
+        "small": "Small",
+        "large": "Large",
         "single_price": "Single",
         "double_price": "Double",
         "quart_price": "Quart chicken",
@@ -354,7 +356,9 @@
         "whole_price": "Whole chicken",
         "family_price": "Family meal",
         "lamb_mandi": "Mandi Lamb",
-        "mix_lamb_chicken": "Mix Lamb & Chicken"
+        "mix_lamb_chicken": "Mix Lamb & Chicken",
+        "small_person": "Small (for 2-3 person)",
+        "large_person": "Large (for 4-5 person)"
     },
     "form": {
         "name": "Name",
@@ -374,6 +378,6 @@
     "footer": {
         "contact": "Contact us",
         "follow": "Follow us",
-        "rightsReserved": "2023 Yemeni Gate. All Rights Reserved"
+        "rightsReserved": "2024 Yemeni Gate. All Rights Reserved"
     }
 }

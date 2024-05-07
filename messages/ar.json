@@ -347,6 +347,8 @@
         ]
     },
     "price": {
+        "small": "صغير",
+        "large": "كبير",
         "single_price": "وجبة سنجل",
         "double_price": "وجبة دبل",
         "quart_price": "ربع حبة",
@@ -354,7 +356,9 @@
         "whole_price": "حبة كاملة",
         "family_price": "وجبة عائلية",
         "lamb_mandi": "لحم مندي",
-        "mix_lamb_chicken": "مشكل دجاج و لحم"
+        "mix_lamb_chicken": "مشكل دجاج و لحم",
+        "small_person": "صغير (يكفي ٢-٣ أشخاص)",
+        "large_person": "كبير (يكفي ٤-٥ أشخاص)"
     },
     "form": {
         "name": "الاسم",
@@ -375,6 +379,6 @@
     "footer": {
         "contact": "تواصل معنا",
         "follow": "تابعنا",
-        "rightsReserved": "٢٠٢٣ باب اليمن. جميع الحقوق محفوظة"
+        "rightsReserved": "٢٠٢٤ باب اليمن. جميع الحقوق محفوظة"
     }
 }
