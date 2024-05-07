@@ -189,12 +189,12 @@
         {
             "id": "19",
             "key": "raisins",
-            "price": ".99"
+            "price": "0.99"
         },
         {
             "id": "20",
             "key": "thin_sliced_almonds",
-            "price": ".99"
+            "price": "0.99"
         }
     ]
 }
