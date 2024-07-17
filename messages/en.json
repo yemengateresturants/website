@@ -9,15 +9,19 @@
     "page": {
         "home": {
             "title": "Authentic Yemeni Taste",
-            "subtitle": "In Yemen Gate, We offer authentic Yemeni food and adhere to health and quality standards in the selection of ingredients and in the method of preparation. Our kitchen is distinguished by its flavor, freshness and special spices. Traditional dishes are our signature, our hospitality and gratitude are our nature."
+            "subtitle": "In Yemen Gate, We offer authentic Yemeni food and adhere to health and quality standards in the selection of ingredients and in the method of preparation. Our kitchen is distinguished by its flavor, freshness and special spices. Traditional dishes are our signature, our hospitality and gratitude are our nature",
+            "occations_title": "Special Events and Catering Services - Celebrate With Us",
+            "occations_subtitle": "Oud concerts in Ottawa (musical), wedding or engagement hosting service, event catering, Ramadan iftar, annual holidays, and more. Yemen Gate restaurants are the most suitable and lovely place for family and friends, as the distinctive atmosphere, delicious food, warm welcome, and hospitality create precious memories and unforgettable moments for everyone",
+            "reviews": "Reviews & Testimonials",
+            "review_text": "Discover why our diners love Yemen Gate! Our reviews reflect our dedication to excellence and authenticity. Whether it's a family dinner or a quick bite, our guests leave with smiles and satisfied appetites"
         },
         "slider": {
-            "slide_1_title": "Healthy Yemeni Cuisine: A Delicious Journey to Wellness",
-            "slide_1_subtitle": "Experience the fusion of nutritious ingredients and authentic Yemeni flavors at Yemen Gate. Our menu is designed to cater to health-conscious individuals without compromising on taste.",
-            "slide_2_title": "Authentic Yemeni Cuisine: A Taste of Tradition",
+            "slide_1_title": "Authentic Yemeni Cuisine - Best Yemeni restaurant in Ottawa and Orleans",
+            "slide_1_subtitle": "Delve into the heart of Yemen with each bite at Yemen Gate. One of the best restaurants in Ottawa and Orleans, our restaurant offers a culinary journey with traditional dishes prepared using age-old recipes and the finest ingredients (Halal) like Mandi rice, lamb Haneeth, liver, banana dessert, Adani chai (Karak), and more",
+            "slide_2_title": "A Taste of Tradition",
             "slide_2_subtitle": "Yemen Gate is your gateway to Yemeni culture and history through its authentic culinary heritage. We honor tradition with every dish, using locally sourced ingredients and time-honored techniques.",
-            "slide_3_title": "Rich Flavor: Yemeni Cuisine's Culinary Symphony",
-            "slide_3_subtitle": "Savor a symphony of bold, rich flavors at Yemen Gate. Our chefs are culinary maestros, creating dishes that are a vibrant celebration of Yemeni cuisine's renowned taste and complexity."
+            "slide_3_title": "Rich Flavor: Tradition Meets Quality",
+            "slide_3_subtitle": "At Yemen Gate, culinary tradition is infused with a commitment to quality. We source the freshest ingredients and employ time-honored techniques to bring you dishes that not only taste exceptional but also resonate with the rich culinary history of Yemen"
         },
         "menu": {
             "orderHeader": "Ready to Order?",
@@ -54,7 +58,8 @@
         "entrées": "Entrées",
         "desserts": "Desserts",
         "drinks": "Drinks",
-        "extras": "Extras"
+        "extras": "Extras",
+        "burrito": "Burrito"
     },
     "menu": {
         "main_dishes": [
@@ -344,6 +349,25 @@
                     "mealKey": "cheese_hot_sauce"
                 }
             }
+        ],
+        "burrito": [
+            {
+                "mandi_chicken_burrito": {
+                    "title": "Chicken mandi burrito",
+                    "description": "A harmonious fusion of Yemeni Chicken Mandi and Mexican flair. This delight wrapped in a tortilla, boasts fragrant Basmati Mandi rice, succulent Mandi chicken, sweet corn, Spanish onions, juicy tomatoes, and a. What sets it apart is our special homemade sauce—a delectable addition that elevates every bite.",
+                    "mealKey": "mandi_chicken_burrito"
+                },
+                "mandi_lamb_burrito": {
+                    "title": "Lamb mandi burrito",
+                    "description": "A harmonious fusion of Yemeni Lamb Mandi and Mexican flair. This delight wrapped in a tortilla, boasts fragrant Basmati Mandi rice, succulent Mandi chicken, sweet corn, Spanish onions, juicy tomatoes, and a. What sets it apart is our special homemade sauce—a delectable addition that elevates every bite",
+                    "mealKey": "mandi_lamb_burrito"
+                },
+                "shrimp_burrito": {
+                    "title": "Shrimp burrito",
+                    "description": "A harmonious fusion of Yemeni shrimp Mandi and Mexican flair. This delight wrapped in a tortilla, boasts fragrant Basmati Mandi rice, succulent Mandi chicken, sweet corn, Spanish onions, juicy tomatoes, and a. What sets it apart is our special homemade sauce—a delectable addition that elevates every bite",
+                    "mealKey": "shrimp_burrito"
+                }
+            }
         ]
     },
     "price": {
@@ -358,7 +382,9 @@
         "lamb_mandi": "Mandi Lamb",
         "mix_lamb_chicken": "Mix Lamb & Chicken",
         "small_person": "Small (for 2-3 person)",
-        "large_person": "Large (for 4-5 person)"
+        "large_person": "Large (for 4-5 person)",
+        "sandwich_price": "Sandwich only",
+        "combo_price": "Make it a combo with"
     },
     "form": {
         "name": "Name",
@@ -373,7 +399,8 @@
             "email": "example@domain.com",
             "phone": "123 456 7890",
             "message": "Please write your note here"
-        }
+        },
+        "submit": "Submit"
     },
     "footer": {
         "contact": "Contact us",

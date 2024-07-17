@@ -3,6 +3,7 @@ export interface Meal {
     title: string,
     description?: string,
     mealKey?: string,
+    price?: string
 }
 
 export interface MealWithPrice extends Meal {
@@ -12,7 +13,7 @@ export interface MealWithPrice extends Meal {
 export interface MealKey {
     id: string,
     key: string
-    price?: string
+    price: string
 }
 
 export interface CardParamProps {

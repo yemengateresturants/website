@@ -1,66 +1,76 @@
-import { CardBox } from "../../components/Card";
-import { Meal, MealKey, MealWithPrice } from "@/interfaces/meal.interface";
+import MealsCarousel from "@/app/components/new-menu-style/MealCarousel";
 import { useTranslations } from "next-intl";
 import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 
 const StJospehMenu = ({ params }: { params: { locale: string } }) => {
-  const canonicalUrl: string = `/${params.locale}/branch/st-joseph-blvd`;
+  const canonicalUrl: string = `/${params.locale}/menu/st-joseph-blvd`;
 
   const t = useTranslations();
-  const translateObj = require(`../../../../messages/${params.locale}.json`); // Import menu data
   const menuData = require('./menu.json'); // Import menu data
-  const menuObj = translateObj.menu;
 
-  const categories = Object.keys(menuData);
-
-  const generateMeals = (category: string): Meal[] => {
-    const categoryData = menuData[category];
-    const branchMenu: MealWithPrice[] = [];
-
-    // Filter and create a new object with matching keys
-    Object.fromEntries(
-      Object.entries(menuObj).filter(([key, _]: any) => {
-        categoryData.forEach((mealKey: MealKey) => {
-          const meal: Meal = _[0][mealKey.key];
-          if (!meal) return;
-          if (mealKey.key === meal.mealKey) {
-            branchMenu.push({ ...meal, price: mealKey.price })
-          }
-        })
-      }));
-
-    return branchMenu;
-  };
+  const schemaMarkup = {
+    "@context": "http://schema.org",
+    "@type": "Restaurant",
+    "name": "Yemen Gate باب اليمن - St Joseph Blvd",
+    "image": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2a/bb/98/c1/caption.jpg?w=1400&h=-1&s=1",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2871 St Joseph Blvd",
+      "addressLocality": "Orléans",
+      "addressRegion": "ON",
+      "postalCode": "K1C 1G8",
+      "addressCountry": "CA"
+    },
+    "review": [
+      {
+        "@type": "Review",
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "4.8",
+          "bestRating": "5"
+        },
+        "author": {
+          "@type": "Person",
+          "name": "Omar Alsadi"
+        }
+      }
+    ],
+    "url": "https://www.yemengate.ca/",
+    "telephone": "+16138451715",
+    "menu": "https://www.yemengate.ca/menu/st-joseph-blvd",
+    "servesCuisine": "Yemeni Cuisine",
+    "priceRange": "$",
+    "acceptsReservations": "Yes"
+};
 
   return (
-    <div className="card_box_container">
-      <Head>
-        <link rel="canonical" href={canonicalUrl} />
-      </Head>
-      <div className="blank_block"></div>
-      <div className="branch_bg_container st_joseph_bg">
-        <h1>St. Joseph Blvd <br /> (Orleans) {t('page.menu.menuTitle')}</h1>
-      </div>
-      {categories.map((category: string) => (
-        <div className="category_container" key={category}>
-          <h2 className="category_title">{t(`category.${category}`)}</h2>
-          {generateMeals(category).map((meal: Meal) => {
-            return <CardBox key={meal.mealKey} meal={meal} />
-          })
-          }
+    <>
+        <Head>
+          <script type="application/ld+json">
+              {JSON.stringify(schemaMarkup)}
+          </script>
+          <link rel="canonical" href={canonicalUrl} />
+        </Head>
+          <div className="menu_header_image st_joseph_bg">
+          <h1>St. Joseph Blvd <br /> (Orleans) {t('page.menu.menuTitle')}</h1>
         </div>
-      ))}
-      <div className="order_btns_container">
-        <h2>{t('page.menu.orderHeader')}</h2>
-        <div className="order_btns_wrapper">
-          <Link href="https://www.ubereats.com/ca/store/%D8%A8%D8%A7%D8%A8-%D8%A7%D9%84%D9%8A%D9%85%D9%86-yemen-gate-orleans/EhgbbBiDW96XNXaZ8N1xOw">
-            <Image className="order-btn" src="/images/uber_eats.jpg" width='150' height='75' alt="Uber Eats Button" />
-          </Link>
+        <div className="card_box_container">
+          <MealsCarousel locale={params.locale} menuData={menuData} />
+          <div className="order_btns_container">
+            <h2>{t('page.menu.orderHeader')}</h2>
+            <div className="order_btns_wrapper">
+              <Link href="https://www.ubereats.com/ca/store/yemen-gate-bank-st/OmTvklAUU_urFj2CD2SOgQ">
+                <Image className="order-btn" src="/images/uber_eats.jpg" width='150' height='75' alt="Uber Eats Button" />
+              </Link>
+              <Link href="https://www.skipthedishes.com/yemen-gate-bank">
+                <Image className="order-btn" src="/images/skip.png" width='150' height='75' alt="Doordash Button" />
+              </Link>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
+    </>
   );
 };
 
