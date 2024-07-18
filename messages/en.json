@@ -84,6 +84,11 @@
                     "description": "Steam cooked basmati rice with slow roasted lamb, infused with secret spices topped with a mixer of almond, raisins and onion, served with yemeni hot sauce (sahawiq)",
                     "mealKey": "lamb_haneeth"
                 },
+                "mandi_combo": {
+                    "title": "Mandi combo",
+                    "description": "Add +4.95$ to your mandi order and get a side (Green Salad or Cucumber yogurt salad) with a drink (Soft drink/water)",
+                    "mealKey": "mandi_combo"
+                },
                 "family_mix_mandi": {
                     "title": "Family Mix Mandi",
                     "description": "Lamb/chicken and rice. Blended with Yemeni spices, topped with onions, almonds, raisins. Served with hot sauce (sahawiq)",

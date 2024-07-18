@@ -1,6 +1,7 @@
 
 export interface Meal {
     title: string,
+    isVege: boolean,
     description?: string,
     mealKey?: string,
     price?: string
@@ -13,7 +14,8 @@ export interface MealWithPrice extends Meal {
 export interface MealKey {
     id: string,
     key: string
-    price: string
+    price: string,
+    isVege: boolean
 }
 
 export interface CardParamProps {

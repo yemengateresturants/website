@@ -12,7 +12,8 @@
                     "key": "double_price",
                     "price": "29.95"
                 }
-            ]
+            ],
+            "isVege": false
         },
         {
             "id": "2",
@@ -30,7 +31,8 @@
                     "key": "whole_price",
                     "price": "37.95"
                 }
-            ]
+            ],
+            "isVege": false
         },
         {
             "id": "3",
@@ -44,7 +46,14 @@
                     "key": "double_price",
                     "price": "29.95"
                 }
-            ]
+            ],
+            "isVege": false
+        },
+        {
+            "id": "64",
+            "key": "mandi_combo",
+            "price": "4.95",
+            "isVege": false
         },
         {
             "id": "4",
@@ -58,7 +67,8 @@
                     "key": "large_person",
                     "price": "87.95"
                 }
-            ]
+            ],
+            "isVege": false
         },
         {
             "id": "5",
@@ -72,49 +82,58 @@
                     "key": "large_person",
                     "price": "104.95"
                 }
-            ]
+            ],
+            "isVege": false
         }
     ],
     "entrées": [
         {
             "id": "6",
             "key": "oat_soup",
-            "price": "4.95"
+            "price": "4.95",
+            "isVege": true
         },
         {
             "id": "17",
             "key": "maraq",
-            "price": "2.95"
+            "price": "2.95",
+            "isVege": false
         },
         {
             "id": "50",
             "key": "mulukhiyah_soup",
-            "price": "6.95"
+            "price": "6.95",
+            "isVege": true
         },
         {
             "id": "51",
             "key": "okra_soup",
-            "price": "6.95"
+            "price": "6.95",
+            "isVege": true
         },
         {
             "id": "52",
             "key": "lentil_soup",
-            "price": "6.95"
+            "price": "6.95",
+            "isVege": true
         },
         {
             "id": "7",
             "key": "signature_salad",
-            "price": "6.95"
+            "price": "6.95",
+            "isVege": true
         },
         {
             "id": "8",
             "key": "tabeekh",
-            "price": "6.95"
+            "price": "6.95",
+            "isVege": true
         },
         {
             "id": "16",
             "key": "cucumber_yogurt_salad",
-            "price": "6.95"
+            "price": "6.95",
+            "isVege": true
         }
     ],
     "desserts": [
@@ -130,71 +149,84 @@
                     "key": "large",
                     "price": "9.95"
                 }
-            ]
+            ],
+            "isVege": true
         },
         {
             "id": "15",
             "key": "hareesa",
-            "price": "7.95"
+            "price": "7.95",
+            "isVege": true
         },
         {
             "id": "42",
             "key": "date_fattah",
-            "price": "9.95"
+            "price": "9.95",
+            "isVege": true
         }
     ],
     "drinks": [
         {
             "id": "10",
             "key": "adani_tea",
-            "price": "3.95"
+            "price": "3.95",
+            "isVege": false
         },
         {
             "id": "11",
             "key": "red_tea",
-            "price": "3.95"
+            "price": "3.95",
+            "isVege": true
         },
         {
             "id": "12",
             "key": "ayran",
-            "price": "2.95"
+            "price": "2.95",
+            "isVege": false
         },
         {
             "id": "13",
             "key": "soft_drinks",
-            "price": "2.95"
+            "price": "2.95",
+            "isVege": false
         },
         {
             "id": "14",
             "key": "water",
-            "price": "1.25"
+            "price": "1.25",
+            "isVege": false
         }
     ],
     "extras": [
         {
             "id": "18",
             "key": "sahawiq",
-            "price": "0.50"
+            "price": "0.50",
+            "isVege": true
         },
         {
             "id": "24",
             "key": "mandi_rice",
-            "price": "7.95"
+            "price": "7.95",
+            "isVege": true
         },
         {
             "id": "27",
             "key": "white_basmati_rice",
-            "price": "7.95"
+            "price": "7.95",
+            "isVege": true
         },
         {
             "id": "19",
             "key": "raisins",
-            "price": "0.99"
+            "price": "0.99",
+            "isVege": true
         },
         {
             "id": "20",
             "key": "thin_sliced_almonds",
-            "price": "0.99"
+            "price": "0.99",
+            "isVege": true
         }
     ]
 }

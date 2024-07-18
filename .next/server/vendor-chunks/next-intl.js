@@ -260,39 +260,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 /***/ }),
 
-/***/ "(rsc)/./node_modules/next-intl/dist/esm/_virtual/_rollupPluginBabelHelpers.js":
-/*!*******************************************************************************!*\
-  !*** ./node_modules/next-intl/dist/esm/_virtual/_rollupPluginBabelHelpers.js ***!
-  \*******************************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"extends\": () => (/* binding */ t)\n/* harmony export */ });\nfunction t() {\n    return t = Object.assign ? Object.assign.bind() : function(t) {\n        for(var n = 1; n < arguments.length; n++){\n            var r = arguments[n];\n            for(var e in r)Object.prototype.hasOwnProperty.call(r, e) && (t[e] = r[e]);\n        }\n        return t;\n    }, t.apply(this, arguments);\n}\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC1pbnRsL2Rpc3QvZXNtL192aXJ0dWFsL19yb2xsdXBQbHVnaW5CYWJlbEhlbHBlcnMuanMiLCJtYXBwaW5ncyI6Ijs7OztBQUFBLFNBQVNBO0lBQUksT0FBT0EsSUFBRUMsT0FBT0MsTUFBTSxHQUFDRCxPQUFPQyxNQUFNLENBQUNDLElBQUksS0FBRyxTQUFTSCxDQUFDO1FBQUUsSUFBSSxJQUFJSSxJQUFFLEdBQUVBLElBQUVDLFVBQVVDLE1BQU0sRUFBQ0YsSUFBSTtZQUFDLElBQUlHLElBQUVGLFNBQVMsQ0FBQ0QsRUFBRTtZQUFDLElBQUksSUFBSUksS0FBS0QsRUFBRU4sT0FBT1EsU0FBUyxDQUFDQyxjQUFjLENBQUNDLElBQUksQ0FBQ0osR0FBRUMsTUFBS1IsQ0FBQUEsQ0FBQyxDQUFDUSxFQUFFLEdBQUNELENBQUMsQ0FBQ0MsRUFBRTtRQUFDO1FBQUMsT0FBT1I7SUFBQyxHQUFFQSxFQUFFWSxLQUFLLENBQUMsSUFBSSxFQUFDUDtBQUFVO0FBQXNCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8veWVtZW5pZ2F0ZS8uL25vZGVfbW9kdWxlcy9uZXh0LWludGwvZGlzdC9lc20vX3ZpcnR1YWwvX3JvbGx1cFBsdWdpbkJhYmVsSGVscGVycy5qcz80MjEwIl0sInNvdXJjZXNDb250ZW50IjpbImZ1bmN0aW9uIHQoKXtyZXR1cm4gdD1PYmplY3QuYXNzaWduP09iamVjdC5hc3NpZ24uYmluZCgpOmZ1bmN0aW9uKHQpe2Zvcih2YXIgbj0xO248YXJndW1lbnRzLmxlbmd0aDtuKyspe3ZhciByPWFyZ3VtZW50c1tuXTtmb3IodmFyIGUgaW4gcilPYmplY3QucHJvdG90eXBlLmhhc093blByb3BlcnR5LmNhbGwocixlKSYmKHRbZV09cltlXSl9cmV0dXJuIHR9LHQuYXBwbHkodGhpcyxhcmd1bWVudHMpfWV4cG9ydHt0IGFzIGV4dGVuZHN9O1xuIl0sIm5hbWVzIjpbInQiLCJPYmplY3QiLCJhc3NpZ24iLCJiaW5kIiwibiIsImFyZ3VtZW50cyIsImxlbmd0aCIsInIiLCJlIiwicHJvdG90eXBlIiwiaGFzT3duUHJvcGVydHkiLCJjYWxsIiwiYXBwbHkiLCJleHRlbmRzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next-intl/dist/esm/_virtual/_rollupPluginBabelHelpers.js\n");
-
-/***/ }),
-
-/***/ "(rsc)/./node_modules/next-intl/dist/esm/link/react-server/Link.js":
-/*!*******************************************************************!*\
-  !*** ./node_modules/next-intl/dist/esm/link/react-server/Link.js ***!
-  \*******************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ l)\n/* harmony export */ });\n/* harmony import */ var _virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../_virtual/_rollupPluginBabelHelpers.js */ \"(rsc)/./node_modules/next-intl/dist/esm/_virtual/_rollupPluginBabelHelpers.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _react_server_useLocale_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../react-server/useLocale.js */ \"(rsc)/./node_modules/next-intl/dist/esm/react-server/useLocale.js\");\n/* harmony import */ var _shared_BaseLink_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../shared/BaseLink.js */ \"(rsc)/./node_modules/next-intl/dist/esm/shared/BaseLink.js\");\n\n\n\n\nfunction l(l) {\n    let { locale: a, ...s } = l;\n    const m = (0,_react_server_useLocale_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"])();\n    return /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_shared_BaseLink_js__WEBPACK_IMPORTED_MODULE_2__[\"default\"], (0,_virtual_rollupPluginBabelHelpers_js__WEBPACK_IMPORTED_MODULE_3__[\"extends\"])({\n        locale: a || m\n    }, s));\n}\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC1pbnRsL2Rpc3QvZXNtL2xpbmsvcmVhY3Qtc2VydmVyL0xpbmsuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQXNFO0FBQXFCO0FBQStDO0FBQXdDO0FBQUEsU0FBU0ssRUFBRUEsQ0FBQztJQUFFLElBQUcsRUFBQ0MsUUFBT0MsQ0FBQyxFQUFDLEdBQUdDLEdBQUUsR0FBQ0g7SUFBRSxNQUFNSSxJQUFFTixzRUFBQ0E7SUFBRyxxQkFBT0QsMERBQWUsQ0FBQ0UsMkRBQUNBLEVBQUNILGdGQUFDQSxDQUFDO1FBQUNLLFFBQU9DLEtBQUdFO0lBQUMsR0FBRUQ7QUFBRztBQUFzQiIsInNvdXJjZXMiOlsid2VicGFjazovL3llbWVuaWdhdGUvLi9ub2RlX21vZHVsZXMvbmV4dC1pbnRsL2Rpc3QvZXNtL2xpbmsvcmVhY3Qtc2VydmVyL0xpbmsuanM/NWY4ZSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnR7ZXh0ZW5kcyBhcyBlfWZyb21cIi4uLy4uL192aXJ0dWFsL19yb2xsdXBQbHVnaW5CYWJlbEhlbHBlcnMuanNcIjtpbXBvcnQgciBmcm9tXCJyZWFjdFwiO2ltcG9ydCB0IGZyb21cIi4uLy4uL3JlYWN0LXNlcnZlci91c2VMb2NhbGUuanNcIjtpbXBvcnQgbyBmcm9tXCIuLi8uLi9zaGFyZWQvQmFzZUxpbmsuanNcIjtmdW5jdGlvbiBsKGwpe2xldHtsb2NhbGU6YSwuLi5zfT1sO2NvbnN0IG09dCgpO3JldHVybiByLmNyZWF0ZUVsZW1lbnQobyxlKHtsb2NhbGU6YXx8bX0scykpfWV4cG9ydHtsIGFzIGRlZmF1bHR9O1xuIl0sIm5hbWVzIjpbImV4dGVuZHMiLCJlIiwiciIsInQiLCJvIiwibCIsImxvY2FsZSIsImEiLCJzIiwibSIsImNyZWF0ZUVsZW1lbnQiLCJkZWZhdWx0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next-intl/dist/esm/link/react-server/Link.js\n");
-
-/***/ }),
-
-/***/ "(rsc)/./node_modules/next-intl/dist/esm/react-server/Link.js":
-/*!**************************************************************!*\
-  !*** ./node_modules/next-intl/dist/esm/react-server/Link.js ***!
-  \**************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ t)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _link_react_server_Link_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../link/react-server/Link.js */ \"(rsc)/./node_modules/next-intl/dist/esm/link/react-server/Link.js\");\n\n\nlet r = !1;\nfunction t(t) {\n    return r || (console.warn(\"\\n\\nDEPRECATION WARNING: The import for `Link` from next-intl has changed.\\n\\nPreviously: import {Link} from 'next-intl';\\nNow:        import Link from 'next-intl/link';\\n\\nPlease upgrade your import accordingly. See also https://next-intl-docs.vercel.app/docs/routing/navigation#link\\n\\n\"), r = !0), /*#__PURE__*/ react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_link_react_server_Link_js__WEBPACK_IMPORTED_MODULE_1__[\"default\"], t);\n}\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC1pbnRsL2Rpc3QvZXNtL3JlYWN0LXNlcnZlci9MaW5rLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBcUI7QUFBNEM7QUFBQSxJQUFJRSxJQUFFLENBQUM7QUFBRSxTQUFTQyxFQUFFQSxDQUFDO0lBQUUsT0FBT0QsS0FBSUUsQ0FBQUEsUUFBUUMsSUFBSSxDQUFDLHFTQUFvU0gsSUFBRSxDQUFDLGtCQUFHRiwwREFBZSxDQUFDQyxrRUFBQ0EsRUFBQ0U7QUFBRTtBQUFzQiIsInNvdXJjZXMiOlsid2VicGFjazovL3llbWVuaWdhdGUvLi9ub2RlX21vZHVsZXMvbmV4dC1pbnRsL2Rpc3QvZXNtL3JlYWN0LXNlcnZlci9MaW5rLmpzPzFhZDIiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IG4gZnJvbVwicmVhY3RcIjtpbXBvcnQgZSBmcm9tXCIuLi9saW5rL3JlYWN0LXNlcnZlci9MaW5rLmpzXCI7bGV0IHI9ITE7ZnVuY3Rpb24gdCh0KXtyZXR1cm4gcnx8KGNvbnNvbGUud2FybihcIlxcblxcbkRFUFJFQ0FUSU9OIFdBUk5JTkc6IFRoZSBpbXBvcnQgZm9yIGBMaW5rYCBmcm9tIG5leHQtaW50bCBoYXMgY2hhbmdlZC5cXG5cXG5QcmV2aW91c2x5OiBpbXBvcnQge0xpbmt9IGZyb20gJ25leHQtaW50bCc7XFxuTm93OiAgICAgICAgaW1wb3J0IExpbmsgZnJvbSAnbmV4dC1pbnRsL2xpbmsnO1xcblxcblBsZWFzZSB1cGdyYWRlIHlvdXIgaW1wb3J0IGFjY29yZGluZ2x5LiBTZWUgYWxzbyBodHRwczovL25leHQtaW50bC1kb2NzLnZlcmNlbC5hcHAvZG9jcy9yb3V0aW5nL25hdmlnYXRpb24jbGlua1xcblxcblwiKSxyPSEwKSxuLmNyZWF0ZUVsZW1lbnQoZSx0KX1leHBvcnR7dCBhcyBkZWZhdWx0fTtcbiJdLCJuYW1lcyI6WyJuIiwiZSIsInIiLCJ0IiwiY29uc29sZSIsIndhcm4iLCJjcmVhdGVFbGVtZW50IiwiZGVmYXVsdCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next-intl/dist/esm/react-server/Link.js\n");
-
-/***/ }),
-
 /***/ "(rsc)/./node_modules/next-intl/dist/esm/react-server/getBaseTranslator.js":
 /*!***************************************************************************!*\
   !*** ./node_modules/next-intl/dist/esm/react-server/getBaseTranslator.js ***!
@@ -367,35 +334,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ t)\n/* harmony export */ });\nfunction t(t) {\n    return t;\n}\n\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC1pbnRsL2Rpc3QvZXNtL3NlcnZlci9nZXRSZXF1ZXN0Q29uZmlnLmpzIiwibWFwcGluZ3MiOiI7Ozs7QUFBQSxTQUFTQSxFQUFFQSxDQUFDO0lBQUUsT0FBT0E7QUFBQztBQUFzQiIsInNvdXJjZXMiOlsid2VicGFjazovL3llbWVuaWdhdGUvLi9ub2RlX21vZHVsZXMvbmV4dC1pbnRsL2Rpc3QvZXNtL3NlcnZlci9nZXRSZXF1ZXN0Q29uZmlnLmpzPzg3YzUiXSwic291cmNlc0NvbnRlbnQiOlsiZnVuY3Rpb24gdCh0KXtyZXR1cm4gdH1leHBvcnR7dCBhcyBkZWZhdWx0fTtcbiJdLCJuYW1lcyI6WyJ0IiwiZGVmYXVsdCJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next-intl/dist/esm/server/getRequestConfig.js\n");
-
-/***/ }),
-
-/***/ "(rsc)/./node_modules/next-intl/dist/esm/shared/BaseLink.js":
-/*!************************************************************!*\
-  !*** ./node_modules/next-intl/dist/esm/shared/BaseLink.js ***!
-  \************************************************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
-/* harmony export */   __esModule: () => (/* binding */ __esModule),
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
-
-const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/vm-work/Desktop/website/node_modules/next-intl/dist/esm/shared/BaseLink.js`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule, $$typeof } = proxy;
-const __default__ = proxy.default;
-
-
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
 /***/ }),
 

@@ -84,6 +84,11 @@
                     "description": "Riz basmati cuit à la vapeur avec de l'agneau rôti lentement, infusé d'épices secrètes surmonté d'un mélange d'amandes, de raisins secs et d'oignons, servi avec une sauce piquante yéménite (sahawiq)",
                     "mealKey": "lamb_haneeth"
                 },
+                "mandi_combo": {
+                    "title": "Mandi trio",
+                    "description": "Ajoutez +4.95$ à votre commande de mandi et obtenez un accompagnement (Salade verte ou Salade de yaourt au concombre) avec une boisson (Boisson gazeuse/eau)",
+                    "mealKey": "mandi_combo"
+                },
                 "family_mix_mandi": {
                     "title": "Mélange familial Mandi",
                     "description": "Agneau/poulet et riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",

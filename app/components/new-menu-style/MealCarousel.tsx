@@ -1,5 +1,5 @@
 'use client'
-import { Meal, MealKey, MealWithPrice } from "@/interfaces/meal.interface";
+import { Meal, MealKey } from "@/interfaces/meal.interface";
 import { useTranslations } from "next-intl";
 import MealCard from "./MealCard";
 import { useState } from "react";
@@ -18,7 +18,8 @@ const MealsCarousel = ({locale, menuData}: {locale: string, menuData: any}) => {
     const generateMeals = (category: string): Meal[] => {
         const categoryData = menuData[category];
         
-        const branchMenu: MealWithPrice[] = [];
+        const branchMenu: Meal[] = [];
+        console.log("menuObj: ", menuObj);
 
         if (!categoryData) {
             console.error("Category data not found for: ", category);
@@ -28,11 +29,14 @@ const MealsCarousel = ({locale, menuData}: {locale: string, menuData: any}) => {
         // Filter and create a new object with matching keys
         Object.fromEntries(
           Object.entries(menuObj).filter(([key, _]: any) => {
+            console.log("key: ", key);
+            console.log("_: ", _);
+
             categoryData.forEach((mealKey: MealKey) => {
               const meal: Meal = _[0][mealKey.key];
               if (!meal) return;
               if (mealKey.key === meal.mealKey) {
-                branchMenu.push({ ...meal, price: mealKey.price })
+                branchMenu.push({ ...meal, price: mealKey.price, isVege: mealKey.isVege })
               }
             })
           }));
@@ -62,6 +66,7 @@ const MealsCarousel = ({locale, menuData}: {locale: string, menuData: any}) => {
                     <ul className="ag-card-grid_list">
                         {
                             generateMeals(currentCategory).map((meal: Meal) => {
+                                console.log("meal: ", meal);
                                 return <MealCard key={meal.mealKey} meal={meal} />
                             })
                         }

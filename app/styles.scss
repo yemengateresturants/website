@@ -1254,7 +1254,7 @@ div.dropdown-wrapper {
     font-weight: bold;
     font-size: 22px;
     color: #041C2C;
-    margin-top: 0;
+    margin: 0;
   
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -1475,6 +1475,10 @@ div.dropdown-wrapper {
     min-height: 300px;
     width: 95%;
     margin: auto;
+
+    @media screen and (max-width: 480px){
+        width: 98%;
+    }
   }
 
 .react-multi-carousel-track {
@@ -1651,4 +1655,10 @@ div.dropdown-wrapper {
 .vert-center {
     display: flex;
     align-items: normal;
+}
+
+.vege_icon {
+    width: 20px;
+    height: 21px;
+    margin-left: .5rem;
 }

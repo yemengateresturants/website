@@ -1170,7 +1170,7 @@ ul div ul a {
   font-weight: bold;
   font-size: 22px;
   color: #041C2C;
-  margin-top: 0;
+  margin: 0;
   transition: all 0.3s ease;
 }
 
@@ -1355,6 +1355,11 @@ ul div ul a {
   width: 95%;
   margin: auto;
 }
+@media screen and (max-width: 480px) {
+  .react-multi-carousel-list {
+    width: 98%;
+  }
+}
 
 .react-multi-carousel-track {
   list-style: none;
@@ -1520,6 +1525,12 @@ ul div ul a {
 .vert-center {
   display: flex;
   align-items: normal;
+}
+
+.vege_icon {
+  width: 20px;
+  height: 21px;
+  margin-left: 0.5rem;
 }
 /*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[12].use[3]!./node_modules/react-multi-carousel/lib/styles.css ***!
