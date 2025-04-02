@@ -1010,7 +1010,7 @@ ul div ul a {
   border: 1px solid #DCDEE0;
   background-color: #fff;
   border: 1px solid #C3773E;
-  cursor: pointer;
+  cursor: default;
   white-space: nowrap;
   text-decoration: none;
   text-align: center;

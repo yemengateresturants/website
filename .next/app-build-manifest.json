@@ -1,5 +1,10 @@
 {
   "pages": {
+    "/[locale]/[...not_found]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/[...not_found]/page.js"
+    ],
     "/[locale]/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -16,15 +21,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/menu/st-joseph-blvd/page.js"
     ],
-    "/[locale]/menu/bank-st/layout": [
+    "/[locale]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/menu/bank-st/layout.js"
+      "static/chunks/app/[locale]/page.js"
     ],
     "/[locale]/menu/bank-st/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/menu/bank-st/page.js"
+    ],
+    "/[locale]/menu/bank-st/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/menu/bank-st/layout.js"
     ]
   }
 }

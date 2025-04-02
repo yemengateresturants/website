@@ -1,10 +1,10 @@
 {
     "navigation": {
-        "home": "Accueil",
-        "menu": "Menu",
-        "about": "A prop",
-        "contact": "Nous joindre",
-        "catering": "Restauration"
+      "home": "Accueil",
+      "menu": "Menu",
+      "about": "À propos",
+      "contact": "Nous joindre",
+      "catering": "Restauration"
     },
     "page": {
         "home": {
@@ -53,328 +53,321 @@
         }
     },
     "category": {
-        "breakfast": "Petit-déjeuner toute la journée",
-        "main_dishes": "Plats principaux",
-        "entrées": "Entrées",
-        "desserts": "Desserts",
-        "drinks": "Boissons",
-        "extras": "Suppléments",
-        "burrito": "Burrito"
+      "breakfast": "Petit-déjeuner toute la journée",
+      "traditional_dishes": "Spécialités yéménites traditionnelles",
+      "main_dishes": "Plats principaux",
+      "mandi_haneeth_selections": "Sélections de Mandi & Haneeth",
+      "sea_foods": "Spécialités de fruits de mer",
+      "entrées": "Entrées",
+      "desserts": "Desserts",
+      "drinks": "Boissons",
+      "extras": "Suppléments",
+      "burrito": "Burrito",
+      "catering": "Restauration"
     },
     "menu": {
-        "main_dishes": [
-            {
-                "lamb_mandi": {
-                    "title": "Mandi d'agneau",
-                    "description": "Agneau et riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
-                    "mealKey": "lamb_mandi"
-                },
-                "chicken_mandi": {
-                    "title": "Mandi au poulet",
-                    "description": "Poulet et riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
-                    "mealKey": "chicken_mandi"
-                },
-                "chicken_mazbi": {
-                    "title": "Mazbi au poulet",
-                    "description": "Se compose de poulet grillé sur pierre servi avec du riz et de la sauce piquante (sahawiq)",
-                    "mealKey": "chicken_mazbi"
-                },
-                "lamb_haneeth": {
-                    "title": "Agneau rôti lentement (Haneeth)",
-                    "description": "Riz basmati cuit à la vapeur avec de l'agneau rôti lentement, infusé d'épices secrètes surmonté d'un mélange d'amandes, de raisins secs et d'oignons, servi avec une sauce piquante yéménite (sahawiq)",
-                    "mealKey": "lamb_haneeth"
-                },
-                "mandi_combo": {
-                    "title": "Mandi trio",
-                    "description": "Ajoutez +4.95$ à votre commande de mandi et obtenez un accompagnement (Salade verte ou Salade de yaourt au concombre) avec une boisson (Boisson gazeuse/eau)",
-                    "mealKey": "mandi_combo"
-                },
-                "family_mix_mandi": {
-                    "title": "Mélange familial Mandi",
-                    "description": "Agneau/poulet et riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
-                    "mealKey": "family_mix_mandi"
-                },
-                "family_mandi_lamb": {
-                    "title": "Famille Mandi Agneau",
-                    "description": "Se compose d'agneau et de riz. Mélangé avec des épices yéménites, garni d'oignons, d'amandes et de raisins secs. Servi avec sauce piquante (sahawiq)",
-                    "mealKey": "family_mandi_lamb"
-                },
-                "vege_motabaq": {
-                    "title": "Légumes quesadilla arabes (Murtabak)",
-                    "description": "Se compose de pain plié avec des morceaux de légumes et des œufs. Servi avec citron et poivron vert",
-                    "mealKey": "vege_motabaq"
-                },
-                "fahsa": {
-                    "title": "Fahsa",
-                    "description": "Viande, ail, tomates, cumin et autres épices",
-                    "mealKey": "fahsa"
-                },
-                "salta": {
-                    "title": "Salta",
-                    "description": "Bouillon de fenugrec, légumes et épices",
-                    "mealKey": "salta"
-                },
-                "lamb_pot": {
-                    "title": "Marmite d'agneau",
-                    "description": "Se compose de bouillon d'agneau, de pommes de terre et de morceaux d'agneau",
-                    "mealKey": "lamb_pot"
-                },
-                "fish": {
-                    "title": "Poisson Tandoori",
-                    "description": "Poisson grillé tandoori servi avec du pain Rashoosh",
-                    "mealKey": "fish"
-                },
-                "shrimp": {
-                    "title": "Crevettes grillées",
-                    "description": "Crevettes grillées servies avec du pain Rashoosh",
-                    "mealKey": "shrimp"
-                }
-            }
-        ],
-        "breakfast": [
-            {
-                "qilabat_meat": {
-                    "title": "Viande de Qilabat",
-                    "description": "Se compose de viande en cubes et rôtie, cuite avec de l'huile, du poivre et de l'ail, agrémentée d'épices spéciales",
-                    "mealKey": "qilabat_meat"
-                },
-                "liver": {
-                    "title": "Foie",
-                    "description": "Foie avec huile, oignons, ail, poivre et épices",
-                    "mealKey": "liver"
-                },
-                "dry_pot_beans": {
-                    "title": "Haricots secs/en pot",
-                    "description": "Haricots, oignons, tomates, ail et épices spéciales dans un pot en argile",
-                    "mealKey": "dry_pot_beans"
-                },
-                "beans_mudara": {
-                    "title": "Haricots Mudara",
-                    "description": "Se compose de haricots aux tomates. coriandre et cumin",
-                    "mealKey": "beans_mudara"
-                },
-                "shakshouka": {
-                    "title": "Shakshouka",
-                    "description": "Se compose d'un mélange de légumes, oignons, tomates, poivrons et épices, en plus des œufs",
-                    "mealKey": "shakshouka"
-                },
-                "yemeni_foul": {
-                    "title": "Faute yéménite",
-                    "description": "Se compose de fèves avec du tahini, en plus de légumes, de tomates et d'ail",
-                    "mealKey": "yemeni_foul"
-                },
-                "tuna_with_peas": {
-                    "title": "Thon et petits pois",
-                    "description": "Thon, petits pois, oignons, ail, concentré de tomate et épices spéciales",
-                    "mealKey": "tuna_with_peas"
-                }
-            }
-        ],
-        "entrées": [
-            {
-                "maraq": {
-                    "title": "Bouillon d'Agneau",
-                    "description": "Servi avec des tranches fraîches de citron ou de lime",
-                    "mealKey": "maraq"
-                },
-                "oat_soup": {
-                    "title": "Soupe à l'Avoine",
-                    "description": "Se compose d'un bouillon de tomates léger épicé, avec de l'avoine cuite dedans",
-                    "mealKey": "oat_soup"
-                },
-                "signature_salad": {
-                    "title": "Salade Vert",
-                    "description": "Servi avec sauce à salade",
-                    "mealKey": "signature_salad"
-                },
-                "cucumber_yogurt_salad": {
-                    "title": "Salade de yaourt au concombre",
-                    "description": "Se compose d'un mélange de concombres tranchés et d'épices avec du yaourt",
-                    "mealKey": "cucumber_yogurt_salad"
-                },
-                "tabeekh": {
-                    "title": "Ragoût de mélange de légumes",
-                    "description": "Compote de légumes yéménites, pommes de terre, carottes et aubergines mijotées dans une sauce tomate riche en nutriments",
-                    "mealKey": "tabeekh"
-                },
-                "lentil_soup": {
-                    "title": "Soupe aux lentilles",
-                    "description": "Se compose de lentilles rôties auxquelles on ajoute des oignons, des épices, de la coriandre et du persil",
-                    "mealKey": "lentil_soup"
-                },
-                "okra_soup": {
-                    "title": "Soupe au gombo",
-                    "description": "Graines de gombo avec tomates et ail ajoutées au bouillon et aux épices",
-                    "mealKey": "okra_soup"
-                },
-                "mulukhiyah_soup": {
-                    "title": "Soupe Mulukhiyah",
-                    "description": "Feuilles de mauve moelleuses, avec bouillon, ail et coriandre",
-                    "mealKey": "mulukhiyah_soup"
-                },
-                "tabbouleh": {
-                    "title": "Tabbouleh",
-                    "description": "Se compose de boulgour fin, de Darsie, d'oignons, de concombres, de citrons, de tomates, de menthe et d'huile d'olive",
-                    "mealKey": "tabbouleh"
-                },
-                "fattoush": {
-                    "title": "Fattoush",
-                    "description": "Morceaux de pain grillé avec un mélange homogène de légumes, tomates concombres et radis",
-                    "mealKey": "fattoush"
-                },
-                "hummus": {
-                    "title": "Hummus",
-                    "description": "Pois chiches, tahini, citron, ail et piment fort",
-                    "mealKey": "hummus"
-                }
-            }
-        ],
-        "desserts": [
-            {
-                "maasoub": {
-                    "title": "Ma'asoub",
-                    "description": "Bananes trop mûres, pain plat moulu, crème et garnies de miel",
-                    "mealKey": "maasoub"
-                },
-                "hareesa": {
-                    "title": "Hareesa",
-                    "description": "Contient des noix. (250g)",
-                    "mealKey": "hareesa"
-                },
-                "date_fattah": {
-                    "title": "Date Fattah",
-                    "description": "Dattes mélangées à de la farine, du beurre, de l'huile végétale et des graines noires",
-                    "mealKey": "date_fattah"
-                },
-                "baklava": {
-                    "title": "Baklava",
-                    "mealKey": "baklava"
-                },
-                "knafeh": {
-                    "title": "Künafe",
-                    "description": "Pâte filée, sirop de sucre et couche de fromage",
-                    "knafeh": "knafeh"
-                }
-            }
-        ],
-        "drinks": [
-            {
-                "adani_tea": {
-                    "title": "Thé Adani",
-                    "description": "Thé noir au lait. Fabriqué avec des épices yéménites.",
-                    "mealKey": "adani_tea"
-                },
-                "red_tea": {
-                    "title": "Thé rouge",
-                    "description": "Les feuilles de thé se dissolvent dans l'eau, le sucre et la menthe",
-                    "mealKey": "red_tea"
-                },
-                "turkish_coffee": {
-                    "title": "Café turc",
-                    "description": "Grains de café torréfiés dissous et concentrés avec de l'eau bouillante",
-                    "mealKey": "turkish_coffee"
-                },
-                "black_coffee": {
-                    "title": "Café noir",
-                    "description": "Les grains de café torréfiés et moulus se dissolvent dans l'eau",
-                    "mealKey": "black_coffee"
-                },
-                "orange_juice": {
-                    "title": "Du jus d'orange",
-                    "description": "Orange fraîchement pressée",
-                    "mealKey": "orange_juice"
-                },
-                "lemon_juice": {
-                    "title": "Jus de citron",
-                    "description": "Tranches de citron et de menthe fraîchement pressées",
-                    "mealKey": "lemon_juice"
-                },
-                "mango_juice": {
-                    "title": "Jus de mangue",
-                    "description": "Mangue fraîchement pressée",
-                    "mealKey": "mango_juice"
-                },
-                "signature_cocktail": {
-                    "title": "Cocktail Signature",
-                    "description": "A mixture or mango, apple, banana, date paste concentrated milk and halva",
-                    "mealKey": "signature_cocktail"
-                },
-                "ayran": {
-                    "title": "Ayran",
-                    "description": "Une boisson froide et salée à base de yaourt et d'eau.",
-                    "mealKey": "ayran"
-                },
-                "soft_drinks": {
-                    "title": "Boissons non alcoolisées",
-                    "mealKey": "soft_drinks"
-                },
-                "water": {
-                    "title": "Eau",
-                    "mealKey": "water"
-                }
-            }
-        ],
-        "extras": [
-            {
-                "sahawiq": {
-                    "title": "Sahawiq",
-                    "description": "",
-                    "mealKey": "sahawiq"
-                },
-                "raisins": {
-                    "title": "Raisins secs mélangés",
-                    "mealKey": "raisins"
-                },
-                "thin_sliced_almonds": {
-                    "title": "Amandes tranchées finement",
-                    "mealKey": "thin_sliced_almonds"
-                },
-                "mandi_rice": {
-                    "title": "Riz Mandi",
-                    "description": "Riz Mandi, garni d'oignons, d'amandes et de raisins secs",
-                    "mealKey": "mandi_rice"
-                },
-                "white_basmati_rice": {
-                    "title": "Riz basmati blanc",
-                    "mealKey": "white_basmati_rice"
-                },
-                "yemeni_roti": {
-                    "title": "Roti yéménite",
-                    "description": "Fabriqué à partir d'un mélange de farine, de lait, de vanille et d'œufs",
-                    "mealKey": "yemeni_roti"
-                },
-                "rashoosh_bread": {
-                    "title": "Pain Rashoosh",
-                    "description": "Farine au beurre et graines noires",
-                    "mealKey": "rashoosh_bread"
-                },
-                "cheese_hot_sauce": {
-                    "title": "Sauce piquante au fromage",
-                    "description": "Tomates et piments forts avec quelques épices ajoutées",
-                    "mealKey": "cheese_hot_sauce"
-                }
-            }
-        ],
-        "burrito": [
-            {
-                "mandi_chicken_burrito": {
-                    "title": "Burrito mandi au poulet",
-                    "description": "Une fusion harmonieuse du poulet mandi yéménite et du style mexicain. Ce délice enveloppé dans une tortilla contient du riz Basmati Mandi parfumé, du succulent poulet Mandi, du maïs sucré, des oignons espagnols, des tomates juteuses et un. Ce qui le distingue, c'est notre sauce maison spéciale, un ajout délicieux qui rehausse chaque bouchée",
-                    "mealKey": "mandi_chicken_burrito"
-                },
-                "mandi_lamb_burrito": {
-                    "title": "Burrito à l'agneau Mandi",
-                    "description": "Une fusion harmonieuse de l'agneau yéménite Mandi et du style mexicain. Ce délice enveloppé dans une tortilla contient du riz Basmati Mandi parfumé, du succulent poulet Mandi, du maïs sucré, des oignons espagnols, des tomates juteuses et un. Ce qui le distingue, c'est notre sauce maison spéciale, un ajout délicieux qui rehausse chaque bouchée",
-                    "mealKey": "mandi_lamb_burrito"
-                },
-                "shrimp_burrito": {
-                    "title": "Burrito aux crevettes",
-                    "description": "Une fusion harmonieuse de crevettes yéménites Mandi et de flair mexicain. Ce délice enveloppé dans une tortilla contient du riz Basmati Mandi parfumé, du succulent poulet Mandi, du maïs sucré, des oignons espagnols, des tomates juteuses et un. Ce qui le distingue, c'est notre sauce maison spéciale, un ajout délicieux qui rehausse chaque bouchée",
-                    "mealKey": "shrimp_burrito"
-                }
-            }
-        ]
+      "traditional_dishes": {
+        "oat_soup": {
+          "title": "Soupe à l'avoine",
+          "description": "Soupe crémeuse réconfortante à base d'avoine et d'épices douces",
+          "mealKey": "oat_soup"
+        },
+        "signature_salad": {
+          "title": "Salade verte",
+          "description": "Mélange de légumes frais avec concombre, tomate et vinaigrette légère",
+          "mealKey": "signature_salad"
+        },
+        "tabeekh": {
+          "title": "Tabeekh",
+          "description": "Légumes mijotés avec pommes de terre, carottes et courgettes dans une sauce tomate",
+          "mealKey": "tabeekh"
+        },
+        "cucumber_yogurt_salad": {
+          "title": "Salade de concombre au yaourt",
+          "description": "Yaourt frais mélangé avec du concombre, de la menthe et de l'ail",
+          "mealKey": "cucumber_yogurt_salad"
+        },
+        "maraq": {
+          "title": "Bouillon (Maraq)",
+          "description": "Bouillon yéménite savoureux infusé d'herbes et d'épices",
+          "mealKey": "maraq"
+        },
+        "hummus": {
+          "title": "Houmous",
+          "description": "Pois chiches, tahini, citron, ail et piment servi avec du pain pita",
+          "mealKey": "hummus"
+        },
+        "fattoush": {
+          "title": "Fattoush",
+          "description": "Salade levantine avec chips de pain pita grillées, sumac et légumes frais",
+          "mealKey": "fattoush"
+        },
+        "mulukhiyah_soup": {
+          "title": "Soupe de molokhia",
+          "description": "Feuilles de molokhia mijotées avec du bouillon, ail et coriandre",
+          "mealKey": "mulukhiyah_soup"
+        },
+        "okra_soup": {
+          "title": "Soupe de gombo",
+          "description": "Gombo avec tomates, ail, bouillon et épices",
+          "mealKey": "okra_soup"
+        },
+        "lentil_soup": {
+          "title": "Soupe de lentilles",
+          "description": "Délicieuse soupe à base de lentilles rôties et d'épices yéménites",
+          "mealKey": "lentil_soup"
+        }
     },
+    "main_dishes": {
+      "fahsa": {
+        "title": "Fahsa",
+        "description": "Ragoût de bœuf effiloché mijoté avec mousse de fenugrec servi avec pain pita",
+        "mealKey": "fahsa"
+      },
+      "qilabat_meat": {
+        "title": "Viande Qilabat",
+        "description": "Morceaux de viande mijotés aux épices yéménites servis avec pain pita",
+        "mealKey": "qilabat_meat"
+      },
+      "liver": {
+        "title": "Foie",
+        "description": "Foie sauté aux épices aromatiques servi avec pain pita",
+        "mealKey": "liver"
+      },
+      "dry_pot_beans": {
+        "title": "Haricots secs",
+        "description": "Haricots sautés aux épices yéménites avec oignons et tomates servis avec pain pita",
+        "mealKey": "dry_pot_beans"
+      },
+      "beans_mudara": {
+        "title": "Foul Mudara",
+        "description": "Fèves mijotées assaisonnées d'ail, cumin et huile d'olive servies avec pain pita (tahini en option)",
+        "mealKey": "beans_mudara"
+      },
+      "shakshouka": {
+        "title": "Shakshouka",
+        "description": "Œufs brouillés aux tomates, poivrons et épices servis avec pain pita",
+        "mealKey": "shakshouka"
+      },
+      "yemeni_foul": {
+        "title": "Foul yéménite",
+        "description": "Fèves avec tahini, légumes, tomates et ail",
+        "mealKey": "yemeni_foul"
+      },
+      "salta": {
+        "title": "Salta",
+        "description": "Ragoût traditionnel yéménite avec légumes, viande et sauce au fenugrec épicée servi avec pain pita",
+        "mealKey": "salta"
+      },
+      "lamb_pot": {
+        "title": "Cocotte d'agneau",
+        "description": "Bouillon d'agneau avec pommes de terre et morceaux d'agneau",
+        "mealKey": "lamb_pot"
+      }
+    },
+    "mandi_haneeth_selections": {
+      "lamb_mandi": {
+        "title": "Mandi d'agneau",
+        "description": "Riz parfumé aux épices yéménites garni d'oignons frits, d'amandes et de raisins secs servi avec sahawiq",
+        "mealKey": "lamb_mandi"
+      },
+      "chicken_mandi": {
+        "title": "Mandi de poulet",
+        "description": "Poulet tendre mijoté avec du riz aux épices yéménites garni d'oignons frits, d'amandes et de raisins secs servi avec sahawiq",
+        "mealKey": "chicken_mandi"
+      },
+      "lamb_haneeth": {
+        "title": "Agneau Haneeth",
+        "description": "Agneau rôti lentement servi sur du riz basmati cuit à la vapeur avec des épices yéménites garni d'amandes et de raisins secs",
+        "mealKey": "lamb_haneeth"
+      },
+      "family_mix_mandi": {
+        "title": "Mandi mixte familial",
+        "description": "Mélange généreux de mandi et haneeth d’agneau et poulet sur riz épicé garni d’oignons frits, d’amandes et de raisins secs avec sahawiq",
+        "mealKey": "family_mix_mandi"
+      },
+      "family_mandi_lamb": {
+        "title": "Mandi d'agneau familial",
+        "description": "Riz parfumé aux épices yéménites garni d'oignons frits, d'amandes et de raisins secs servi avec notre sauce piquante signature (sahawiq)",
+        "mealKey": "family_mandi_lamb"
+      }
+    },
+    "burrito": {
+      "mandi_chicken_burrito": {
+        "title": "Burrito au poulet mandi",
+        "description": "Fusion yéménite-mexicaine dans une tortilla chaude garnie de poulet mandi, riz, maïs doux, oignons frits, tomates, laitue et sauce burrito",
+        "mealKey": "mandi_chicken_burrito"
+      },
+      "mandi_lamb_burrito": {
+        "title": "Burrito à l'agneau mandi",
+        "description": "Tortilla chaude garnie d'agneau mandi, riz, maïs doux, oignons frits, tomates, laitue et sauce burrito",
+        "mealKey": "mandi_lamb_burrito"
+      },
+      "shrimp_burrito": {
+        "title": "Burrito aux crevettes",
+        "description": "Tortilla chaude garnie de crevettes, riz mandi, maïs doux, oignons frits, tomates, laitue et sauce burrito",
+        "mealKey": "shrimp_burrito"
+      }
+    },
+    "desserts": {
+      "maasoub": {
+        "title": "Maasoub",
+        "description": "Pudding de pain à la banane garni de crème, graines noires et miel",
+        "mealKey": "maasoub"
+      },
+      "areeka": {
+        "title": "Areeka",
+        "description": "Pudding de dattes garni de crème, graines noires, amandes et miel",
+        "mealKey": "areeka"
+      },
+      "date_fattah": {
+        "title": "Fattah aux dattes",
+        "description": "Pudding de dattes servi avec du miel",
+        "mealKey": "date_fattah"
+      },
+      "baklava": {
+        "title": "Baklava",
+        "description": "",
+        "mealKey": "baklava"
+      },
+      "knafeh": {
+        "title": "Knafé",
+        "description": "Pâtisserie de cheveux d'ange au sirop sucré garnie de fromage",
+        "mealKey": "knafeh"
+      }
+    },
+    "drinks": {
+      "adani_tea": {
+        "title": "Thé Adani",
+        "description": "Thé noir au lait préparé avec des épices yéménites",
+        "mealKey": "adani_tea"
+      },
+      "red_tea": {
+        "title": "Thé rouge",
+        "description": "Feuilles de thé infusées dans l'eau avec du sucre et de la menthe",
+        "mealKey": "red_tea"
+      },
+      "ayran": {
+        "title": "Ayran",
+        "description": "Boisson froide salée à base de yaourt et d'eau",
+        "mealKey": "ayran"
+      },
+      "soft_drinks": {
+        "title": "Boissons gazeuses",
+        "mealKey": "soft_drinks"
+      },
+      "water": {
+        "title": "Eau",
+        "mealKey": "water"
+      },
+      "turkish_coffee": {
+        "title": "Café turc",
+        "description": "Grains de café torréfiés dissous et concentrés dans de l'eau bouillante",
+        "mealKey": "turkish_coffee"
+      },
+      "black_coffee": {
+        "title": "Café noir",
+        "description": "Grains de café torréfiés et moulus dissous dans l'eau",
+        "mealKey": "black_coffee"
+      },
+      "lemon_juice": {
+        "title": "Jus de citron",
+        "description": "Citron fraîchement pressé avec des tranches de menthe",
+        "mealKey": "lemon_juice"
+      },
+      "mango_juice": {
+        "title": "Jus de mangue",
+        "description": "Mangue fraîchement pressée",
+        "mealKey": "mango_juice"
+      },
+      "signature_cocktail": {
+        "title": "Cocktail signature",
+        "description": "Mélange de mangue, pomme, banane, pâte de datte, lait concentré et halva",
+        "mealKey": "signature_cocktail"
+      }
+    },
+    "sea_foods": {
+      "tuna_salta": {
+        "title": "Salta au thon",
+        "description": "Version aux fruits de mer de la salta avec du thon frais dans une sauce épicée servie avec pain pita",
+        "mealKey": "tuna_salta"
+      },
+      "shrimp": {
+        "title": "Crevettes grillées",
+        "description": "Ragoût de crevettes riche en saveurs servi chaud dans un plat en terre cuite avec pain rashoosh",
+        "mealKey": "shrimp"
+      },
+      "fish": {
+        "title": "Poisson tandoori",
+        "description": "Poisson grillé et épicé servi avec rashoosh au fromage et sauce sahawiq",
+        "mealKey": "fish"
+      }
+    },
+    "extras": {
+      "sahawiq": {
+        "title": "Sahawiq",
+        "description": "Tomates et piments forts avec des épices",
+        "mealKey": "sahawiq"
+      },
+      "raisins": {
+        "title": "Raisins secs mélangés",
+        "description": "",
+        "mealKey": "raisins"
+      },
+      "thin_sliced_almonds": {
+        "title": "Amandes tranchées fines",
+        "description": "",
+        "mealKey": "thin_sliced_almonds"
+      },
+      "extra_chicken": {
+        "title": "Poulet en supplément",
+        "description": "",
+        "mealKey": "extra_chicken"
+      },
+      "extra_lamb": {
+        "title": "Agneau en supplément",
+        "description": "",
+        "mealKey": "extra_lamb"
+      },
+      "mandi_rice": {
+        "title": "Riz mandi",
+        "description": "Riz mandi garni d'oignons, amandes et raisins secs",
+        "mealKey": "mandi_rice"
+      },
+      "fried_onion": {
+        "title": "Oignons frits",
+        "description": "",
+        "mealKey": "fried_onion"
+      },
+      "rashoosh_bread": {
+        "title": "Pain Rashoosh",
+        "description": "Farine avec beurre et graines noires",
+        "mealKey": "rashoosh_bread"
+      },
+      "pita_bread": {
+        "title": "Pain pita",
+        "description": "",
+        "mealKey": "pita_bread"
+      },
+      "cheese_hot_sauce": {
+        "title": "Sauce piquante au fromage",
+        "description": "Tomates, fromage et piments avec des épices",
+        "mealKey": "cheese_hot_sauce"
+      },
+      "honey": {
+        "title": "Miel",
+        "description": "",
+        "mealKey": "honey"
+      }
+    },
+    "catering": {
+      "catering_mandi_lamb": {
+        "title": "Mandi d'agneau",
+        "description": "Plat de riz parfumé aux épices yéménites, garni d'oignons frits, d'amandes et de raisins secs, servi avec notre sauce piquante signature (sahawiq)",
+        "mealKey": "catering_mandi_lamb"
+      }
+    }
+  },
     "price": {
         "small": "Petit",
         "large": "Grand",
@@ -389,7 +382,16 @@
         "small_person": "Petit (pour 2-3 personnes)",
         "large_person": "Grand (pour 4-5 personnes)",
         "sandwich_price": "Prix du sandwich",
-        "combo_price": "Faites-en un combo avec"
+        "combo_price": "Faites-en un combo avec",
+        "single_piece": "​​Unique",
+        "double_pieces": "Double",
+        "qaurter_price": "Quart",
+        "half_price": "Demi",
+        "quarter_lamb": "Quart d'agneau",
+        "half_lamb": "Demi agneau",
+        "whole_lamb": "Agneau entier",
+        "cup": "Tasse",
+        "large_pot": "Grande théière"
     },
     "form": {
         "name": "Nom",

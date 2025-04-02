@@ -1,4 +1,54 @@
 {
+    "traditional_dishes": [
+        {
+            "id": "6",
+            "key": "oat_soup",
+            "price": "4.95",
+            "isVege": true
+        },
+        {
+            "id": "17",
+            "key": "maraq",
+            "price": "2.95",
+            "isVege": false
+        },
+        {
+            "id": "50",
+            "key": "mulukhiyah_soup",
+            "price": "6.95",
+            "isVege": true
+        },
+        {
+            "id": "51",
+            "key": "okra_soup",
+            "price": "6.95",
+            "isVege": true
+        },
+        {
+            "id": "52",
+            "key": "lentil_soup",
+            "price": "6.95",
+            "isVege": true
+        },
+        {
+            "id": "7",
+            "key": "signature_salad",
+            "price": "6.95",
+            "isVege": true
+        },
+        {
+            "id": "8",
+            "key": "tabeekh",
+            "price": "6.95",
+            "isVege": true
+        },
+        {
+            "id": "16",
+            "key": "cucumber_yogurt_salad",
+            "price": "6.95",
+            "isVege": true
+        }
+    ],
     "main_dishes": [
         {
             "id": "1",
@@ -84,56 +134,6 @@
                 }
             ],
             "isVege": false
-        }
-    ],
-    "entrées": [
-        {
-            "id": "6",
-            "key": "oat_soup",
-            "price": "4.95",
-            "isVege": true
-        },
-        {
-            "id": "17",
-            "key": "maraq",
-            "price": "2.95",
-            "isVege": false
-        },
-        {
-            "id": "50",
-            "key": "mulukhiyah_soup",
-            "price": "6.95",
-            "isVege": true
-        },
-        {
-            "id": "51",
-            "key": "okra_soup",
-            "price": "6.95",
-            "isVege": true
-        },
-        {
-            "id": "52",
-            "key": "lentil_soup",
-            "price": "6.95",
-            "isVege": true
-        },
-        {
-            "id": "7",
-            "key": "signature_salad",
-            "price": "6.95",
-            "isVege": true
-        },
-        {
-            "id": "8",
-            "key": "tabeekh",
-            "price": "6.95",
-            "isVege": true
-        },
-        {
-            "id": "16",
-            "key": "cucumber_yogurt_salad",
-            "price": "6.95",
-            "isVege": true
         }
     ],
     "desserts": [
@@ -227,6 +227,39 @@
             "key": "thin_sliced_almonds",
             "price": "0.99",
             "isVege": true
+        },
+        {
+            "id": "48",
+            "key": "fried_onion",
+            "price": "0.95",
+            "isVege": true
+        },
+        {
+            "id": "52",
+            "key": "honey",
+            "price": "1.95",
+            "isVege": false
+        }
+    ],
+    "catering": [
+        {
+            "id": "58",
+            "key": "catering_mandi_lamb",
+            "price": [
+                {
+                    "key": "quarter_lamb",
+                    "price": "250"
+                },
+                {
+                    "key": "half_lamb",
+                    "price": "400"
+                },
+                {
+                    "key": "whole_lamb",
+                    "price": "800"
+                }
+            ],
+            "isVege": false
         }
     ]
 }

@@ -6,7 +6,7 @@ import { useState } from "react";
 
 
 const MealsCarousel = ({locale, menuData}: {locale: string, menuData: any}) => {
-    const initialCategory = menuData.breakfast ? 'breakfast' : 'main_dishes';
+    const initialCategory = menuData.traditional_dishes ? 'traditional_dishes' : 'main_dishes';
     const [currentCategory, setCurrentCategory] = useState(initialCategory);
 
 
@@ -33,7 +33,8 @@ const MealsCarousel = ({locale, menuData}: {locale: string, menuData: any}) => {
             console.log("_: ", _);
 
             categoryData.forEach((mealKey: MealKey) => {
-              const meal: Meal = _[0][mealKey.key];
+                console.log("menu: ", _)
+              const meal: Meal = _[mealKey.key];
               if (!meal) return;
               if (mealKey.key === meal.mealKey) {
                 branchMenu.push({ ...meal, price: mealKey.price, isVege: mealKey.isVege })

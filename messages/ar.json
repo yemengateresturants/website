@@ -54,328 +54,321 @@
     },
     "category": {
         "breakfast": "وجبات فطور طوال اليوم",
-        "main_dishes": "الأطباق الرئيسية",
+        "traditional_dishes": "أطباق يمنية تقليدية",
+        "mandi_haneeth_selections": "إختيارات المندي و الحنيذ",
+        "main_dishes": "أطباق مميزة",
+        "sea_foods": "مأكولات بحرية",
         "entrées": "المقبلات",
         "desserts": "الحلويات",
         "drinks": "المشروبات",
         "extras": "الإضافات",
-        "burrito": "بوريتو"
+        "burrito": "بوريتو",
+        "catering": "الحفلات و المناسبات"
     },
     "menu": {
-        "main_dishes": [
-            {
-                "lamb_mandi": {
-                    "title": "مندي لحم",
-                    "description": "لحم الضأن والأرز. ممزوجة بالبهارات اليمنية، مغطاة بالبصل، اللوز، الزبيب. يقدم مع صلصة حارة (السحاوق)",
-                    "mealKey": "lamb_mandi"
-                },
-                "chicken_mandi": {
-                    "title": "مندي دجاج",
-                    "description": "يتكون بشكل رئيسي من الدجاج والأرز، ممزوجة بالبهارات اليمنية مغطاة بالبصل، اللوز، الزبيب. يقدم مع صلصة حارة (السحاوق)",
-                    "mealKey": "chicken_mandi"
-                },
-                "chicken_mazbi": {
-                    "title": "مظبي دجاج",
-                    "description": "يتكون من الدجاج المشوي على الفحم ويقدم مع الأرز والصلصة الحارة (السحاوق)",
-                    "mealKey": "chicken_mazbi"
-                },
-                "lamb_haneeth": {
-                    "title": "لحم حنيذ",
-                    "description": "أرز بسمتي مطبوخ على البخار مع لحم ضأن مشوي ببطء، مملوء بالبهارات السرية مغطى بخلاط من اللوز، الزبيب والبصل، يقدم مع صلصة يمنية حارة (سحاوق)",
-                    "mealKey": "lamb_haneeth"
-                },
-                "mandi_combo": {
-                    "title": "وجبة المندي",
-                    "description": "أضف +٤٫٩٥ لطلب المندي و احصل على سلطة خضراء أو سلطة خيار باللبن مع مشروب غازي أو ماء",
-                    "mealKey": "mandi_combo"
-                },
-                "family_mix_mandi": {
-                    "title": "مندي مشكل عائلي",
-                    "description": "لحم الضأن/الدجاج والأرز. ممزوجة بالبهارات اليمنية، مغطاة بالبصل، اللوز، الزبيب. يقدم مع صلصة حارة (السحاوق)",
-                    "mealKey": "family_mix_mandi"
-                },
-                "family_mandi_lamb": {
-                    "title": "مندي لحم عائلي",
-                    "description": "يتكون بشكل رئيسي من لحم الضأن والأرز. ممزوجة بالبهارات اليمنية، مغطاة بالبصل، اللوز، و الزبيب. يقدم مع صلصة حارة (السحاوق)",
-                    "mealKey": "family_mandi_lamb"
-                },
-                "vege_motabaq": {
-                    "title": "مطبق خضار",
-                    "description": "خبز مطوي مع قطع من الخضار والبيض. يقدم مع الليمون والفلفل الأخضر",
-                    "mealKey": "vege_motabaq"
-                },
-                "fahsa": {
-                    "title": "فحسة",
-                    "description": "لحم، وثوم، وطماطم، وكمون، مع بهارات الأخرى",
-                    "mealKey": "fahsa"
-                },
-                "salta": {
-                    "title": "سلته",
-                    "description": "مرق الحلبة، الخضار والبهارات",
-                    "mealKey": "salta"
-                },
-                "lamb_pot": {
-                    "title": "صحن لحم ضأن",
-                    "description": "يتكون من مرقة اللحم مع البطاط و قطع من لحم الضأن",
-                    "mealKey": "lamb_pot"
-                },
-                "fish": {
-                    "title": "سمك تندوري",
-                    "description": "سمك تندوري مشوي يقدم مع خبز الرشوش",
-                    "mealKey": "fish"
-                },
-                "shrimp": {
-                    "title": "جمبري مشوي",
-                    "description": "جمبري مشوي يقدم مع خبز الرشوش",
-                    "mealKey": "shrimp"
-                }
-            }
-        ],
-        "breakfast": [
-            {
-                "qilabat_meat": {
-                    "title": "قلابة لحم",
-                    "description": "يتكون من لحم مقطع ومشوي، مطبوخ بالزيت والفلفل والثوم، معزز ببهارات خاصة",
-                    "mealKey": "qilabat_meat"
-                },
-                "liver": {
-                    "title": "كبدة",
-                    "description": "الكبدة بالزيت والبصل والثوم والفلفل والبهارات",
-                    "mealKey": "liver"
-                },
-                "dry_pot_beans": {
-                    "title": "فاصولياء ناشفة",
-                    "description": "فاصوليا، بصل، طماطم، ثوم، و بهارات خاصة",
-                    "mealKey": "dry_pot_beans"
-                },
-                "beans_mudara": {
-                    "title": "فاصولياء مدرة",
-                    "description": "الفاصولياء والبصل والطماطم والثوم والبهارات الخاصة تصنع في وعاء من الفخار",
-                    "mealKey": "beans_mudara"
-                },
-                "shakshouka": {
-                    "title": "بيض شكشوكة",
-                    "description": "تتكون من خليط من الخضار، البصل، الطماطم، الفلفل والبهارات بالإضافة إلى البيض",
-                    "mealKey": "shakshouka"
-                },
-                "yemeni_foul": {
-                    "title": "فول يمني",
-                    "description": "يتكون من الفول بالطحينة بالإضافة إلى الخضار والطماطم والثوم",
-                    "mealKey": "yemeni_foul"
-                },
-                "tuna_with_peas": {
-                    "title": "بازيلا تونه",
-                    "description": "تونة، بازلاء، بصل، ثوم، معجون طماطم و بهارات خاصة",
-                    "mealKey": "tuna_with_peas"
-                }
-            }
-        ],
-        "entrées": [
-            {
-                "maraq": {
-                    "title": "مرقة لحم",
-                    "description": "يقدم مع شرائح طازجة من الليمون",
-                    "mealKey": "maraq"
-                },
-                "oat_soup": {
-                    "title": "شوربة",
-                    "description": "تتكون من مرق الطماطم الخفيف المتبل مع الشوفان المطبوخ فيه",
-                    "mealKey": "oat_soup"
-                },
-                "signature_salad": {
-                    "title": "سلطة خضراء",
-                    "description": "تتكون من خس، خيار، طماطم، وخل الليمون",
-                    "mealKey": "signature_salad"
-                },
-                "cucumber_yogurt_salad": {
-                    "title": "سلطة خيار باللبن",
-                    "description": "يُضاف الخيار المفروم إلى اللبن الرائب، والثوم، والنعناع، والملح",
-                    "mealKey": "cucumber_yogurt_salad"
-                },
-                "tabeekh": {
-                    "title": "إيدام خضار",
-                    "description": "خضروات يمنية مطهية، بطاطا، جزر، وباذنجان مطهية في مرق الطماطم المليئة بالعناصر الغذائية",
-                    "mealKey": "tabeekh"
-                },
-                "lentil_soup": {
-                    "title": "شوربة عدس",
-                    "description": "تتكون شوربة العدس من العدس المشوي مع إضافة البصل والبهارات والكزبرة والبقدونس",
-                    "mealKey": "lentil_soup"
-                },
-                "okra_soup": {
-                    "title": "بامية",
-                    "description": "بذور البامية مع الطماطم والثوم تضاف إلى المرق والبهارات",
-                    "mealKey": "okra_soup"
-                },
-                "mulukhiyah_soup": {
-                    "title": "ملوخية",
-                    "description": "أوراق الملوخية الناعمة مع المرق والثوم والكزبرة",
-                    "mealKey": "mulukhiyah_soup"
-                },
-                "tabbouleh": {
-                    "title": "تبولة",
-                    "description": "تتكون من البرغل الناعم والدارسى والبصل والخيار والليمون والطماطم والنعناع وزيت الزيتون",
-                    "mealKey": "tabbouleh"
-                },
-                "fattoush": {
-                    "title": "فاتووش",
-                    "description": "قطع من الخبز المحمص مع خليط متجانس من الخضار، خيار الطماطم، والفجل",
-                    "mealKey": "fattoush"
-                },
-                "hummus": {
-                    "title": "حمص",
-                    "description": "حمص، طحينة، ليمون، ثوم وفلفل حار",
-                    "mealKey": "hummus"
-                }
-            }
-        ],
-        "desserts": [
-            {
-                "maasoub": {
-                    "title": "معصوب",
-                    "description": "يتكون من الموز الناضج، والخبز المفروم والقشدة مغطاة بالعسل و يضاف إليه الحبة السوداء",
-                    "mealKey": "maasoub"
-                },
-                "hareesa": {
-                    "title": "حلاوة الهريسة اليمنية",
-                    "description": "حلوى يمنية شعبية تحتوي على المكسرات. (٢٥٠ جرام)",
-                    "mealKey": "hareesa"
-                },
-                "date_fattah": {
-                    "title": "فتة تمر",
-                    "description": "تتكون من تمر مخلوط بالدقيق. الزبدة والزيت النباتي. و يضاف إليه الحبة السوداء",
-                    "mealKey": "date_fattah"
-                },
-                "baklava": {
-                    "title": "بقلاوة شامية",
-                    "mealKey": "baklava"
-                },
-                "knafeh": {
-                    "title": "كنافة",
-                    "description": "معجنات مغزولة، شراب السكر، وطبقات من الجبن",
-                    "knafeh": "knafeh"
-                }
-            }
-        ],
-        "drinks": [
-            {
-                "adani_tea": {
-                    "title": "شاي عدني",
-                    "description": "الشاي الأسود مع الحليب و البهارات اليمنية",
-                    "mealKey": "adani_tea"
-                },
-                "red_tea": {
-                    "title": "شاي أحمر",
-                    "description": "تذوب أوراق الشاي في الماء والسكر والنعناع",
-                    "mealKey": "red_tea"
-                },
-                "turkish_coffee": {
-                    "title": "قهوة تركية",
-                    "description": "تتكون من البن المحمصة المذابة والمركزة في الماء المغلي",
-                    "mealKey": "turkish_coffee"
-                },
-                "black_coffee": {
-                    "title": "قهوة سوداء",
-                    "description": "تتكون من حبوب البن المحمصة والمطحونة في الماء",
-                    "mealKey": "black_coffee"
-                },
-                "orange_juice": {
-                    "title": "عصير برتقال",
-                    "description": "برتقال طازجة معصورة",
-                    "mealKey": "orange_juice"
-                },
-                "lemon_juice": {
-                    "title": "عصير ليمون",
-                    "description": "شرائح ليمون ونعناع طازجة",
-                    "mealKey": "lemon_juice"
-                },
-                "mango_juice": {
-                    "title": "عصير مانجو",
-                    "description": "مانجو طازجة معصورة",
-                    "mealKey": "mango_juice"
-                },
-                "signature_cocktail": {
-                    "title": "عصير عرايسي",
-                    "description": "خليط أو مانجو، تفاح، موز، معجون التمر، حليب مركز و حلاوة طحينية",
-                    "mealKey": "signature_cocktail"
-                },
-                "ayran": {
-                    "title": "لبن عيران",
-                    "description": "مشروب زبادي بارد ومالح يتكون من الزبادي والماء",
-                    "mealKey": "ayran"
-                },
-                "soft_drinks": {
-                    "title": "مشروب غازي",
-                    "mealKey": "soft_drinks"
-                },
-                "water": {
-                    "title": "ماء",
-                    "mealKey": "water"
-                }
-            }
-        ],
-        "extras": [
-            {
-                "sahawiq": {
-                    "title": "شطة سحاوق",
-                    "description": "يتكون من الطماطم و الفلفل الحار مضاف اليه بعض البهارات",
-                    "mealKey": "sahawiq"
-                },
-                "raisins": {
-                    "title": "زبيب مشكل",
-                    "mealKey": "raisins"
-                },
-                "thin_sliced_almonds": {
-                    "title": "شرائح لوز رفيعة",
-                    "mealKey": "thin_sliced_almonds"
-                },
-                "mandi_rice": {
-                    "title": "رز مندي",
-                    "description": "أرز مندي، مغطى بالبصل، اللوز والزبيب",
-                    "mealKey": "mandi_rice"
-                },
-                "white_basmati_rice": {
-                    "title": "رز أبيض بسمتي",
-                    "mealKey": "white_basmati_rice"
-                },
-                "yemeni_roti": {
-                    "title": "خبز روتي يمني",
-                    "description": "خليط الدقيق والحليب والفانيليا والبيض",
-                    "mealKey": "yemeni_roti"
-                },
-                "rashoosh_bread": {
-                    "title": "خبز رشوش",
-                    "description": "خليط الدقيق مع الزبدة و الحبة السوداء",
-                    "mealKey": "rashoosh_bread"
-                },
-                "cheese_hot_sauce": {
-                    "title": "سحاوق جبن حارة",
-                    "description": "يتكون من الطماطم و الجبن مع الفلفل الحار مضاف اليه بعض البهارات",
-                    "mealKey": "cheese_hot_sauce"
-                }
-            }
-        ],
-        "burrito": [
-            {
-                "mandi_chicken_burrito": {
-                    "title": "بوريتو مندي دجاج",
-                    "description": "مزيج متناغم من مندي الدجاج اليمني والذوق المكسيكي. هذه البهجة الملفوفة في خبز التورتيلا، تحتوي على أرز بسمتي مندي العطر، دجاج مندي عصاري، ذرة حلوة، بصل إسباني، طماطم طرية، و. ما يميزها هو صلصتنا الخاصة محلية الصنع - وهي إضافة لذيذة ترفع من مستوى كل قضمة",
-                    "mealKey": "mandi_chicken_burrito"
-                },
-                "mandi_lamb_burrito": {
-                    "title": "بوريتو مندي لحم الضأن",
-                    "description": "مزيج متناغم من لحم الضأن اليمني والمندي والذوق المكسيكي. هذه البهجة الملفوفة في خبز التورتيلا، تحتوي على أرز بسمتي مندي العطر، دجاج مندي عصاري، ذرة حلوة، بصل إسباني، طماطم طرية، و. ما يميزها هو صلصتنا الخاصة محلية الصنع - وهي إضافة لذيذة ترفع من مستوى كل قضمة",
-                    "mealKey": "mandi_lamb_burrito"
-                },
-                "shrimp_burrito": {
-                    "title": "بوريتو الروبيان",
-                    "description": "مزيج متناغم من مندي الروبيان اليمني والذوق المكسيكي. هذه البهجة الملفوفة في خبز التورتيلا، تحتوي على أرز بسمتي مندي العطر، دجاج مندي عصاري، ذرة حلوة، بصل إسباني، طماطم طرية، و. ما يميزها هو صلصتنا الخاصة محلية الصنع - وهي إضافة لذيذة ترفع من مستوى كل قضمة",
-                    "mealKey": "shrimp_burrito"
-                }
-            }
-        ]
+        "traditional_dishes": {
+      "oat_soup": {
+        "title": "شوربة الشوفان",
+        "description": "شوربة كريمية مصنوعة من الشوفان والتوابل الخفيفة",
+        "mealKey": "oat_soup"
+      },
+      "signature_salad": {
+        "title": "سلطة خضراء",
+        "description": "خضروات مشكلة طازجة مع الخيار والطماطم وتتبيلة خفيفة",
+        "mealKey": "signature_salad"
+      },
+      "tabeekh": {
+        "title": "طبيخ",
+        "description": "خضروات مطهية، بطاطس، جزر وكوسا في صلصة طماطم",
+        "mealKey": "tabeekh"
+      },
+      "cucumber_yogurt_salad": {
+        "title": "سلطة الزبادي بالخيار",
+        "description": "زبادي بارد وكريمي مع خيار ونعناع وثوم",
+        "mealKey": "cucumber_yogurt_salad"
+      },
+      "maraq": {
+        "title": "مرق",
+        "description": "مرق يمني غني بالنكهات وممزوج بالأعشاب والتوابل",
+        "mealKey": "maraq"
+      },
+      "hummus": {
+        "title": "حمص",
+        "description": "حمص، طحينة، ليمون، ثوم وفلفل حار، يُقدم مع خبز البيتا",
+        "mealKey": "hummus"
+      },
+      "fattoush": {
+        "title": "فتوش",
+        "description": "سلطة على الطريقة الشامية مع رقائق خبز البيتا المحمصة والسماق وخضروات طازجة",
+        "mealKey": "fattoush"
+      },
+      "mulukhiyah_soup": {
+        "title": "شوربة الملوخية",
+        "description": "أوراق الملوخية المطهية مع المرق والثوم والكزبرة",
+        "mealKey": "mulukhiyah_soup"
+      },
+      "okra_soup": {
+        "title": "شوربة البامية",
+        "description": "بامية مع طماطم وثوم ومرق وتوابل",
+        "mealKey": "okra_soup"
+      },
+      "lentil_soup": {
+        "title": "شوربة العدس",
+        "description": "شهية وغنية بالنكهات، مصنوعة من العدس والتوابل اليمنية",
+        "mealKey": "lentil_soup"
+      }
     },
-    "price": {
+    "main_dishes": {
+      "fahsa": {
+        "title": "فحسة",
+        "description": "يخنة لحم مفروم مطهو ببطء مع رغوة الحلبة تُقدم مع خبز البيتا",
+        "mealKey": "fahsa"
+      },
+      "qilabat_meat": {
+        "title": "قلابة لحم",
+        "description": "لحم مكعب مطهو ببطء ومتبل بالتوابل اليمنية يُقدم مع خبز البيتا",
+        "mealKey": "qilabat_meat"
+      },
+      "liver": {
+        "title": "كبدة",
+        "description": "كبدة مقلية مع توابل عطرية تُقدم مع خبز البيتا",
+        "mealKey": "liver"
+      },
+      "dry_pot_beans": {
+        "title": "فاصوليا ناشف",
+        "description": "فاصوليا مطهية مع توابل يمنية وبصل وطماطم تُقدم مع خبز البيتا",
+        "mealKey": "dry_pot_beans"
+      },
+      "beans_mudara": {
+        "title": "فول مدارة",
+        "description": "فول مطهو ببطء مع ثوم وكمون وزيت زيتون يُقدم مع خبز البيتا (الطحينية اختيارية)",
+        "mealKey": "beans_mudara"
+      },
+      "shakshouka": {
+        "title": "شكشوكة",
+        "description": "بيض مخفوق مع طماطم وفلفل وتوابل يُقدم مع خبز البيتا",
+        "mealKey": "shakshouka"
+      },
+      "yemeni_foul": {
+        "title": "فول يمني",
+        "description": "فول مع طحينية وخضروات وطماطم وثوم",
+        "mealKey": "yemeni_foul"
+      },
+      "salta": {
+        "title": "سلتة",
+        "description": "يخنة يمنية تقليدية بالخضار واللحم وصلصة الحلبة الحارة تُقدم مع خبز البيتا",
+        "mealKey": "salta"
+      },
+      "lamb_pot": {
+        "title": "طاجن لحم",
+        "description": "مرق لحم مع بطاطس وقطع لحم مطهوة",
+        "mealKey": "lamb_pot"
+      }
+    },
+    "mandi_haneeth_selections": {
+      "lamb_mandi": {
+        "title": "مندي لحم",
+        "description": "طبق أرز معطر بالتوابل اليمنية، مغطى بالبصل المقلي واللوز والزبيب، ويُقدم مع صلصة الحارة (سحاوق)",
+        "mealKey": "lamb_mandi"
+      },
+      "chicken_mandi": {
+        "title": "مندي دجاج",
+        "description": "دجاج طري مطهو ببطء مع أرز عطري وتوابل يمنية، مغطى بالبصل المقلي واللوز والزبيب ويُقدم مع سحاوق",
+        "mealKey": "chicken_mandi"
+      },
+      "lamb_haneeth": {
+        "title": "لحم حنيذ",
+        "description": "لحم حنيذ مطهو ببطء يُقدم فوق أرز بسمتي مطهو بالبخار مع التوابل اليمنية، مغطى باللوز والزبيب",
+        "mealKey": "lamb_haneeth"
+      },
+      "family_mix_mandi": {
+        "title": "مندي عائلي مشكل",
+        "description": "خليط سخي من مندي وحنيذ اللحم والدجاج فوق أرز يمني متبل، مغطى بالبصل المقلي واللوز والزبيب مع سحاوق",
+        "mealKey": "family_mix_mandi"
+      },
+      "family_mandi_lamb": {
+        "title": "مندي لحم عائلي",
+        "description": "طبق أرز معطر بالتوابل اليمنية، مغطى بالبصل المقلي واللوز والزبيب، ويُقدم مع سحاوق الخاص بنا",
+        "mealKey": "family_mandi_lamb"
+      }
+    },
+    "burrito": {
+      "mandi_chicken_burrito": {
+        "title": "بريتو مندي دجاج",
+        "description": "مزيج من النكهات اليمنية والمكسيكية تورتيلا دافئة محشوة بدجاج مندي وأرز وذرة حلوة وبصل مقلي وطماطم وخس ومغطاة بصوص البريتو",
+        "mealKey": "mandi_chicken_burrito"
+      },
+      "mandi_lamb_burrito": {
+        "title": "بريتو مندي لحم",
+        "description": "مزيج من النكهات اليمنية والمكسيكية تورتيلا دافئة محشوة بلحم مندي وأرز وذرة حلوة وبصل مقلي وطماطم وخس ومغطاة بصوص البريتو",
+        "mealKey": "mandi_lamb_burrito"
+      },
+      "shrimp_burrito": {
+        "title": "بريتو روبيان",
+        "description": "مزيج من النكهات اليمنية والمكسيكية تورتيلا دافئة محشوة بروبيان وأرز مندي وذرة حلوة وبصل مقلي وطماطم وخس ومغطاة بصوص البريتو",
+        "mealKey": "shrimp_burrito"
+      }
+    },
+    "desserts": {
+      "maasoub": {
+        "title": "معصوب",
+        "description": "خبز مفروم مع الموز مغطى بكريمة القشطة و حبة البركة و العسل",
+        "mealKey": "maasoub"
+      },
+      "areeka": {
+        "title": "عريكة",
+        "description": "خبز مفروم مع التمر مغطى بكريمة القشطة و حبة البركة و اللوز والعسل",
+        "mealKey": "areeka"
+      },
+      "date_fattah": {
+        "title": "فتة تمر",
+        "description": "خبز مفروم مع التمر و العسل",
+        "mealKey": "date_fattah"
+      },
+      "baklava": {
+        "title": "بقلاوة",
+        "description": "",
+        "mealKey": "baklava"
+      },
+      "knafeh": {
+        "title": "كنافة",
+        "description": "عجينة كنافة مع قطر محلى ومغطاة بالجبنة",
+        "mealKey": "knafeh"
+      }
+    },
+    "drinks": {
+        "adani_tea": {
+            "title": "شاي عدني",
+            "description": "شاي أسود بالحليب محضر بتوابل يمنية",
+            "mealKey": "adani_tea"
+        },
+        "red_tea": {
+            "title": "شاي أحمر",
+            "description": "أوراق شاي مذابة في الماء مع السكر والنعناع",
+            "mealKey": "red_tea"
+        },
+        "ayran": {
+            "title": "عيران",
+            "description": "مشروب بارد مالح مكون من اللبن والماء",
+            "mealKey": "ayran"
+        },
+        "soft_drinks": {
+            "title": "مشروبات غازية",
+            "mealKey": "soft_drinks"
+        },
+        "water": {
+            "title": "ماء",
+            "mealKey": "water"
+        },
+        "turkish_coffee": {
+            "title": "قهوة تركية",
+            "description": "حبوب قهوة محمصة ومطحونة مذابة في ماء مغلي",
+            "mealKey": "turkish_coffee"
+        },
+        "black_coffee": {
+            "title": "قهوة سوداء",
+            "description": "حبوب قهوة محمصة ومطحونة مذابة في الماء",
+            "mealKey": "black_coffee"
+        },
+        "lemon_juice": {
+            "title": "عصير ليمون",
+            "description": "عصير ليمون طازج مع شرائح نعناع",
+            "mealKey": "lemon_juice"
+        },
+        "mango_juice": {
+            "title": "عصير مانجو",
+            "description": "عصير مانجو طازج",
+            "mealKey": "mango_juice"
+        },
+        "signature_cocktail": {
+            "title": "كوكتيل مميز",
+            "description": "مزيج من المانجو والتفاح والموز ومعجون التمر وحليب مركز وحلاوة",
+            "mealKey": "signature_cocktail"
+        }
+    },
+    "sea_foods": {
+      "tuna_salta": {
+        "title": "سلتة التونة",
+        "description": "نسخة بحرية من سلتة تحتوي على تونة طازجة في صلصة غنية حارة تُقدم مع خبز البيتا",
+        "mealKey": "tuna_salta"
+      },
+      "shrimp": {
+        "title": "روبيان مشوي",
+        "description": "يخنة روبيان غنية بالنكهة تُقدم ساخنة في طاجن مع خبز رشوش",
+        "mealKey": "shrimp"
+      },
+      "fish": {
+        "title": "سمك تندوري",
+        "description": "سمك مشوي ومتبّل بالتوابل ويُقدم مع رشوش بالجبن وسحاوق",
+        "mealKey": "fish"
+      }
+    },
+    "extras": {
+      "sahawiq": {
+        "title": "سحاوق",
+        "description": "طماطم وفلفل حار مع توابل مضافة",
+        "mealKey": "sahawiq"
+      },
+      "raisins": {
+        "title": "زبيب مشكل",
+        "description": "",
+        "mealKey": "raisins"
+      },
+      "thin_sliced_almonds": {
+        "title": "لوز مقطع رفيع",
+        "description": "",
+        "mealKey": "thin_sliced_almonds"
+      },
+      "extra_chicken": {
+        "title": "دجاج إضافي",
+        "description": "",
+        "mealKey": "extra_chicken"
+      },
+      "extra_lamb": {
+        "title": "لحم إضافي",
+        "description": "",
+        "mealKey": "extra_lamb"
+      },
+      "mandi_rice": {
+        "title": "أرز مندي",
+        "description": "أرز مندي مغطى بالبصل واللوز والزبيب",
+        "mealKey": "mandi_rice"
+      },
+      "fried_onion": {
+        "title": "بصل مقلي",
+        "description": "",
+        "mealKey": "fried_onion"
+      },
+      "rashoosh_bread": {
+        "title": "خبز رشوش",
+        "description": "طحين مع زبدة وحبة البركة",
+        "mealKey": "rashoosh_bread"
+      },
+      "pita_bread": {
+        "title": "خبز بيتا",
+        "description": "",
+        "mealKey": "pita_bread"
+      },
+      "cheese_hot_sauce": {
+        "title": "صلصة جبن حارة",
+        "description": "طماطم وجبن وفلفل حار مع بعض التوابل المضافة",
+        "mealKey": "cheese_hot_sauce"
+      },
+      "honey": {
+        "title": "عسل",
+        "description": "",
+        "mealKey": "honey"
+      }
+    },
+    "catering": {
+        "catering_mandi_lamb": {
+            "title": "مندي لحم",
+            "description": "طبق أرز معطر بالتوابل اليمنية، مغطى بالبصل المقلي واللوز والزبيب، ويُقدّم مع صلصتنا الحارة المميزة (سحاوق)",
+            "mealKey": "catering_mandi_lamb"
+        }
+    }
+  },
+  "price": {
         "small": "صغير",
         "large": "كبير",
         "single_price": "وجبة سنجل",
@@ -389,7 +382,16 @@
         "small_person": "صغير (يكفي ٢-٣ أشخاص)",
         "large_person": "كبير (يكفي ٤-٥ أشخاص)",
         "sandwich_price": "سعر الساندويتش",
-        "combo_price": "أضف للوجبة"
+        "combo_price": "أضف للوجبة",
+        "single_piece": "سنجل",
+        "double_pieces": "دبل",
+        "qaurter_price": "ربع",
+        "half_price": "نصف",
+        "quarter_lamb": "ربع خروف",
+        "half_lamb": "نصف خروف",
+        "whole_lamb": "خروف كامل",
+        "cup": "كوب",
+        "large_pot": "إبريق كبير"
     },
     "form": {
         "name": "الاسم",

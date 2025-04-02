@@ -54,326 +54,93 @@
     },
     "category": {
         "breakfast": "All Day Breakfast",
-        "main_dishes": "Main Dishes",
+        "traditional_dishes": "Traditional Yemeni Delicacies",
+        "main_dishes": "Main Course",
+        "mandi_haneeth_selections": "Mandi & Haneeth Selections",
+        "sea_foods": "Seafood Specials",
         "entrées": "Entrées",
         "desserts": "Desserts",
         "drinks": "Drinks",
         "extras": "Extras",
-        "burrito": "Burrito"
+        "burrito": "Burrito",
+        "catering": "Catering"
     },
     "menu": {
-        "main_dishes": [
-            {
-                "lamb_mandi": {
-                    "title": "Lamb Mandi",
-                    "description": "Lamb and rice. Blended with Yemeni spices, topped with onions, almonds, raisins. Served with hot sauce (sahawiq)",
-                    "mealKey": "lamb_mandi"
-                },
-                "chicken_mandi": {
-                    "title": "Chicken Mandi",
-                    "description": "Chicken and rice. Blended with Yemeni spices, topped with onions, almonds, and raisins. Served with hot sauce (sahawiq)",
-                    "mealKey": "chicken_mandi"
-                },
-                "chicken_mazbi": {
-                    "title": "Chicken Mazbi",
-                    "description": "Consists of stone-grilled chicken served with rice and hot sauce (sahawiq)",
-                    "mealKey": "chicken_mazbi"
-                },
-                "lamb_haneeth": {
-                    "title": "Slow Roasted Lamb (Haneeth)",
-                    "description": "Steam cooked basmati rice with slow roasted lamb, infused with secret spices topped with a mixer of almond, raisins and onion, served with yemeni hot sauce (sahawiq)",
-                    "mealKey": "lamb_haneeth"
-                },
-                "mandi_combo": {
-                    "title": "Mandi combo",
-                    "description": "Add +4.95$ to your mandi order and get a side (Green Salad or Cucumber yogurt salad) with a drink (Soft drink/water)",
-                    "mealKey": "mandi_combo"
-                },
-                "family_mix_mandi": {
-                    "title": "Family Mix Mandi",
-                    "description": "Lamb/chicken and rice. Blended with Yemeni spices, topped with onions, almonds, raisins. Served with hot sauce (sahawiq)",
-                    "mealKey": "family_mix_mandi"
-                },
-                "family_mandi_lamb": {
-                    "title": "Family Mandi Lamb",
-                    "description": "Consists of Lamb and rice. Blended with Yemeni Spices, topped with onions, almond, raisins. Served with hot sauce (sahawiq)",
-                    "mealKey": "family_mandi_lamb"
-                },
-                "vege_motabaq": {
-                    "title": "Arabian Quesadilla Vegetables (Murtabak)",
-                    "description": "Consists of folded bread with bits of vegetables and eggs. Served with lemon and green pepper",
-                    "mealKey": "vege_motabaq"
-                },
-                "fahsa": {
-                    "title": "Fahsa",
-                    "description": "Consists of pieces of meat, garlic, tomatoes, cumin and other spices",
-                    "mealKey": "fahsa"
-                },
-                "salta": {
-                    "title": "Salta",
-                    "description": "Fenugreek broth, vegetable and spices",
-                    "mealKey": "salta"
-                },
-                "lamb_pot": {
-                    "title": "Lamb Pot",
-                    "description": "Consists of lamb broth, potato and lamb pieces",
-                    "mealKey": "lamb_pot"
-                },
-                "fish": {
-                    "title": "Tandoori Fish",
-                    "description": "Tandoori grilled fish served with Rashoosh Bread",
-                    "mealKey": "fish"
-                },
-                "shrimp": {
-                    "title": "Grilled shrimp",
-                    "description": "Grilled shrimp served with Rashoosh Bread",
-                    "mealKey": "shrimp"
-                }
-            }
-        ],
-        "breakfast": [
-            {
-                "qilabat_meat": {
-                    "title": "Qilabat Meat",
-                    "description": "Consists of cubed and roasted meat, cooked with oil, pepper, and garlic, enhanced with special spices",
-                    "mealKey": "qilabat_meat"
-                },
-                "liver": {
-                    "title": "Liver",
-                    "description": "Liver with oil, onions, garlic, pepper, and spices",
-                    "mealKey": "liver"
-                },
-                "dry_pot_beans": {
-                    "title": "Dry/Pot beans",
-                    "description": "Beans, onions tomatoes garlic, and special spices",
-                    "mealKey": "dry_pot_beans"
-                },
-                "beans_mudara": {
-                    "title": "Beans Mudara",
-                    "description": "Beans, onions tomato garlic, and special spices made a clay pot",
-                    "mealKey": "beans_mudara"
-                },
-                "shakshouka": {
-                    "title": "Shakshouka",
-                    "description": "Yemeni spices scrambled eggs",
-                    "mealKey": "shakshouka"
-                },
-                "yemeni_foul": {
-                    "title": "Yemeni Foul",
-                    "description": "Consists of fava beans with tahini, in addition to vegetables, tomatoes and garlic",
-                    "mealKey": "yemeni_foul"
-                },
-                "tuna_with_peas": {
-                    "title": "Tuna with peas",
-                    "description": "Tuna, peans, onions, garlic, tomato paste and special spices",
-                    "mealKey": "tuna_with_peas"
-                }
-            }
-        ],
-        "entrées": [
-            {
-                "maraq": {
-                    "title": "Lamb Broth",
-                    "description": "Served with fresh slices of lemon or lime",
-                    "mealKey": "maraq"
-                },
-                "oat_soup": {
-                    "title": "Oat Soup",
-                    "description": "Consists of a spiced light tomato broth, with cooked oats in it",
-                    "mealKey": "oat_soup"
-                },
-                "signature_salad": {
-                    "title": "Green Salad",
-                    "description": "Consists of lettuce, cucumbers, tomatoes, and lemon vinaigrette",
-                    "mealKey": "signature_salad"
-                },
-                "cucumber_yogurt_salad": {
-                    "title": "Cucumber yogurt salad",
-                    "description": "Chopped cucumbers added to curd, garlic, mint, and salt",
-                    "mealKey": "cucumber_yogurt_salad"
-                },
-                "tabeekh": {
-                    "title": "Vegetable Mix Stew",
-                    "description": "Yemeni stewed vegetables potatoes, carrots, and eggplant simmered in tomato gravy packed with nutrients",
-                    "mealKey": "tabeekh"
-                },
-                "lentil_soup": {
-                    "title": "Lentil Soup",
-                    "description": "Consists of roasted lentils with onions, spices, coriander, and parsley added to it",
-                    "mealKey": "lentil_soup"
-                },
-                "okra_soup": {
-                    "title": "Okra Soup",
-                    "description": "Okra seeds with tomatoes and garlic added to broth and spices",
-                    "mealKey": "okra_soup"
-                },
-                "mulukhiyah_soup": {
-                    "title": "Mulukhiyah Soup",
-                    "description": "Soft mallow leaves, with broth, garlic, and coriander",
-                    "mealKey": "mulukhiyah_soup"
-                },
-                "tabbouleh": {
-                    "title": "Tabbouleh",
-                    "description": "Consists of fine bulgur, Darsie, onions, cucumbers, lemons, tomatoes, mint and olive oil",
-                    "mealKey": "tabbouleh"
-                },
-                "fattoush": {
-                    "title": "Fattoush",
-                    "description": "Pieces of toasted bread with a homogeneous mixture of vegetables, tomato cucumbers, and radishes",
-                    "mealKey": "fattoush"
-                },
-                "hummus": {
-                    "title": "Hummus",
-                    "description": "Chickpeas, tahini, lemon, garlic, and hot pepper",
-                    "mealKey": "hummus"
-                }
-            }
-        ],
-        "desserts": [
-            {
-                "maasoub": {
-                    "title": "Ma'asoub",
-                    "description": "Overripe bananas, ground flatbread, cream, and topped with honey",
-                    "mealKey": "maasoub"
-                },
-                "hareesa": {
-                    "title": "Hareesa",
-                    "description": "Contains nuts. (250g)",
-                    "mealKey": "hareesa"
-                },
-                "date_fattah": {
-                    "title": "Date Fattah",
-                    "description": "Dates mixed with flour, butter, vegetable oil, and black seeds",
-                    "mealKey": "date_fattah"
-                },
-                "baklava": {
-                    "title": "Baklava",
-                    "mealKey": "baklava"
-                },
-                "knafeh": {
-                    "title": "Künafe",
-                    "description": "Spun pastry, sugar syrup, and layered with cheese",
-                    "knafeh": "knafeh"
-                }
-            }
-        ],
-        "drinks": [
-            {
-                "adani_tea": {
-                    "title": "Adani Tea",
-                    "description": "Black Tea with Milk. Made with Yemeni Spices",
-                    "mealKey": "adani_tea"
-                },
-                "red_tea": {
-                    "title": "Red Tea",
-                    "description": "Tea leaves dissolve in water, sugar, and mint",
-                    "mealKey": "red_tea"
-                },
-                "turkish_coffee": {
-                    "title": "Turkish Coffee",
-                    "description": "Roasted coffee beans dissolved and concentrated with boiling water",
-                    "mealKey": "turkish_coffee"
-                },
-                "black_coffee": {
-                    "title": "Black Coffee",
-                    "description": "Roasted and ground coffee beans dissolve in water",
-                    "mealKey": "black_coffee"
-                },
-                "orange_juice": {
-                    "title": "Orange Juice",
-                    "description": "Fresh squeezed orange",
-                    "mealKey": "orange_juice"
-                },
-                "lemon_juice": {
-                    "title": "lemon Juice",
-                    "description": "Freshly squeezed lemon and mint slices",
-                    "mealKey": "lemon_juice"
-                },
-                "mango_juice": {
-                    "title": "Mango Juice",
-                    "description": "Fresh squeezed mango",
-                    "mealKey": "mango_juice"
-                },
-                "signature_cocktail": {
-                    "title": "Signature Cocktail",
-                    "description": "A mixture or mango, apple, banana, date paste concentrated milk and halva",
-                    "mealKey": "signature_cocktail"
-                },
-                "ayran": {
-                    "title": "Ayran",
-                    "description": "A cold savory yogurt-based beverage of yogurt and water",
-                    "mealKey": "ayran"
-                },
-                "soft_drinks": {
-                    "title": "Soft Drinks",
-                    "mealKey": "soft_drinks"
-                },
-                "water": {
-                    "title": "Water",
-                    "mealKey": "water"
-                }
-            }
-        ],
-        "extras": [
-            {
-                "sahawiq": {
-                    "title": "Sahawiq",
-                    "description": "Tomatoes and hot peppers, with some spices added",
-                    "mealKey": "sahawiq"
-                },
-                "raisins": {
-                    "title": "Mixed Raisins",
-                    "mealKey": "raisins"
-                },
-                "thin_sliced_almonds": {
-                    "title": "Thin Sliced Almonds",
-                    "mealKey": "thin_sliced_almonds"
-                },
-                "mandi_rice": {
-                    "title": "Mandi Rice",
-                    "description": "Mandi rice, topped with onions, almond and raisins",
-                    "mealKey": "mandi_rice"
-                },
-                "white_basmati_rice": {
-                    "title": "White Basmati Rice",
-                    "mealKey": "white_basmati_rice"
-                },
-                "yemeni_roti": {
-                    "title": "Yemeni Roti",
-                    "description": "Mixture of flour, milk, vanilla, and eggs",
-                    "mealKey": "yemeni_roti"
-                },
-                "rashoosh_bread": {
-                    "title": "Rashoosh Bread",
-                    "description": "Flour with butter and black seeds",
-                    "mealKey": "rashoosh_bread"
-                },
-                "cheese_hot_sauce": {
-                    "title": "Cheese hot sauce",
-                    "description": "Tomatoes, cheese and hot peppers, with some spices added",
-                    "mealKey": "cheese_hot_sauce"
-                }
-            }
-        ],
-        "burrito": [
-            {
-                "mandi_chicken_burrito": {
-                    "title": "Chicken mandi burrito",
-                    "description": "A harmonious fusion of Yemeni Chicken Mandi and Mexican flair. This delight wrapped in a tortilla, boasts fragrant Basmati Mandi rice, succulent Mandi chicken, sweet corn, Spanish onions, juicy tomatoes, and a. What sets it apart is our special homemade sauce—a delectable addition that elevates every bite.",
-                    "mealKey": "mandi_chicken_burrito"
-                },
-                "mandi_lamb_burrito": {
-                    "title": "Lamb mandi burrito",
-                    "description": "A harmonious fusion of Yemeni Lamb Mandi and Mexican flair. This delight wrapped in a tortilla, boasts fragrant Basmati Mandi rice, succulent Mandi chicken, sweet corn, Spanish onions, juicy tomatoes, and a. What sets it apart is our special homemade sauce—a delectable addition that elevates every bite",
-                    "mealKey": "mandi_lamb_burrito"
-                },
-                "shrimp_burrito": {
-                    "title": "Shrimp burrito",
-                    "description": "A harmonious fusion of Yemeni shrimp Mandi and Mexican flair. This delight wrapped in a tortilla, boasts fragrant Basmati Mandi rice, succulent Mandi chicken, sweet corn, Spanish onions, juicy tomatoes, and a. What sets it apart is our special homemade sauce—a delectable addition that elevates every bite",
-                    "mealKey": "shrimp_burrito"
-                }
-            }
-        ]
+        "traditional_dishes": {
+            "oat_soup": { "title": "Oat Soup", "description": "A comforting, creamy soup made with oats and mild spices.", "mealKey": "oat_soup" },
+            "signature_salad": { "title": "Green Salad", "description": "Fresh mixed greens with cucumbers, tomatoes, and a light dressing.", "mealKey": "signature_salad" },
+            "tabeekh": { "title": "Vegetable Mix Stew", "description": "Stewed vegetables, potatoes, carrots, and zucchini in tomato sauce.", "mealKey": "tabeekh" },
+            "cucumber_yogurt_salad": { "title": "Cucumber Yogurt Salad", "description": "Cool and creamy yogurt mixed with cucumbers, mint, and garlic.", "mealKey": "cucumber_yogurt_salad" },
+            "maraq": { "title": "Maraq", "description": "A rich and flavourful Yemeni broth infused with herbs and spices.", "mealKey": "maraq" },
+            "hummus": { "title": "Hummus", "description": "Chickpeas, tahini, lemon, garlic, and hot pepper, served with pita bread.", "mealKey": "hummus" },
+            "fattoush": { "title": "Fattoush", "description": "A Levantine-style salad with crispy pita chips, sumac, and fresh vegetables.", "mealKey": "fattoush" },
+            "mulukhiyah_soup": { "title": "Mulukhiyah Soup", "description": "Soft mallow leaves with broth, garlic, and coriander.", "mealKey": "mulukhiyah_soup" },
+            "okra_soup": { "title": "Okra Soup", "description": "Okra with tomatoes, garlic, broth, and spices.", "mealKey": "okra_soup" },
+            "lentil_soup": { "title": "Lentil Soup", "description": "Hearty and flavourful, made with lentils and aromatic Yemeni spices.", "mealKey": "lentil_soup" }
+        },
+        "main_dishes": {
+            "fahsa": { "title": "Fahsa", "description": "Slow-cooked shredded beef stew with fenugreek foam, served with pita bread.", "mealKey": "fahsa" },
+            "qilabat_meat": { "title": "Qilabat Meat", "description": "Tender, slow-cooked Yemeni spiced cubed meat served with pita bread.", "mealKey": "qilabat_meat" },
+            "liver": { "title": "Liver", "description": "Sautéed liver with aromatic spices, served with pita bread.", "mealKey": "liver" },
+            "dry_pot_beans": { "title": "Fasolia Nashif", "description": "Sautéed fava beans with Yemeni spices, onions, and tomatoes. Served with pita bread.", "mealKey": "dry_pot_beans" },
+            "beans_mudara": { "title": "Fava Beans (Foule) Mudara", "description": "Slow-cooked fava beans seasoned with garlic, cumin, and olive oil. Served with pita bread. Tahini optional.", "mealKey": "beans_mudara" },
+            "shakshouka": { "title": "Shakshouka", "description": "Scrambled eggs with tomatoes, peppers, and spices, served with pita bread.", "mealKey": "shakshouka" },
+            "yemeni_foul": { "title": "Yemeni Foule", "description": "Consists of fava beans with tahini, in addition to vegetables, tomatoes and garlic", "mealKey": "yemeni_foul" },
+            "salta": { "title": "Salta", "description": "Traditional Yemeni stew with vegetables, meat, and a spicy fenugreek sauce, served with pita bread.", "mealKey": "salta" },
+            "lamb_pot": { "title": "Lamb Pot", "description": "Consists of lamb broth, potato and lamb pieces", "mealKey": "lamb_pot" }
+        },
+        "mandi_haneeth_selections": {
+            "lamb_mandi": { "title": "Lamb Mandi", "description": "A fragrant rice dish infused with Yemeni spices, topped with fried onions, almonds, and raisins, and served with our signature hot sauce (Sahawiq).", "mealKey": "lamb_mandi" },
+            "chicken_mandi": { "title": "Chicken Mandi", "description": "Tender chicken slow-cooked with fragrant rice, Yemeni spices, and garnished with fried onions, almonds, and raisins, served with Sahawiq.", "mealKey": "chicken_mandi" },
+            "lamb_haneeth": { "title": "Slow Roasted Lamb (Haneeth)", "description": "Slow-roasted lamb served over steamed basmati rice infused with Yemeni spices, topped with almonds and raisins.", "mealKey": "lamb_haneeth" },
+            "family_mix_mandi": { "title": "Family Mix Mandi", "description": "A generous mix of Mandi and Haneeth lamb & chicken over Yemeni spiced rice, topped with fried onions, almonds, and raisins, with Sahawiq.", "mealKey": "family_mix_mandi" },
+            "family_mandi_lamb": { "title": "Family Mandi Lamb", "description": "A fragrant rice dish infused with Yemeni spices, topped with fried onions, almonds, and raisins, and served with our signature hot sauce (Sahawiq).", "mealKey": "family_mandi_lamb" }
+        },
+        "sea_foods": {
+            "tuna_salta": { "title": "Tuna Salta", "description": "A seafood twist on Salta, featuring fresh tuna in a rich, spiced sauce. Served with pita bread.", "mealKey": "tuna_salta" },
+            "shrimp": { "title": "Grilled shrimp", "description": "A rich and flovourful shrimp stew served sizzling in a clay pot, paired Rashosh.", "mealKey": "shrimp" },
+            "fish": { "title": "Tandoori Fish", "description": "Perfectly spiced and grilled fish, served with Rashoosh and cheese, accompanied by Sahawiq.", "mealKey": "fish" }
+        },
+        "burrito": {
+            "mandi_chicken_burrito": { "title": "Chicken mandi burrito", "description": "A fusion of Yemeni and Mexican flavours! A warm tortilla filled with Mandi chicken & rice, sweet corn, fried onions, tomatoes, and lettuce, topped with a burrito sauce.", "mealKey": "mandi_chicken_burrito" },
+            "mandi_lamb_burrito": { "title": "Lamb mandi burrito", "description": "A fusion of Yemeni and Mexican flavours! A warm tortilla filled with Mandi lamb & rice, sweet corn, fried onions, tomatoes, and lettuce, topped with a burrito sauce.", "mealKey": "mandi_lamb_burrito" },
+            "shrimp_burrito": { "title": "Shrimp burrito", "description": "A fusion of Yemeni and Mexican flavours! A warm tortilla filled with shrimp, Mandi rice, sweet corn, fried onions, tomatoes, and lettuce, topped with a burrito sauce.", "mealKey": "shrimp_burrito" }
+        },
+        "desserts": {
+            "maasoub": { "title": "Ma'asoub", "description": "Banana bread pudding topped with white cream, black seeds, and honey.", "mealKey": "maasoub" },
+            "areeka": { "title": "Areeka", "description": "Date bread pudding topped with white cream, black seeds, almonds, and honey.", "mealKey": "areeka" },
+            "date_fattah": { "title": "Date Fattah", "description": "Date bread pudding served with honey.", "mealKey": "date_fattah" },
+            "baklava": { "title": "Baklava", "mealKey": "baklava" },
+            "knafeh": { "title": "Künafe", "description": "Spun pastry, sugar syrup, and layered with cheese", "mealKey": "knafeh" }
+        },
+        "drinks": {
+            "adani_tea": { "title": "Adani Tea", "description": "Black Tea with Milk. Made with Yemeni Spices", "mealKey": "adani_tea" },
+            "red_tea": { "title": "Red Tea", "description": "Tea leaves dissolve in water, sugar, and mint", "mealKey": "red_tea" },
+            "ayran": { "title": "Ayran", "description": "A cold savory yogurt-based beverage of yogurt and water", "mealKey": "ayran" },
+            "soft_drinks": { "title": "Soft Drinks", "mealKey": "soft_drinks" },
+            "water": { "title": "Water", "mealKey": "water" },
+            "turkish_coffee": { "title": "Turkish Coffee", "description": "Roasted coffee beans dissolved and concentrated with boiling water", "mealKey": "turkish_coffee" },
+            "black_coffee": { "title": "Black Coffee", "description": "Roasted and ground coffee beans dissolve in water", "mealKey": "black_coffee" },
+            "lemon_juice": { "title": "lemon Juice", "description": "Freshly squeezed lemon and mint slices", "mealKey": "lemon_juice" },
+            "mango_juice": { "title": "Mango Juice", "description": "Fresh squeezed mango", "mealKey": "mango_juice" },
+            "signature_cocktail": { "title": "Signature Cocktail", "description": "A mixture or mango, apple, banana, date paste concentrated milk and halva", "mealKey": "signature_cocktail" }
+        },
+        "extras": {
+            "sahawiq": { "title": "Sahawiq", "description": "Tomatoes and hot peppers, with some spices added", "mealKey": "sahawiq" },
+            "raisins": { "title": "Mixed Raisins", "mealKey": "raisins" },
+            "thin_sliced_almonds": { "title": "Thin Sliced Almonds", "mealKey": "thin_sliced_almonds" },
+            "extra_chicken": { "title": "Extra Chicken", "description": "", "mealKey": "extra_chicken" },
+            "extra_lamb": { "title": "Extra Lamb", "description": "", "mealKey": "extra_lamb" },
+            "mandi_rice": { "title": "Mandi Rice", "description": "Mandi rice, topped with onions, almond and raisins", "mealKey": "mandi_rice" },
+            "fried_onion": { "title": "Fried Onion", "description": "", "mealKey": "fried_onion" },
+            "rashoosh_bread": { "title": "Rashoosh Bread", "description": "Flour with butter and black seeds", "mealKey": "rashoosh_bread" },
+            "pita_bread": { "title": "Pita Bread", "description": "", "mealKey": "pita_bread" },
+            "cheese_hot_sauce": { "title": "Cheese hot sauce", "description": "Tomatoes, cheese and hot peppers, with some spices added", "mealKey": "cheese_hot_sauce" },
+            "honey": { "title": "Honey", "description": "", "mealKey": "honey" }
+        },
+        "catering": {
+            "catering_mandi_lamb": { "title": "Mandi Lamb", "description": "A fragrant rice dish infused with Yemeni spices, topped with fried onions, almonds, and raisins, and served with our signature hot sauce (Sahawiq).", "mealKey": "catering_mandi_lamb" }
+        }
     },
     "price": {
         "small": "Small",
@@ -388,6 +155,15 @@
         "mix_lamb_chicken": "Mix Lamb & Chicken",
         "small_person": "Small (for 2-3 person)",
         "large_person": "Large (for 4-5 person)",
+        "single_piece": "Single Piece",
+        "double_pieces": "Double Pieces",
+        "qaurter_price": "Qaurter",
+        "half_price": "Half",
+        "quarter_lamb": "Quarter Lamb",
+        "half_lamb": "Half Lamb",
+        "whole_lamb": "Whole Lamb",
+        "cup": "Cup",
+        "large_pot": "Large Pot",
         "sandwich_price": "Sandwich only",
         "combo_price": "Make it a combo with"
     },
