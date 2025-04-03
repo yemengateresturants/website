@@ -1,53 +1,18 @@
 {
-    "signature_dishes": [
-        {
-            "id": "6",
-            "key": "oat_soup",
-            "price": "4.95",
-            "isVege": true
-        },
-        {
-            "id": "17",
-            "key": "maraq",
-            "price": "2.95",
-            "isVege": false
-        },
-        {
-            "id": "50",
-            "key": "mulukhiyah_soup",
-            "price": "6.95",
-            "isVege": true
-        },
-        {
-            "id": "51",
-            "key": "okra_soup",
-            "price": "6.95",
-            "isVege": true
-        },
-        {
-            "id": "52",
-            "key": "lentil_soup",
-            "price": "6.95",
-            "isVege": true
-        },
-        {
-            "id": "7",
-            "key": "signature_salad",
-            "price": "6.95",
-            "isVege": true
-        },
-        {
-            "id": "8",
-            "key": "tabeekh",
-            "price": "6.95",
-            "isVege": true
-        },
-        {
-            "id": "16",
-            "key": "cucumber_yogurt_salad",
-            "price": "6.95",
-            "isVege": true
-        }
+    "soups": [
+      { "id": "1", "key": "oat_soup", "price": "4.95", "isVege": true },
+      { "id": "2", "key": "lentil_soup", "price": "5.95", "isVege": true },
+      { "id": "3", "key": "maraq", "price": "3.95", "isVege": false }
+    ],
+    "salads": [
+      { "id": "4", "key": "fattoush", "price": "7.95", "isVege": true },
+      { "id": "5", "key": "signature_salad", "price": "6.95", "isVege": true },
+      { "id": "6", "key": "cucumber_yogurt_salad", "price": "7.95", "isVege": true }
+    ],
+    "sides": [
+      { "id": "7", "key": "tabeekh", "price": "4.95", "isVege": true },
+      { "id": "8", "key": "okra_soup", "price": "6.95", "isVege": true },
+      { "id": "9", "key": "mulukhiyah_soup", "price": "6.95", "isVege": true }
     ],
     "mandi_haneeth_selections": [
         {

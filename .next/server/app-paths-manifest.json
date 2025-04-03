@@ -1,5 +1,5 @@
 {
   "/[locale]/page": "app/[locale]/page.js",
-  "/[locale]/menu/st-joseph-blvd/page": "app/[locale]/menu/st-joseph-blvd/page.js",
-  "/[locale]/menu/bank-st/page": "app/[locale]/menu/bank-st/page.js"
+  "/[locale]/menu/bank-st/page": "app/[locale]/menu/bank-st/page.js",
+  "/[locale]/menu/st-joseph-blvd/page": "app/[locale]/menu/st-joseph-blvd/page.js"
 }
