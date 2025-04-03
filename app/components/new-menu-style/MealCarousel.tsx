@@ -6,7 +6,7 @@ import { useState } from "react";
 
 
 const MealsCarousel = ({locale, menuData}: {locale: string, menuData: any}) => {
-    const initialCategory = menuData.traditional_dishes ? 'traditional_dishes' : 'main_dishes';
+    const initialCategory = menuData.soups ? 'soups' : 'signature_dishes';
     const [currentCategory, setCurrentCategory] = useState(initialCategory);
 
 

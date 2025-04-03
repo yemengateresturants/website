@@ -56,9 +56,13 @@
       "breakfast": "Petit-déjeuner toute la journée",
       "traditional_dishes": "Spécialités yéménites traditionnelles",
       "main_dishes": "Plats principaux",
+      "signature_dishes": "Plats signatures",
       "mandi_haneeth_selections": "Sélections de Mandi & Haneeth",
       "sea_foods": "Spécialités de fruits de mer",
       "entrées": "Entrées",
+      "soups": "Soupes",
+      "salads": "Salades",
+      "sides": "Accompagnements",
       "desserts": "Desserts",
       "drinks": "Boissons",
       "extras": "Suppléments",
@@ -66,44 +70,48 @@
       "catering": "Restauration"
     },
     "menu": {
-      "traditional_dishes": {
+      "soups": {
         "oat_soup": {
           "title": "Soupe à l'avoine",
-          "description": "Soupe crémeuse réconfortante à base d'avoine et d'épices douces",
+          "description": "Une soupe crémeuse et réconfortante à base d'avoine et d'épices douces.",
           "mealKey": "oat_soup"
         },
+        "lentil_soup": {
+          "title": "Lentilles",
+          "description": "Savoureuses et consistantes, préparées avec des lentilles et des épices yéménites aromatiques.",
+          "mealKey": "lentil_soup"
+        },
+        "maraq": {
+          "title": "Maraq",
+          "description": "Un bouillon yéménite riche et savoureux, infusé d'herbes et d'épices.",
+          "mealKey": "maraq"
+        }
+      },
+      "salads": {
         "signature_salad": {
           "title": "Salade verte",
           "description": "Mélange de légumes frais avec concombre, tomate et vinaigrette légère",
           "mealKey": "signature_salad"
-        },
-        "tabeekh": {
-          "title": "Tabeekh",
-          "description": "Légumes mijotés avec pommes de terre, carottes et courgettes dans une sauce tomate",
-          "mealKey": "tabeekh"
-        },
-        "cucumber_yogurt_salad": {
-          "title": "Salade de concombre au yaourt",
-          "description": "Yaourt frais mélangé avec du concombre, de la menthe et de l'ail",
-          "mealKey": "cucumber_yogurt_salad"
-        },
-        "maraq": {
-          "title": "Bouillon (Maraq)",
-          "description": "Bouillon yéménite savoureux infusé d'herbes et d'épices",
-          "mealKey": "maraq"
-        },
-        "hummus": {
-          "title": "Houmous",
-          "description": "Pois chiches, tahini, citron, ail et piment servi avec du pain pita",
-          "mealKey": "hummus"
         },
         "fattoush": {
           "title": "Fattoush",
           "description": "Salade levantine avec chips de pain pita grillées, sumac et légumes frais",
           "mealKey": "fattoush"
         },
+        "cucumber_yogurt_salad": {
+          "title": "Salade de concombre au yaourt",
+          "description": "Yaourt frais mélangé avec du concombre, de la menthe et de l'ail",
+          "mealKey": "cucumber_yogurt_salad"
+        }
+      },
+      "sides": {
+        "tabeekh": {
+          "title": "Tabeekh",
+          "description": "Légumes mijotés avec pommes de terre, carottes et courgettes dans une sauce tomate",
+          "mealKey": "tabeekh"
+        },
         "mulukhiyah_soup": {
-          "title": "Soupe de molokhia",
+          "title": "Molokhia",
           "description": "Feuilles de molokhia mijotées avec du bouillon, ail et coriandre",
           "mealKey": "mulukhiyah_soup"
         },
@@ -112,17 +120,23 @@
           "description": "Gombo avec tomates, ail, bouillon et épices",
           "mealKey": "okra_soup"
         },
-        "lentil_soup": {
-          "title": "Soupe de lentilles",
-          "description": "Délicieuse soupe à base de lentilles rôties et d'épices yéménites",
-          "mealKey": "lentil_soup"
-        }
+        "hummus": {
+          "title": "Houmous",
+          "description": "Pois chiches, tahini, citron, ail et piment servi avec du pain pita",
+          "mealKey": "hummus"
+        },
+        "fries": { "title": "Frites", "description": "", "mealKey": "fries" }
     },
-    "main_dishes": {
+    "signature_dishes": {
       "fahsa": {
         "title": "Fahsa",
         "description": "Ragoût de bœuf effiloché mijoté avec mousse de fenugrec servi avec pain pita",
         "mealKey": "fahsa"
+      },
+      "tuna_salta": {
+        "title": "Salta au thon",
+        "description": "Version aux fruits de mer de la salta avec du thon frais dans une sauce épicée servie avec pain pita",
+        "mealKey": "tuna_salta"
       },
       "qilabat_meat": {
         "title": "Viande Qilabat",
@@ -287,11 +301,6 @@
       }
     },
     "sea_foods": {
-      "tuna_salta": {
-        "title": "Salta au thon",
-        "description": "Version aux fruits de mer de la salta avec du thon frais dans une sauce épicée servie avec pain pita",
-        "mealKey": "tuna_salta"
-      },
       "shrimp": {
         "title": "Crevettes grillées",
         "description": "Ragoût de crevettes riche en saveurs servi chaud dans un plat en terre cuite avec pain rashoosh",

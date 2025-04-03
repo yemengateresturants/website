@@ -1,504 +1,197 @@
 {
-    "traditional_dishes": [
-        {
-            "id": "1",
-            "key": "oat_soup",
-            "price": "4.95",
-            "isVege": true
-        },
-        {
-            "id": "2",
-            "key": "lentil_soup",
-            "price": "5.95",
-            "isVege": true
-        },
-        {
-            "id": "3",
-            "key": "tabeekh",
-            "price": "4.95",
-            "isVege": true
-        },
-        {
-            "id": "4",
-            "key": "cucumber_yogurt_salad",
-            "price": "7.95",
-            "isVege": true
-        },
-        {
-            "id": "5",
-            "key": "maraq",
-            "price": "3.95",
-            "isVege": false
-        },
-        {
-            "id": "6",
-            "key": "hummus",
-            "price": "6.95",
-            "isVege": true
-        },
-        {
-            "id": "7",
-            "key": "mulukhiyah_soup",
-            "price": "6.95",
-            "isVege": true
-        },
-        {
-            "id": "8",
-            "key": "okra_soup",
-            "price": "6.95",
-            "isVege": true
-        },
-        {
-            "id": "9",
-            "key": "fattoush",
-            "price": "7.95",
-            "isVege": true
-        },
-        {
-            "id": "10",
-            "key": "signature_salad",
-            "price": "6.95",
-            "isVege": true
-        }
+    "soups": [
+      { "id": "1", "key": "oat_soup", "price": "4.95", "isVege": true },
+      { "id": "2", "key": "lentil_soup", "price": "5.95", "isVege": true },
+      { "id": "3", "key": "maraq", "price": "3.95", "isVege": false }
     ],
-    "main_dishes": [
-        {
-            "id": "11",
-            "key": "fahsa",
-            "price": "18.95",
-            "isVege": false
-        },
-        {
-            "id": "13",
-            "key": "qilabat_meat",
-            "price": "15.95",
-            "isVege": false
-        },
-        {
-            "id": "14",
-            "key": "liver",
-            "price": "15.95",
-            "isVege": false
-        },
-        {
-            "id": "15",
-            "key": "dry_pot_beans",
-            "price": "12.95",
-            "isVege": true
-        },
-        {
-            "id": "16",
-            "key": "beans_mudara",
-            "price": "12.95",
-            "isVege": true
-        },
-        {
-            "id": "17",
-            "key": "shakshouka",
-            "price": "12.95",
-            "isVege": false
-        },
-        {
-            "id": "18",
-            "key": "yemeni_foul",
-            "price": "12.95",
-            "isVege": true
-        },
-        {
-            "id": "19",
-            "key": "salta",
-            "price": "15.95",
-            "isVege": false
-        },
-        {
-            "id": "20",
-            "key": "lamb_pot",
-            "price": "21.95",
-            "isVege": false
-        }
+    "salads": [
+      { "id": "4", "key": "fattoush", "price": "7.95", "isVege": true },
+      { "id": "5", "key": "signature_salad", "price": "6.95", "isVege": true },
+      { "id": "6", "key": "cucumber_yogurt_salad", "price": "7.95", "isVege": true }
+    ],
+    "sides": [
+      { "id": "7", "key": "tabeekh", "price": "4.95", "isVege": true },
+      { "id": "8", "key": "okra_soup", "price": "6.95", "isVege": true },
+      { "id": "9", "key": "mulukhiyah_soup", "price": "6.95", "isVege": true },
+      { "id": "10", "key": "hummus", "price": "6.95", "isVege": true },
+      { "id": "11", "key": "fries", "price": "6.95", "isVege": true }
+    ],
+    "signature_dishes": [
+      { "id": "12", "key": "fahsa", "price": "18.95", "isVege": false },
+      { "id": "13", "key": "qilabat_meat", "price": "15.95", "isVege": false },
+      { "id": "14", "key": "liver", "price": "15.95", "isVege": false },
+      { "id": "25", "key": "tuna_salta", "price": "17.95", "isVege": false },
+      { "id": "15", "key": "dry_pot_beans", "price": "12.95", "isVege": true },
+      { "id": "16", "key": "beans_mudara", "price": "12.95", "isVege": true },
+      { "id": "17", "key": "shakshouka", "price": "12.95", "isVege": false },
+      { "id": "18", "key": "yemeni_foul", "price": "12.95", "isVege": true },
+      { "id": "19", "key": "salta", "price": "15.95", "isVege": false }
     ],
     "mandi_haneeth_selections": [
-        {
-            "id": "53",
-            "key": "lamb_mandi",
-            "price": [
-                {
-                    "key": "single_price",
-                    "price": "22.95"
-                },
-                {
-                    "key": "double_price",
-                    "price": "29.95"
-                }
-            ],
-            "isVege": false
-        },
-        {
-            "id": "54",
-            "key": "chicken_mandi",
-            "price": [
-                {
-                    "key": "quart_price",
-                    "price": "12.95"
-                },
-                {
-                    "key": "half_price",
-                    "price": "19.95"
-                },
-                {
-                    "key": "whole_price",
-                    "price": "37.95"
-                }
-            ],
-            "isVege": false
-        },
-        {
-            "id": "55",
-            "key": "lamb_haneeth",
-            "price": [
-                {
-                    "key": "single_price",
-                    "price": "22.95"
-                },
-                {
-                    "key": "double_price",
-                    "price": "29.95"
-                }
-            ],
-            "isVege": false
-        },
-        {
-            "id": "56",
-            "key": "family_mix_mandi",
-            "price": [
-                {
-                    "key": "small_person",
-                    "price": "44.95"
-                },
-                {
-                    "key": "large_person",
-                    "price": "87.95"
-                }
-            ],
-            "isVege": false
-        },
-        {
-            "id": "57",
-            "key": "family_mandi_lamb",
-            "price": [
-                {
-                    "key": "small_person",
-                    "price": "54.95"
-                },
-                {
-                    "key": "large_person",
-                    "price": "104.95"
-                }
-            ],
-            "isVege": false
-        }
+      {
+        "id": "20",
+        "key": "lamb_mandi",
+        "price": [
+          { "key": "single_price", "price": "22.95" },
+          { "key": "double_price", "price": "29.95" }
+        ],
+        "isVege": false
+      },
+      {
+        "id": "21",
+        "key": "chicken_mandi",
+        "price": [
+          { "key": "quart_price", "price": "12.95" },
+          { "key": "half_price", "price": "19.95" },
+          { "key": "whole_price", "price": "37.95" }
+        ],
+        "isVege": false
+      },
+      {
+        "id": "22",
+        "key": "lamb_haneeth",
+        "price": [
+          { "key": "single_price", "price": "22.95" },
+          { "key": "double_price", "price": "29.95" }
+        ],
+        "isVege": false
+      },
+      {
+        "id": "23",
+        "key": "family_mix_mandi",
+        "price": [
+          { "key": "small_person", "price": "44.95" },
+          { "key": "large_person", "price": "87.95" }
+        ],
+        "isVege": false
+      },
+      {
+        "id": "24",
+        "key": "family_mandi_lamb",
+        "price": [
+          { "key": "small_person", "price": "54.95" },
+          { "key": "large_person", "price": "104.95" }
+        ],
+        "isVege": false
+      }
     ],
     "sea_foods": [
-        {
-            "id": "21",
-            "key": "tuna_salta",
-            "price": "17.95",
-            "isVege": false
-        },
-        {
-            "id": "22",
-            "key": "shrimp",
-            "price": "22.95",
-            "isVege": false
-        },
-        {
-            "id": "23",
-            "key": "fish",
-            "price": "29.95",
-            "isVege": false
-        }
+      { "id": "26", "key": "shrimp", "price": "22.95", "isVege": false },
+      { "id": "27", "key": "fish", "price": "29.95", "isVege": false }
     ],
     "burrito": [
-        {
-            "id": "24",
-            "key": "mandi_chicken_burrito",
-            "price": [
-                {
-                    "key": "sandwich_price",
-                    "price": "9.95"
-                },
-                {
-                    "key": "combo_price",
-                    "price": "+3.95"
-                }
-            ],
-            "isVege": false
-        },
-        {
-            "id": "25",
-            "key": "mandi_lamb_burrito",
-            "price": [
-                {
-                    "key": "sandwich_price",
-                    "price": "13.95"
-                },
-                {
-                    "key": "combo_price",
-                    "price": "+3.95"
-                }
-            ],
-            "isVege": false
-        },
-        {
-            "id": "26",
-            "key": "shrimp_burrito",
-            "price": [
-                {
-                    "key": "sandwich_price",
-                    "price": "14.95"
-                },
-                {
-                    "key": "combo_price",
-                    "price": "+3.95"
-                }
-            ],
-            "isVege": false
-        }
+      {
+        "id": "28",
+        "key": "mandi_chicken_burrito",
+        "price": [
+          { "key": "sandwich_price", "price": "9.95" },
+          { "key": "combo_price", "price": "+3.95" }
+        ],
+        "isVege": false
+      },
+      {
+        "id": "29",
+        "key": "mandi_lamb_burrito",
+        "price": [
+          { "key": "sandwich_price", "price": "13.95" },
+          { "key": "combo_price", "price": "+3.95" }
+        ],
+        "isVege": false
+      },
+      {
+        "id": "30",
+        "key": "shrimp_burrito",
+        "price": [
+          { "key": "sandwich_price", "price": "14.95" },
+          { "key": "combo_price", "price": "+3.95" }
+        ],
+        "isVege": false
+      }
     ],
     "desserts": [
-        {
-            "id": "27",
-            "key": "maasoub",
-            "price": "9.95",
-            "isVege": true
-        },
-        {
-            "id": "28",
-            "key": "areeka",
-            "price": "14.95",
-            "isVege": true
-        },
-        {
-            "id": "29",
-            "key": "date_fattah",
-            "price": "9.95",
-            "isVege": true
-        },
-        {
-            "id": "30",
-            "key": "baklava",
-            "price": "6.95",
-            "isVege": false
-        },
-        {
-            "id": "31",
-            "key": "knafeh",
-            "price": "9.95",
-            "isVege": false
-        }
+      { "id": "31", "key": "maasoub", "price": "9.95", "isVege": true },
+      { "id": "32", "key": "areeka", "price": "14.95", "isVege": true },
+      { "id": "33", "key": "date_fattah", "price": "9.95", "isVege": true },
+      { "id": "34", "key": "baklava", "price": "6.95", "isVege": false },
+      { "id": "35", "key": "knafeh", "price": "9.95", "isVege": false }
     ],
     "drinks": [
-        {
-            "id": "32",
-            "key": "adani_tea",
-            "price": [
-                {
-                    "key": "cup",
-                    "price": "3.95"
-                },
-                {
-                    "key": "large_pot",
-                    "price": "14.95"
-                }
-            ],
-            "isVege": false
-        },
-        {
-            "id": "33",
-            "key": "red_tea",
-            "price": [
-                {
-                    "key": "cup",
-                    "price": "3.95"
-                },
-                {
-                    "key": "large_pot",
-                    "price": "14.95"
-                }
-            ],
-            "isVege": true
-        },
-        {
-            "id": "34",
-            "key": "ayran",
-            "price": "2.95",
-            "isVege": false
-        },
-        {
-            "id": "35",
-            "key": "soft_drinks",
-            "price": "2.95",
-            "isVege": false
-        },
-        {
-            "id": "36",
-            "key": "water",
-            "price": "1.25",
-            "isVege": false
-        },
-        {
-            "id": "37",
-            "key": "turkish_coffee",
-            "price": "2.95",
-            "isVege": false
-        },
-        {
-            "id": "38",
-            "key": "black_coffee",
-            "price": "2.95",
-            "isVege": false
-        },
-        {
-            "id": "39",
-            "key": "lemon_juice",
-            "price": "9.95",
-            "isVege": true
-        },
-        {
-            "id": "40",
-            "key": "mango_juice",
-            "price": "9.95",
-            "isVege": true
-        },
-        {
-            "id": "41",
-            "key": "signature_cocktail",
-            "price": "9.95",
-            "isVege": false
-        }
+      {
+        "id": "36",
+        "key": "adani_tea",
+        "price": [
+          { "key": "cup", "price": "3.95" },
+          { "key": "large_pot", "price": "14.95" }
+        ],
+        "isVege": false
+      },
+      {
+        "id": "37",
+        "key": "red_tea",
+        "price": [
+          { "key": "cup", "price": "3.95" },
+          { "key": "large_pot", "price": "14.95" }
+        ],
+        "isVege": true
+      },
+      { "id": "38", "key": "ayran", "price": "2.95", "isVege": false },
+      { "id": "39", "key": "soft_drinks", "price": "2.95", "isVege": false },
+      { "id": "40", "key": "water", "price": "1.25", "isVege": false },
+      { "id": "41", "key": "turkish_coffee", "price": "2.95", "isVege": false },
+      { "id": "42", "key": "black_coffee", "price": "2.95", "isVege": false },
+      { "id": "43", "key": "lemon_juice", "price": "9.95", "isVege": true },
+      { "id": "44", "key": "mango_juice", "price": "9.95", "isVege": true },
+      { "id": "45", "key": "signature_cocktail", "price": "9.95", "isVege": false }
     ],
     "extras": [
-        {
-            "id": "42",
-            "key": "sahawiq",
-            "price": "0.50",
-            "isVege": true
-        },
-        {
-            "id": "43",
-            "key": "raisins",
-            "price": "0.95",
-            "isVege": true
-        },
-        {
-            "id": "44",
-            "key": "thin_sliced_almonds",
-            "price": "0.95",
-            "isVege": true
-        },
-        {
-            "id": "45",
-            "key": "extra_chicken",
-            "price": [
-                {
-                    "key": "qaurter_price",
-                    "price": "6.95"
-                },
-                {
-                    "key": "half_price",
-                    "price": "11.95"
-                }
-            ],
-            "isVege": true
-        },
-        {
-            "id": "46",
-            "key": "extra_lamb",
-            "price": [
-                {
-                    "key": "single_piece",
-                    "price": "15.95"
-                },
-                {
-                    "key": "double_pieces",
-                    "price": "22.95"
-                }
-            ],
-            "isVege": true
-        },
-        {
-            "id": "47",
-            "key": "mandi_rice",
-            "price": [
-                {
-                    "key": "single_price",
-                    "price": "6.95"
-                },
-                {
-                    "key": "double_price",
-                    "price": "8.95"
-                },
-                {
-                    "key": "small_person",
-                    "price": "14.95"
-                },
-                {
-                    "key": "large_person",
-                    "price": "29.95"
-                }
-            ],
-            "isVege": true
-        },
-        {
-            "id": "48",
-            "key": "fried_onion",
-            "price": "0.95",
-            "isVege": true
-        },
-        {
-            "id": "49",
-            "key": "rashoosh_bread",
-            "price": "3.95",
-            "isVege": true
-        },
-        {
-            "id": "50",
-            "key": "pita_bread",
-            "price": "1.95",
-            "isVege": true
-        },
-        {
-            "id": "51",
-            "key": "cheese_hot_sauce",
-            "price": "1.95",
-            "isVege": false
-        },
-        {
-            "id": "52",
-            "key": "honey",
-            "price": "1.95",
-            "isVege": false
-        }
+      { "id": "46", "key": "sahawiq", "price": "0.50", "isVege": true },
+      { "id": "47", "key": "raisins", "price": "0.95", "isVege": true },
+      { "id": "48", "key": "thin_sliced_almonds", "price": "0.95", "isVege": true },
+      {
+        "id": "49",
+        "key": "extra_chicken",
+        "price": [
+          { "key": "qaurter_price", "price": "6.95" },
+          { "key": "half_price", "price": "11.95" }
+        ],
+        "isVege": true
+      },
+      {
+        "id": "50",
+        "key": "extra_lamb",
+        "price": [
+          { "key": "single_piece", "price": "15.95" },
+          { "key": "double_pieces", "price": "22.95" }
+        ],
+        "isVege": true
+      },
+      {
+        "id": "51",
+        "key": "mandi_rice",
+        "price": [
+          { "key": "single_price", "price": "6.95" },
+          { "key": "double_price", "price": "8.95" },
+          { "key": "small_person", "price": "14.95" },
+          { "key": "large_person", "price": "29.95" }
+        ],
+        "isVege": true
+      },
+      { "id": "52", "key": "fried_onion", "price": "0.95", "isVege": true },
+      { "id": "53", "key": "rashoosh_bread", "price": "3.95", "isVege": true },
+      { "id": "54", "key": "pita_bread", "price": "1.95", "isVege": true },
+      { "id": "55", "key": "cheese_hot_sauce", "price": "1.95", "isVege": false },
+      { "id": "56", "key": "honey", "price": "1.95", "isVege": false }
     ],
     "catering": [
-        {
-            "id": "58",
-            "key": "catering_mandi_lamb",
-            "price": [
-                {
-                    "key": "quarter_lamb",
-                    "price": "250"
-                },
-                {
-                    "key": "half_lamb",
-                    "price": "400"
-                },
-                {
-                    "key": "whole_lamb",
-                    "price": "800"
-                }
-            ],
-            "isVege": false
-        }
+      {
+        "id": "57",
+        "key": "catering_mandi_lamb",
+        "price": [
+          { "key": "quarter_lamb", "price": "250" },
+          { "key": "half_lamb", "price": "400" },
+          { "key": "whole_lamb", "price": "800" }
+        ],
+        "isVege": false
+      }
     ]
-}
+  }

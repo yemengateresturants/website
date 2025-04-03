@@ -1,5 +1,5 @@
 {
-    "traditional_dishes": [
+    "signature_dishes": [
         {
             "id": "6",
             "key": "oat_soup",
@@ -49,7 +49,7 @@
             "isVege": true
         }
     ],
-    "main_dishes": [
+    "mandi_haneeth_selections": [
         {
             "id": "1",
             "key": "lamb_mandi",

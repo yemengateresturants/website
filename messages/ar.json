@@ -56,9 +56,12 @@
         "breakfast": "وجبات فطور طوال اليوم",
         "traditional_dishes": "أطباق يمنية تقليدية",
         "mandi_haneeth_selections": "إختيارات المندي و الحنيذ",
-        "main_dishes": "أطباق مميزة",
+        "signature_dishes": "أطباق مميزة",
         "sea_foods": "مأكولات بحرية",
         "entrées": "المقبلات",
+        "soups": "شوربات",
+        "salads": "السلطات",
+        "sides": "أطباق جانبية",
         "desserts": "الحلويات",
         "drinks": "المشروبات",
         "extras": "الإضافات",
@@ -66,63 +69,73 @@
         "catering": "الحفلات و المناسبات"
     },
     "menu": {
-        "traditional_dishes": {
-      "oat_soup": {
-        "title": "شوربة الشوفان",
-        "description": "شوربة كريمية مصنوعة من الشوفان والتوابل الخفيفة",
-        "mealKey": "oat_soup"
-      },
+      "soups": {
+        "oat_soup": {
+          "title": "شوربة الشوفان",
+          "description": "شوربة كريمية مصنوعة من الشوفان والتوابل الخفيفة",
+          "mealKey": "oat_soup"
+        },
+        "lentil_soup": {
+          "title": "عدس",
+          "description": "شهية وغنية بالنكهات، مصنوعة من العدس والتوابل اليمنية",
+          "mealKey": "lentil_soup"
+        },
+        "maraq": {
+          "title": "مرق",
+          "description": "مرق يمني غني بالنكهات وممزوج بالأعشاب والتوابل",
+          "mealKey": "maraq"
+        }
+    },
+    "salads": {
       "signature_salad": {
         "title": "سلطة خضراء",
         "description": "خضروات مشكلة طازجة مع الخيار والطماطم وتتبيلة خفيفة",
         "mealKey": "signature_salad"
-      },
-      "tabeekh": {
-        "title": "طبيخ",
-        "description": "خضروات مطهية، بطاطس، جزر وكوسا في صلصة طماطم",
-        "mealKey": "tabeekh"
-      },
-      "cucumber_yogurt_salad": {
-        "title": "سلطة الزبادي بالخيار",
-        "description": "زبادي بارد وكريمي مع خيار ونعناع وثوم",
-        "mealKey": "cucumber_yogurt_salad"
-      },
-      "maraq": {
-        "title": "مرق",
-        "description": "مرق يمني غني بالنكهات وممزوج بالأعشاب والتوابل",
-        "mealKey": "maraq"
-      },
-      "hummus": {
-        "title": "حمص",
-        "description": "حمص، طحينة، ليمون، ثوم وفلفل حار، يُقدم مع خبز البيتا",
-        "mealKey": "hummus"
       },
       "fattoush": {
         "title": "فتوش",
         "description": "سلطة على الطريقة الشامية مع رقائق خبز البيتا المحمصة والسماق وخضروات طازجة",
         "mealKey": "fattoush"
       },
-      "mulukhiyah_soup": {
-        "title": "شوربة الملوخية",
-        "description": "أوراق الملوخية المطهية مع المرق والثوم والكزبرة",
-        "mealKey": "mulukhiyah_soup"
-      },
-      "okra_soup": {
-        "title": "شوربة البامية",
-        "description": "بامية مع طماطم وثوم ومرق وتوابل",
-        "mealKey": "okra_soup"
-      },
-      "lentil_soup": {
-        "title": "شوربة العدس",
-        "description": "شهية وغنية بالنكهات، مصنوعة من العدس والتوابل اليمنية",
-        "mealKey": "lentil_soup"
+      "cucumber_yogurt_salad": {
+        "title": "سلطة الزبادي بالخيار",
+        "description": "زبادي بارد وكريمي مع خيار ونعناع وثوم",
+        "mealKey": "cucumber_yogurt_salad"
       }
     },
-    "main_dishes": {
+    "sides": {
+      "tabeekh": {
+          "title": "طبيخ",
+          "description": "خضروات مطهية، بطاطس، جزر وكوسا في صلصة طماطم",
+          "mealKey": "tabeekh"
+        },
+        "hummus": {
+          "title": "حمص",
+          "description": "حمص، طحينة، ليمون، ثوم وفلفل حار، يُقدم مع خبز البيتا",
+          "mealKey": "hummus"
+        }, 
+        "mulukhiyah_soup": {
+          "title": "ملوخية",
+          "description": "أوراق الملوخية المطهية مع المرق والثوم والكزبرة",
+          "mealKey": "mulukhiyah_soup"
+        },
+        "okra_soup": {
+          "title": "ايدام بامية",
+          "description": "بامية مع طماطم وثوم ومرق وتوابل",
+          "mealKey": "okra_soup"
+        },
+        "fries": { "title": "بطاطا مقلية", "description": "", "mealKey": "fries" }
+    },
+    "signature_dishes": {
       "fahsa": {
         "title": "فحسة",
         "description": "يخنة لحم مفروم مطهو ببطء مع رغوة الحلبة تُقدم مع خبز البيتا",
         "mealKey": "fahsa"
+      },
+      "tuna_salta": {
+        "title": "سلتة التونة",
+        "description": "نسخة بحرية من سلتة تحتوي على تونة طازجة في صلصة غنية حارة تُقدم مع خبز البيتا",
+        "mealKey": "tuna_salta"
       },
       "qilabat_meat": {
         "title": "قلابة لحم",
@@ -135,7 +148,7 @@
         "mealKey": "liver"
       },
       "dry_pot_beans": {
-        "title": "فاصوليا ناشف",
+        "title": "فاصوليا ناشفة",
         "description": "فاصوليا مطهية مع توابل يمنية وبصل وطماطم تُقدم مع خبز البيتا",
         "mealKey": "dry_pot_beans"
       },
@@ -145,7 +158,7 @@
         "mealKey": "beans_mudara"
       },
       "shakshouka": {
-        "title": "شكشوكة",
+        "title": "بيض شكشوكة",
         "description": "بيض مخفوق مع طماطم وفلفل وتوابل يُقدم مع خبز البيتا",
         "mealKey": "shakshouka"
       },
@@ -156,7 +169,7 @@
       },
       "salta": {
         "title": "سلتة",
-        "description": "يخنة يمنية تقليدية بالخضار واللحم وصلصة الحلبة الحارة تُقدم مع خبز البيتا",
+        "description": "يخنة يمنية تقليدية بالخضار وصلصة الحلبة الحارة تُقدم مع خبز البيتا",
         "mealKey": "salta"
       },
       "lamb_pot": {
@@ -287,11 +300,6 @@
         }
     },
     "sea_foods": {
-      "tuna_salta": {
-        "title": "سلتة التونة",
-        "description": "نسخة بحرية من سلتة تحتوي على تونة طازجة في صلصة غنية حارة تُقدم مع خبز البيتا",
-        "mealKey": "tuna_salta"
-      },
       "shrimp": {
         "title": "روبيان مشوي",
         "description": "يخنة روبيان غنية بالنكهة تُقدم ساخنة في طاجن مع خبز رشوش",
@@ -362,7 +370,7 @@
     },
     "catering": {
         "catering_mandi_lamb": {
-            "title": "مندي لحم",
+            "title": "ذبيحة لحم مندي",
             "description": "طبق أرز معطر بالتوابل اليمنية، مغطى بالبصل المقلي واللوز والزبيب، ويُقدّم مع صلصتنا الحارة المميزة (سحاوق)",
             "mealKey": "catering_mandi_lamb"
         }

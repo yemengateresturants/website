@@ -55,10 +55,13 @@
     "category": {
         "breakfast": "All Day Breakfast",
         "traditional_dishes": "Traditional Yemeni Delicacies",
-        "main_dishes": "Main Course",
+        "signature_dishes": "Signature Dishes",
         "mandi_haneeth_selections": "Mandi & Haneeth Selections",
         "sea_foods": "Seafood Specials",
         "entrées": "Entrées",
+        "soups": "Soups",
+        "salads": "Salads",
+        "sides": "Sides",
         "desserts": "Desserts",
         "drinks": "Drinks",
         "extras": "Extras",
@@ -66,19 +69,24 @@
         "catering": "Catering"
     },
     "menu": {
-        "traditional_dishes": {
+        "soups": {
             "oat_soup": { "title": "Oat Soup", "description": "A comforting, creamy soup made with oats and mild spices.", "mealKey": "oat_soup" },
+            "lentil_soup": { "title": "Lentil Soup", "description": "Hearty and flavourful, made with lentils and aromatic Yemeni spices.", "mealKey": "lentil_soup" },
+            "maraq": { "title": "Maraq", "description": "A rich and flavourful Yemeni broth infused with herbs and spices.", "mealKey": "maraq" }
+        },
+        "salads": {
             "signature_salad": { "title": "Green Salad", "description": "Fresh mixed greens with cucumbers, tomatoes, and a light dressing.", "mealKey": "signature_salad" },
-            "tabeekh": { "title": "Vegetable Mix Stew", "description": "Stewed vegetables, potatoes, carrots, and zucchini in tomato sauce.", "mealKey": "tabeekh" },
-            "cucumber_yogurt_salad": { "title": "Cucumber Yogurt Salad", "description": "Cool and creamy yogurt mixed with cucumbers, mint, and garlic.", "mealKey": "cucumber_yogurt_salad" },
-            "maraq": { "title": "Maraq", "description": "A rich and flavourful Yemeni broth infused with herbs and spices.", "mealKey": "maraq" },
-            "hummus": { "title": "Hummus", "description": "Chickpeas, tahini, lemon, garlic, and hot pepper, served with pita bread.", "mealKey": "hummus" },
             "fattoush": { "title": "Fattoush", "description": "A Levantine-style salad with crispy pita chips, sumac, and fresh vegetables.", "mealKey": "fattoush" },
+            "cucumber_yogurt_salad": { "title": "Cucumber Yogurt Salad", "description": "Cool and creamy yogurt mixed with cucumbers, mint, and garlic.", "mealKey": "cucumber_yogurt_salad" }
+        },
+        "sides": {
+            "tabeekh": { "title": "Vegetable Mix Stew", "description": "Stewed vegetables, potatoes, carrots, and zucchini in tomato sauce.", "mealKey": "tabeekh" },
             "mulukhiyah_soup": { "title": "Mulukhiyah Soup", "description": "Soft mallow leaves with broth, garlic, and coriander.", "mealKey": "mulukhiyah_soup" },
             "okra_soup": { "title": "Okra Soup", "description": "Okra with tomatoes, garlic, broth, and spices.", "mealKey": "okra_soup" },
-            "lentil_soup": { "title": "Lentil Soup", "description": "Hearty and flavourful, made with lentils and aromatic Yemeni spices.", "mealKey": "lentil_soup" }
+            "hummus": { "title": "Hummus", "description": "Chickpeas, tahini, lemon, garlic, and hot pepper, served with pita bread.", "mealKey": "hummus" },
+            "fries": { "title": "Fries", "description": "", "mealKey": "fries" }
         },
-        "main_dishes": {
+        "signature_dishes": {
             "fahsa": { "title": "Fahsa", "description": "Slow-cooked shredded beef stew with fenugreek foam, served with pita bread.", "mealKey": "fahsa" },
             "qilabat_meat": { "title": "Qilabat Meat", "description": "Tender, slow-cooked Yemeni spiced cubed meat served with pita bread.", "mealKey": "qilabat_meat" },
             "liver": { "title": "Liver", "description": "Sautéed liver with aromatic spices, served with pita bread.", "mealKey": "liver" },
@@ -86,7 +94,8 @@
             "beans_mudara": { "title": "Fava Beans (Foule) Mudara", "description": "Slow-cooked fava beans seasoned with garlic, cumin, and olive oil. Served with pita bread. Tahini optional.", "mealKey": "beans_mudara" },
             "shakshouka": { "title": "Shakshouka", "description": "Scrambled eggs with tomatoes, peppers, and spices, served with pita bread.", "mealKey": "shakshouka" },
             "yemeni_foul": { "title": "Yemeni Foule", "description": "Consists of fava beans with tahini, in addition to vegetables, tomatoes and garlic", "mealKey": "yemeni_foul" },
-            "salta": { "title": "Salta", "description": "Traditional Yemeni stew with vegetables, meat, and a spicy fenugreek sauce, served with pita bread.", "mealKey": "salta" },
+            "salta": { "title": "Salta", "description": "Traditional Yemeni stew with vegetables, and a spicy fenugreek sauce, served with pita bread.", "mealKey": "salta" },
+            "tuna_salta": { "title": "Tuna Salta", "description": "A seafood twist on Salta, featuring fresh tuna in a rich, spiced sauce. Served with pita bread.", "mealKey": "tuna_salta" },
             "lamb_pot": { "title": "Lamb Pot", "description": "Consists of lamb broth, potato and lamb pieces", "mealKey": "lamb_pot" }
         },
         "mandi_haneeth_selections": {
@@ -97,7 +106,6 @@
             "family_mandi_lamb": { "title": "Family Mandi Lamb", "description": "A fragrant rice dish infused with Yemeni spices, topped with fried onions, almonds, and raisins, and served with our signature hot sauce (Sahawiq).", "mealKey": "family_mandi_lamb" }
         },
         "sea_foods": {
-            "tuna_salta": { "title": "Tuna Salta", "description": "A seafood twist on Salta, featuring fresh tuna in a rich, spiced sauce. Served with pita bread.", "mealKey": "tuna_salta" },
             "shrimp": { "title": "Grilled shrimp", "description": "A rich and flovourful shrimp stew served sizzling in a clay pot, paired Rashosh.", "mealKey": "shrimp" },
             "fish": { "title": "Tandoori Fish", "description": "Perfectly spiced and grilled fish, served with Rashoosh and cheese, accompanied by Sahawiq.", "mealKey": "fish" }
         },
