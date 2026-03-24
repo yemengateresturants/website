@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Yemen Gate - Official Website
+
+Official website for **Yemen Gate** (باب اليمن), an authentic Yemeni restaurant with two locations in Ottawa, Ontario.
+
+## Locations
+
+- **St Joseph Blvd** — 2871 St Joseph Blvd, Orleans, ON K1C 1G8
+- **Bank Street** — 1394 Bank St, Ottawa, ON K1H 7Y3
+
+## Tech Stack
+
+- **Framework:** Next.js 13 (App Router)
+- **Language:** TypeScript
+- **Styling:** SCSS
+- **Internationalization:** next-intl (English, Arabic, French)
+- **Email:** EmailJS
+- **Hosting:** Netlify
+
+## Features
+
+- Multi-language support (EN / AR / FR) with RTL support for Arabic
+- Online menu for both locations
+- Table reservation system (St Joseph Blvd)
+- Order online page
+- Contact form
+- Promotional slideshow
+- Google Reviews / Testimonials carousel
+- SEO optimized with LD+JSON structured data, Open Graph, and sitemap
+- Fully responsive design
 
 ## Getting Started
 
-First, run the development server:
-
 ```bash
+# Install dependencies
+npm install
+
+# Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build for production
+npm run build
+
+# Start production server
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Project Structure
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+app/
+├── [locale]/
+│   ├── layout.tsx              # Root layout with metadata & i18n
+│   ├── page.tsx                # Home page
+│   ├── book-table/             # Table reservation (St Joseph)
+│   ├── order-online/           # Order online
+│   ├── contact-us/             # Contact page
+│   └── menu/
+│       ├── bank-st/            # Bank Street menu
+│       └── st-joseph-blvd/     # St Joseph Blvd menu
+├── components/                 # Shared components
+└── styles.scss                 # Global styles
+messages/
+├── en.json                     # English translations
+├── ar.json                     # Arabic translations
+└── fr.json                     # French translations
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Environment
 
-## Learn More
+No environment variables required. EmailJS keys are client-side and bundled into the build.
 
-To learn more about Next.js, take a look at the following resources:
+## Deployment
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Push to `main` branch to trigger automatic deployment on Netlify.
