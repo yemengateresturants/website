@@ -4,20 +4,60 @@
         "menu": "القائمة",
         "about": "حول",
         "contact": "تواصل معنا",
-        "catering": "الحفلات و المناسبات"
+        "catering": "الحفلات و المناسبات",
+        "order": "اطلب أونلاين",
+        "reserve": "احجز طاولة"
     },
     "page": {
         "home": {
             "title": "مرحبا بكم في باب اليمن",
-            "subtitle": "في باب اليمن نقدم طعاماً يمنياً أصيلًا، ملتزمين بمعايير الصحة والجودة في اختيار المواد وطريقة تحضيرها.  يتميز مطبخنا بنكهته  وتوابله الخاصة.  الأطباق التقليدية . توقيعنا ، وكرم الضيافة  طبيعتنا",
-            "occations_title": "خدمات تموين الناسبات و الأعراس - احتفل معنا",
-            "occations_subtitle": "حفلات العود في أوتاوا (موسيقية)، خدمة استضافة الأعراس أو الخطوبة، تقديم الطعام للمناسبات، إفطار رمضان، الإجازات السنوية، والمزيد. مطاعم بوابة يمن هي المكان الأنسب والمحبوب للعائلة والأصدقاء، حيث أن الأجواء المميزة والطعام اللذيذ والترحيب الحار وكرم الضيافة تخلق ذكريات ثمينة ولحظات لا تنسى للجميع",
-            "reviews": "الآراء و التقييمات",
-            "review_text": "اكتشف سبب حب ضيوفنا لبوابة اليمن! تعكس مراجعاتنا التزامنا بالتميز والأصالة. سواء كان ذلك عشاءً عائليًا أو وجبة سريعة، يغادر ضيوفنا بابتسامة راضية"
+            "badge": "المطبخ اليمني الأصيل",
+            "subtitle": "من قلب اليمن إلى مائدتكم — أطباق أصيلة بمكونات حلال فاخرة، وصفات توارثناها جيلاً بعد جيل، وضيافة تليق بكم.",
+            "orderOnline": "اطلب أونلاين",
+            "bookTable": "احجز طاولة",
+            "storyLabel": "قصتنا",
+            "exploreMenu": "استكشف القائمة",
+            "featuredLabel": "أطباقنا المميزة",
+            "featuredTitle": "أطباق مصنوعة بتراث أصيل",
+            "featuredSubtitle": "كل طبق يروي قصة تقاليد، من اللحم المحمر ببطء إلى الأرز بالتوابل العطرية",
+            "dishes": {
+                "lamb_mandi": "مندي لحم",
+                "lamb_haneeth": "لحم حنيذ",
+                "fahsa": "فحسة",
+                "maasoub": "معصوب",
+                "chicken_mandi": "مندي دجاج",
+                "liver": "كبدة"
+            },
+            "locationsLabel": "زورونا",
+            "locationsTitle": "فروعنا",
+            "weekdays": "الاثنين - الجمعة",
+            "weekends": "السبت - الأحد",
+            "callUs": "اتصل بنا",
+            "eventsLabel": "المناسبات والتموين",
+            "occations_title": "خدمات المناسبات والتموين",
+            "occations_subtitle": "حفلات العود، استضافة الأعراس، تقديم الطعام للمناسبات، إفطار رمضان، والمزيد. باب اليمن هو المكان المثالي للاحتفال مع العائلة والأصدقاء.",
+            "inquireNow": "استفسر الآن",
+            "orderTitle": "اطلب أونلاين",
+            "orderDesc": "لا تنتظر. اطلب أطباقك اليمنية المفضلة للاستلام أو التوصيل.",
+            "reserveTitle": "احجز طاولة",
+            "reserveDesc": "خطط لزيارتك. احجز طاولة لعائلتك أو أصدقائك أو مناسبتك الخاصة.",
+            "reviewsLabel": "آراء الزوار",
+            "reviews": "الآراء والتقييمات",
+            "review_text": "اكتشف سبب حب ضيوفنا لبوابة اليمن! تعكس مراجعاتنا التزامنا بالتميز والأصالة."
+        },
+        "promo": {
+            "slide_1_title": "عرض الغداء — $15 فقط",
+            "slide_1_subtitle": "من الاثنين إلى الجمعة، 11 صباحاً - 3 مساءً",
+            "slide_2_title": "عرض الغداء — $15 فقط",
+            "slide_2_subtitle": "من الاثنين إلى الجمعة، 11 صباحاً - 3 مساءً",
+            "slide_3_title": "قهوة أو شاي مجاناً مع الكنافة",
+            "slide_3_subtitle": "من الاثنين إلى الجمعة، 11 صباحاً - 3 مساءً",
+            "limited": "لفترة محدودة",
+            "branch": "فرع سانت جوزيف بوليفارد، أورلينز فقط"
         },
         "slider": {
-            "slide_1_title": "المطبخ اليمني الأصيل - أفضل مطعم يمني في أوتاوا وأورليانز",
-            "slide_1_subtitle": "انغمس في قلب اليمن مع كل قضمة في بوابة اليمن. أحد أفضل مطاعم أوتاوا وأورليانز، يقدم مطعمنا رحلة طهي مع أطباق تقليدية مُعدة باستخدام وصفات قديمة وأجود المكونات (الحلال) كرز المندي او حنيذ اللحم او الكبدة او المعصوب او الشاي العدني او غيرها من الأطباق اليمنية المميزة",
+            "slide_1_title": "المطبخ اليمني الأصيل - أفضل مطعم يمني في أوتاوا وأورلينز",
+            "slide_1_subtitle": "انغمس في قلب اليمن مع كل قضمة في بوابة اليمن. أحد أفضل مطاعم أوتاوا وأورلينز، يقدم مطعمنا رحلة طهي مع أطباق تقليدية مُعدة باستخدام وصفات قديمة وأجود المكونات (الحلال) كرز المندي او حنيذ اللحم او الكبدة او المعصوب او الشاي العدني او غيرها من الأطباق اليمنية المميزة",
             "slide_2_title": "المطبخ اليمني الأصيل : طعم التقاليد",
             "slide_2_subtitle": "باب اليمن هي بوابتك إلى الثقافة والتاريخ اليمني من خلال تراث الطهي الأصيل. نحن نحترم التقاليد في كل طبق، باستخدام مكونات من مصادر محلية وتقنيات عريقة",
             "slide_3_title": "النكهة الغنية : المذاق الشعبي و الجودة",
@@ -32,7 +72,9 @@
             "title": "للطلب يرجى ملء البيانات"
         },
         "contact": {
-            "title": "لنبقى على اتصال"
+            "title": "لنبقى على اتصال",
+            "heroTitle": "تواصل معنا",
+            "heroSubtitle": "نسعد بخدمتكم والإجابة على استفساراتكم. سواء كان لديكم سؤال عن القائمة، أو ترغبون بحجز مناسبة خاصة، أو تحتاجون لأي مساعدة — فريقنا جاهز لمساعدتكم."
         },
         "notFound": {
             "backButton": "الرجوع للصفحة الرئيسية"
@@ -50,6 +92,17 @@
             "thu": "الخميس",
             "fri": "الجمعة",
             "phone": "رقم الهاتف"
+        },
+        "booking": {
+            "guests": "عدد الضيوف",
+            "occasion": "المناسبة",
+            "selectOccasion": "اختر مناسبة (اختياري)",
+            "birthday": "عيد ميلاد",
+            "anniversary": "ذكرى سنوية",
+            "business": "اجتماع عمل",
+            "other": "أخرى",
+            "time": "وقت الحجز",
+            "stJosephOnly": "الحجز متاح فقط لفرع سانت جوزيف بوليفارد، أورلينز"
         }
     },
     "category": {
@@ -69,320 +122,324 @@
         "catering": "الحفلات و المناسبات"
     },
     "menu": {
-      "soups": {
-        "oat_soup": {
-          "title": "شوربة الشوفان",
-          "description": "شوربة كريمية مصنوعة من الشوفان والتوابل الخفيفة",
-          "mealKey": "oat_soup"
+        "soups": {
+            "oat_soup": {
+                "title": "شوربة الشوفان",
+                "description": "شوربة كريمية مصنوعة من الشوفان والتوابل الخفيفة",
+                "mealKey": "oat_soup"
+            },
+            "lentil_soup": {
+                "title": "عدس",
+                "description": "شهية وغنية بالنكهات، مصنوعة من العدس والتوابل اليمنية",
+                "mealKey": "lentil_soup"
+            },
+            "maraq": {
+                "title": "مرق",
+                "description": "مرق يمني غني بالنكهات وممزوج بالأعشاب والتوابل",
+                "mealKey": "maraq"
+            }
         },
-        "lentil_soup": {
-          "title": "عدس",
-          "description": "شهية وغنية بالنكهات، مصنوعة من العدس والتوابل اليمنية",
-          "mealKey": "lentil_soup"
+        "salads": {
+            "signature_salad": {
+                "title": "سلطة خضراء",
+                "description": "خضروات مشكلة طازجة مع الخيار والطماطم وتتبيلة خفيفة",
+                "mealKey": "signature_salad"
+            },
+            "fattoush": {
+                "title": "فتوش",
+                "description": "سلطة على الطريقة الشامية مع رقائق خبز البيتا المحمصة والسماق وخضروات طازجة",
+                "mealKey": "fattoush"
+            },
+            "cucumber_yogurt_salad": {
+                "title": "سلطة الزبادي بالخيار",
+                "description": "زبادي بارد وكريمي مع خيار ونعناع وثوم",
+                "mealKey": "cucumber_yogurt_salad"
+            }
         },
-        "maraq": {
-          "title": "مرق",
-          "description": "مرق يمني غني بالنكهات وممزوج بالأعشاب والتوابل",
-          "mealKey": "maraq"
+        "sides": {
+            "tabeekh": {
+                "title": "طبيخ",
+                "description": "خضروات مطهية، بطاطس، جزر وكوسا في صلصة طماطم",
+                "mealKey": "tabeekh"
+            },
+            "hummus": {
+                "title": "حمص",
+                "description": "حمص، طحينة، ليمون، ثوم وفلفل حار، يُقدم مع خبز البيتا",
+                "mealKey": "hummus"
+            },
+            "mulukhiyah_soup": {
+                "title": "ملوخية",
+                "description": "أوراق الملوخية المطهية مع المرق والثوم والكزبرة",
+                "mealKey": "mulukhiyah_soup"
+            },
+            "okra_soup": {
+                "title": "ايدام بامية",
+                "description": "بامية مع طماطم وثوم ومرق وتوابل",
+                "mealKey": "okra_soup"
+            },
+            "fries": {
+                "title": "بطاطا مقلية",
+                "description": "",
+                "mealKey": "fries"
+            }
+        },
+        "signature_dishes": {
+            "fahsa": {
+                "title": "فحسة",
+                "description": "يخنة لحم مفروم مطهو ببطء مع رغوة الحلبة تُقدم مع خبز البيتا",
+                "mealKey": "fahsa"
+            },
+            "tuna_salta": {
+                "title": "سلتة التونة",
+                "description": "نسخة بحرية من سلتة تحتوي على تونة طازجة في صلصة غنية حارة تُقدم مع خبز البيتا",
+                "mealKey": "tuna_salta"
+            },
+            "qilabat_meat": {
+                "title": "قلابة لحم",
+                "description": "لحم مكعب مطهو ببطء ومتبل بالتوابل اليمنية يُقدم مع خبز البيتا",
+                "mealKey": "qilabat_meat"
+            },
+            "liver": {
+                "title": "كبدة",
+                "description": "كبدة مقلية مع توابل عطرية تُقدم مع خبز البيتا",
+                "mealKey": "liver"
+            },
+            "dry_pot_beans": {
+                "title": "فاصوليا ناشفة",
+                "description": "فاصوليا مطهية مع توابل يمنية وبصل وطماطم تُقدم مع خبز البيتا",
+                "mealKey": "dry_pot_beans"
+            },
+            "beans_mudara": {
+                "title": "فول مدارة",
+                "description": "فول مطهو ببطء مع ثوم وكمون وزيت زيتون يُقدم مع خبز البيتا (الطحينية اختيارية)",
+                "mealKey": "beans_mudara"
+            },
+            "shakshouka": {
+                "title": "بيض شكشوكة",
+                "description": "بيض مخفوق مع طماطم وفلفل وتوابل يُقدم مع خبز البيتا",
+                "mealKey": "shakshouka"
+            },
+            "yemeni_foul": {
+                "title": "فول يمني",
+                "description": "فول مع طحينية وخضروات وطماطم وثوم",
+                "mealKey": "yemeni_foul"
+            },
+            "salta": {
+                "title": "سلتة",
+                "description": "يخنة يمنية تقليدية بالخضار وصلصة الحلبة الحارة تُقدم مع خبز البيتا",
+                "mealKey": "salta"
+            },
+            "lamb_pot": {
+                "title": "طاجن لحم",
+                "description": "مرق لحم مع بطاطس وقطع لحم مطهوة",
+                "mealKey": "lamb_pot"
+            }
+        },
+        "mandi_haneeth_selections": {
+            "lamb_mandi": {
+                "title": "مندي لحم",
+                "description": "طبق أرز معطر بالتوابل اليمنية، مغطى بالبصل المقلي واللوز والزبيب، ويُقدم مع صلصة الحارة (سحاوق)",
+                "mealKey": "lamb_mandi"
+            },
+            "chicken_mandi": {
+                "title": "مندي دجاج",
+                "description": "دجاج طري مطهو ببطء مع أرز عطري وتوابل يمنية، مغطى بالبصل المقلي واللوز والزبيب ويُقدم مع سحاوق",
+                "mealKey": "chicken_mandi"
+            },
+            "lamb_haneeth": {
+                "title": "لحم حنيذ",
+                "description": "لحم حنيذ مطهو ببطء يُقدم فوق أرز بسمتي مطهو بالبخار مع التوابل اليمنية، مغطى باللوز والزبيب",
+                "mealKey": "lamb_haneeth"
+            },
+            "family_mix_mandi": {
+                "title": "مندي عائلي مشكل",
+                "description": "خليط سخي من مندي وحنيذ اللحم والدجاج فوق أرز يمني متبل، مغطى بالبصل المقلي واللوز والزبيب مع سحاوق",
+                "mealKey": "family_mix_mandi"
+            },
+            "family_mandi_lamb": {
+                "title": "مندي لحم عائلي",
+                "description": "طبق أرز معطر بالتوابل اليمنية، مغطى بالبصل المقلي واللوز والزبيب، ويُقدم مع سحاوق الخاص بنا",
+                "mealKey": "family_mandi_lamb"
+            }
+        },
+        "burrito": {
+            "mandi_chicken_burrito": {
+                "title": "بريتو مندي دجاج",
+                "description": "مزيج من النكهات اليمنية والمكسيكية تورتيلا دافئة محشوة بدجاج مندي وأرز وذرة حلوة وبصل مقلي وطماطم وخس ومغطاة بصوص البريتو",
+                "mealKey": "mandi_chicken_burrito"
+            },
+            "mandi_lamb_burrito": {
+                "title": "بريتو مندي لحم",
+                "description": "مزيج من النكهات اليمنية والمكسيكية تورتيلا دافئة محشوة بلحم مندي وأرز وذرة حلوة وبصل مقلي وطماطم وخس ومغطاة بصوص البريتو",
+                "mealKey": "mandi_lamb_burrito"
+            },
+            "shrimp_burrito": {
+                "title": "بريتو روبيان",
+                "description": "مزيج من النكهات اليمنية والمكسيكية تورتيلا دافئة محشوة بروبيان وأرز مندي وذرة حلوة وبصل مقلي وطماطم وخس ومغطاة بصوص البريتو",
+                "mealKey": "shrimp_burrito"
+            }
+        },
+        "desserts": {
+            "maasoub": {
+                "title": "معصوب",
+                "description": "خبز مفروم مع الموز مغطى بكريمة القشطة و حبة البركة و العسل",
+                "mealKey": "maasoub"
+            },
+            "areeka": {
+                "title": "عريكة",
+                "description": "خبز مفروم مع التمر مغطى بكريمة القشطة و حبة البركة و اللوز والعسل",
+                "mealKey": "areeka"
+            },
+            "date_fattah": {
+                "title": "فتة تمر",
+                "description": "خبز مفروم مع التمر و العسل",
+                "mealKey": "date_fattah"
+            },
+            "baklava": {
+                "title": "بقلاوة",
+                "description": "",
+                "mealKey": "baklava"
+            },
+            "knafeh": {
+                "title": "كنافة",
+                "description": "عجينة كنافة مع قطر محلى ومغطاة بالجبنة",
+                "mealKey": "knafeh"
+            }
+        },
+        "drinks": {
+            "adani_tea": {
+                "title": "شاي عدني",
+                "description": "شاي أسود بالحليب محضر بتوابل يمنية",
+                "mealKey": "adani_tea"
+            },
+            "red_tea": {
+                "title": "شاي أحمر",
+                "description": "أوراق شاي مذابة في الماء مع السكر والنعناع",
+                "mealKey": "red_tea"
+            },
+            "ayran": {
+                "title": "عيران",
+                "description": "مشروب بارد مالح مكون من اللبن والماء",
+                "mealKey": "ayran"
+            },
+            "soft_drinks": {
+                "title": "مشروبات غازية",
+                "mealKey": "soft_drinks"
+            },
+            "water": {
+                "title": "ماء",
+                "mealKey": "water"
+            },
+            "turkish_coffee": {
+                "title": "قهوة تركية",
+                "description": "حبوب قهوة محمصة ومطحونة مذابة في ماء مغلي",
+                "mealKey": "turkish_coffee"
+            },
+            "black_coffee": {
+                "title": "قهوة سوداء",
+                "description": "حبوب قهوة محمصة ومطحونة مذابة في الماء",
+                "mealKey": "black_coffee"
+            },
+            "lemon_juice": {
+                "title": "عصير ليمون",
+                "description": "عصير ليمون طازج مع شرائح نعناع",
+                "mealKey": "lemon_juice"
+            },
+            "mango_juice": {
+                "title": "عصير مانجو",
+                "description": "عصير مانجو طازج",
+                "mealKey": "mango_juice"
+            },
+            "signature_cocktail": {
+                "title": "كوكتيل مميز",
+                "description": "مزيج من المانجو والتفاح والموز ومعجون التمر وحليب مركز وحلاوة",
+                "mealKey": "signature_cocktail"
+            }
+        },
+        "sea_foods": {
+            "shrimp": {
+                "title": "روبيان مشوي",
+                "description": "يخنة روبيان غنية بالنكهة تُقدم ساخنة في طاجن مع خبز رشوش",
+                "mealKey": "shrimp"
+            },
+            "fish": {
+                "title": "سمك تندوري",
+                "description": "سمك مشوي ومتبّل بالتوابل ويُقدم مع رشوش بالجبن وسحاوق",
+                "mealKey": "fish"
+            }
+        },
+        "extras": {
+            "sahawiq": {
+                "title": "سحاوق",
+                "description": "طماطم وفلفل حار مع توابل مضافة",
+                "mealKey": "sahawiq"
+            },
+            "raisins": {
+                "title": "زبيب مشكل",
+                "description": "",
+                "mealKey": "raisins"
+            },
+            "thin_sliced_almonds": {
+                "title": "لوز مقطع رفيع",
+                "description": "",
+                "mealKey": "thin_sliced_almonds"
+            },
+            "extra_chicken": {
+                "title": "دجاج إضافي",
+                "description": "",
+                "mealKey": "extra_chicken"
+            },
+            "extra_lamb": {
+                "title": "لحم إضافي",
+                "description": "",
+                "mealKey": "extra_lamb"
+            },
+            "mandi_rice": {
+                "title": "أرز مندي",
+                "description": "أرز مندي مغطى بالبصل واللوز والزبيب",
+                "mealKey": "mandi_rice"
+            },
+            "fried_onion": {
+                "title": "بصل مقلي",
+                "description": "",
+                "mealKey": "fried_onion"
+            },
+            "rashoosh_bread": {
+                "title": "خبز رشوش",
+                "description": "طحين مع زبدة وحبة البركة",
+                "mealKey": "rashoosh_bread"
+            },
+            "pita_bread": {
+                "title": "خبز بيتا",
+                "description": "",
+                "mealKey": "pita_bread"
+            },
+            "cheese_hot_sauce": {
+                "title": "صلصة جبن حارة",
+                "description": "طماطم وجبن وفلفل حار مع بعض التوابل المضافة",
+                "mealKey": "cheese_hot_sauce"
+            },
+            "honey": {
+                "title": "عسل",
+                "description": "",
+                "mealKey": "honey"
+            }
+        },
+        "catering": {
+            "catering_mandi_lamb": {
+                "title": "ذبيحة لحم مندي",
+                "description": "طبق أرز معطر بالتوابل اليمنية، مغطى بالبصل المقلي واللوز والزبيب، ويُقدّم مع صلصتنا الحارة المميزة (سحاوق)",
+                "mealKey": "catering_mandi_lamb"
+            }
         }
     },
-    "salads": {
-      "signature_salad": {
-        "title": "سلطة خضراء",
-        "description": "خضروات مشكلة طازجة مع الخيار والطماطم وتتبيلة خفيفة",
-        "mealKey": "signature_salad"
-      },
-      "fattoush": {
-        "title": "فتوش",
-        "description": "سلطة على الطريقة الشامية مع رقائق خبز البيتا المحمصة والسماق وخضروات طازجة",
-        "mealKey": "fattoush"
-      },
-      "cucumber_yogurt_salad": {
-        "title": "سلطة الزبادي بالخيار",
-        "description": "زبادي بارد وكريمي مع خيار ونعناع وثوم",
-        "mealKey": "cucumber_yogurt_salad"
-      }
-    },
-    "sides": {
-      "tabeekh": {
-          "title": "طبيخ",
-          "description": "خضروات مطهية، بطاطس، جزر وكوسا في صلصة طماطم",
-          "mealKey": "tabeekh"
-        },
-        "hummus": {
-          "title": "حمص",
-          "description": "حمص، طحينة، ليمون، ثوم وفلفل حار، يُقدم مع خبز البيتا",
-          "mealKey": "hummus"
-        }, 
-        "mulukhiyah_soup": {
-          "title": "ملوخية",
-          "description": "أوراق الملوخية المطهية مع المرق والثوم والكزبرة",
-          "mealKey": "mulukhiyah_soup"
-        },
-        "okra_soup": {
-          "title": "ايدام بامية",
-          "description": "بامية مع طماطم وثوم ومرق وتوابل",
-          "mealKey": "okra_soup"
-        },
-        "fries": { "title": "بطاطا مقلية", "description": "", "mealKey": "fries" }
-    },
-    "signature_dishes": {
-      "fahsa": {
-        "title": "فحسة",
-        "description": "يخنة لحم مفروم مطهو ببطء مع رغوة الحلبة تُقدم مع خبز البيتا",
-        "mealKey": "fahsa"
-      },
-      "tuna_salta": {
-        "title": "سلتة التونة",
-        "description": "نسخة بحرية من سلتة تحتوي على تونة طازجة في صلصة غنية حارة تُقدم مع خبز البيتا",
-        "mealKey": "tuna_salta"
-      },
-      "qilabat_meat": {
-        "title": "قلابة لحم",
-        "description": "لحم مكعب مطهو ببطء ومتبل بالتوابل اليمنية يُقدم مع خبز البيتا",
-        "mealKey": "qilabat_meat"
-      },
-      "liver": {
-        "title": "كبدة",
-        "description": "كبدة مقلية مع توابل عطرية تُقدم مع خبز البيتا",
-        "mealKey": "liver"
-      },
-      "dry_pot_beans": {
-        "title": "فاصوليا ناشفة",
-        "description": "فاصوليا مطهية مع توابل يمنية وبصل وطماطم تُقدم مع خبز البيتا",
-        "mealKey": "dry_pot_beans"
-      },
-      "beans_mudara": {
-        "title": "فول مدارة",
-        "description": "فول مطهو ببطء مع ثوم وكمون وزيت زيتون يُقدم مع خبز البيتا (الطحينية اختيارية)",
-        "mealKey": "beans_mudara"
-      },
-      "shakshouka": {
-        "title": "بيض شكشوكة",
-        "description": "بيض مخفوق مع طماطم وفلفل وتوابل يُقدم مع خبز البيتا",
-        "mealKey": "shakshouka"
-      },
-      "yemeni_foul": {
-        "title": "فول يمني",
-        "description": "فول مع طحينية وخضروات وطماطم وثوم",
-        "mealKey": "yemeni_foul"
-      },
-      "salta": {
-        "title": "سلتة",
-        "description": "يخنة يمنية تقليدية بالخضار وصلصة الحلبة الحارة تُقدم مع خبز البيتا",
-        "mealKey": "salta"
-      },
-      "lamb_pot": {
-        "title": "طاجن لحم",
-        "description": "مرق لحم مع بطاطس وقطع لحم مطهوة",
-        "mealKey": "lamb_pot"
-      }
-    },
-    "mandi_haneeth_selections": {
-      "lamb_mandi": {
-        "title": "مندي لحم",
-        "description": "طبق أرز معطر بالتوابل اليمنية، مغطى بالبصل المقلي واللوز والزبيب، ويُقدم مع صلصة الحارة (سحاوق)",
-        "mealKey": "lamb_mandi"
-      },
-      "chicken_mandi": {
-        "title": "مندي دجاج",
-        "description": "دجاج طري مطهو ببطء مع أرز عطري وتوابل يمنية، مغطى بالبصل المقلي واللوز والزبيب ويُقدم مع سحاوق",
-        "mealKey": "chicken_mandi"
-      },
-      "lamb_haneeth": {
-        "title": "لحم حنيذ",
-        "description": "لحم حنيذ مطهو ببطء يُقدم فوق أرز بسمتي مطهو بالبخار مع التوابل اليمنية، مغطى باللوز والزبيب",
-        "mealKey": "lamb_haneeth"
-      },
-      "family_mix_mandi": {
-        "title": "مندي عائلي مشكل",
-        "description": "خليط سخي من مندي وحنيذ اللحم والدجاج فوق أرز يمني متبل، مغطى بالبصل المقلي واللوز والزبيب مع سحاوق",
-        "mealKey": "family_mix_mandi"
-      },
-      "family_mandi_lamb": {
-        "title": "مندي لحم عائلي",
-        "description": "طبق أرز معطر بالتوابل اليمنية، مغطى بالبصل المقلي واللوز والزبيب، ويُقدم مع سحاوق الخاص بنا",
-        "mealKey": "family_mandi_lamb"
-      }
-    },
-    "burrito": {
-      "mandi_chicken_burrito": {
-        "title": "بريتو مندي دجاج",
-        "description": "مزيج من النكهات اليمنية والمكسيكية تورتيلا دافئة محشوة بدجاج مندي وأرز وذرة حلوة وبصل مقلي وطماطم وخس ومغطاة بصوص البريتو",
-        "mealKey": "mandi_chicken_burrito"
-      },
-      "mandi_lamb_burrito": {
-        "title": "بريتو مندي لحم",
-        "description": "مزيج من النكهات اليمنية والمكسيكية تورتيلا دافئة محشوة بلحم مندي وأرز وذرة حلوة وبصل مقلي وطماطم وخس ومغطاة بصوص البريتو",
-        "mealKey": "mandi_lamb_burrito"
-      },
-      "shrimp_burrito": {
-        "title": "بريتو روبيان",
-        "description": "مزيج من النكهات اليمنية والمكسيكية تورتيلا دافئة محشوة بروبيان وأرز مندي وذرة حلوة وبصل مقلي وطماطم وخس ومغطاة بصوص البريتو",
-        "mealKey": "shrimp_burrito"
-      }
-    },
-    "desserts": {
-      "maasoub": {
-        "title": "معصوب",
-        "description": "خبز مفروم مع الموز مغطى بكريمة القشطة و حبة البركة و العسل",
-        "mealKey": "maasoub"
-      },
-      "areeka": {
-        "title": "عريكة",
-        "description": "خبز مفروم مع التمر مغطى بكريمة القشطة و حبة البركة و اللوز والعسل",
-        "mealKey": "areeka"
-      },
-      "date_fattah": {
-        "title": "فتة تمر",
-        "description": "خبز مفروم مع التمر و العسل",
-        "mealKey": "date_fattah"
-      },
-      "baklava": {
-        "title": "بقلاوة",
-        "description": "",
-        "mealKey": "baklava"
-      },
-      "knafeh": {
-        "title": "كنافة",
-        "description": "عجينة كنافة مع قطر محلى ومغطاة بالجبنة",
-        "mealKey": "knafeh"
-      }
-    },
-    "drinks": {
-        "adani_tea": {
-            "title": "شاي عدني",
-            "description": "شاي أسود بالحليب محضر بتوابل يمنية",
-            "mealKey": "adani_tea"
-        },
-        "red_tea": {
-            "title": "شاي أحمر",
-            "description": "أوراق شاي مذابة في الماء مع السكر والنعناع",
-            "mealKey": "red_tea"
-        },
-        "ayran": {
-            "title": "عيران",
-            "description": "مشروب بارد مالح مكون من اللبن والماء",
-            "mealKey": "ayran"
-        },
-        "soft_drinks": {
-            "title": "مشروبات غازية",
-            "mealKey": "soft_drinks"
-        },
-        "water": {
-            "title": "ماء",
-            "mealKey": "water"
-        },
-        "turkish_coffee": {
-            "title": "قهوة تركية",
-            "description": "حبوب قهوة محمصة ومطحونة مذابة في ماء مغلي",
-            "mealKey": "turkish_coffee"
-        },
-        "black_coffee": {
-            "title": "قهوة سوداء",
-            "description": "حبوب قهوة محمصة ومطحونة مذابة في الماء",
-            "mealKey": "black_coffee"
-        },
-        "lemon_juice": {
-            "title": "عصير ليمون",
-            "description": "عصير ليمون طازج مع شرائح نعناع",
-            "mealKey": "lemon_juice"
-        },
-        "mango_juice": {
-            "title": "عصير مانجو",
-            "description": "عصير مانجو طازج",
-            "mealKey": "mango_juice"
-        },
-        "signature_cocktail": {
-            "title": "كوكتيل مميز",
-            "description": "مزيج من المانجو والتفاح والموز ومعجون التمر وحليب مركز وحلاوة",
-            "mealKey": "signature_cocktail"
-        }
-    },
-    "sea_foods": {
-      "shrimp": {
-        "title": "روبيان مشوي",
-        "description": "يخنة روبيان غنية بالنكهة تُقدم ساخنة في طاجن مع خبز رشوش",
-        "mealKey": "shrimp"
-      },
-      "fish": {
-        "title": "سمك تندوري",
-        "description": "سمك مشوي ومتبّل بالتوابل ويُقدم مع رشوش بالجبن وسحاوق",
-        "mealKey": "fish"
-      }
-    },
-    "extras": {
-      "sahawiq": {
-        "title": "سحاوق",
-        "description": "طماطم وفلفل حار مع توابل مضافة",
-        "mealKey": "sahawiq"
-      },
-      "raisins": {
-        "title": "زبيب مشكل",
-        "description": "",
-        "mealKey": "raisins"
-      },
-      "thin_sliced_almonds": {
-        "title": "لوز مقطع رفيع",
-        "description": "",
-        "mealKey": "thin_sliced_almonds"
-      },
-      "extra_chicken": {
-        "title": "دجاج إضافي",
-        "description": "",
-        "mealKey": "extra_chicken"
-      },
-      "extra_lamb": {
-        "title": "لحم إضافي",
-        "description": "",
-        "mealKey": "extra_lamb"
-      },
-      "mandi_rice": {
-        "title": "أرز مندي",
-        "description": "أرز مندي مغطى بالبصل واللوز والزبيب",
-        "mealKey": "mandi_rice"
-      },
-      "fried_onion": {
-        "title": "بصل مقلي",
-        "description": "",
-        "mealKey": "fried_onion"
-      },
-      "rashoosh_bread": {
-        "title": "خبز رشوش",
-        "description": "طحين مع زبدة وحبة البركة",
-        "mealKey": "rashoosh_bread"
-      },
-      "pita_bread": {
-        "title": "خبز بيتا",
-        "description": "",
-        "mealKey": "pita_bread"
-      },
-      "cheese_hot_sauce": {
-        "title": "صلصة جبن حارة",
-        "description": "طماطم وجبن وفلفل حار مع بعض التوابل المضافة",
-        "mealKey": "cheese_hot_sauce"
-      },
-      "honey": {
-        "title": "عسل",
-        "description": "",
-        "mealKey": "honey"
-      }
-    },
-    "catering": {
-        "catering_mandi_lamb": {
-            "title": "ذبيحة لحم مندي",
-            "description": "طبق أرز معطر بالتوابل اليمنية، مغطى بالبصل المقلي واللوز والزبيب، ويُقدّم مع صلصتنا الحارة المميزة (سحاوق)",
-            "mealKey": "catering_mandi_lamb"
-        }
-    }
-  },
-  "price": {
+    "price": {
         "small": "صغير",
         "large": "كبير",
         "single_price": "وجبة سنجل",
         "double_price": "وجبة دبل",
         "quart_price": "ربع حبة",
-        "half_price": "نصف حبة",
+        "half_price": "نصف",
         "whole_price": "حبة كاملة",
         "family_price": "وجبة عائلية",
         "lamb_mandi": "لحم مندي",
@@ -394,7 +451,6 @@
         "single_piece": "سنجل",
         "double_pieces": "دبل",
         "qaurter_price": "ربع",
-        "half_price": "نصف",
         "quarter_lamb": "ربع خروف",
         "half_lamb": "نصف خروف",
         "whole_lamb": "خروف كامل",
@@ -405,7 +461,7 @@
         "name": "الاسم",
         "email": "البريد الالكتروني",
         "phone": "الرقم",
-        "date": "تاريخ المناسبة",
+        "date": "تاريخ و وقت الحجز",
         "message": "الرسالة",
         "thanksMsg": "شكرا لإرسال طلبك",
         "respondMsg": "سيقوم أحد موظفينا بالرد عليك بأقرب وقت ممكن",
@@ -420,6 +476,6 @@
     "footer": {
         "contact": "تواصل معنا",
         "follow": "تابعنا",
-        "rightsReserved": "٢٠٢٤ باب اليمن. جميع الحقوق محفوظة"
+        "rightsReserved": "جميع الحقوق محفوظة"
     }
 }

@@ -7,7 +7,7 @@ export const sendEmail = (e: Event | any, dispatch: Function): void => {
   emailjs
     .sendForm(
       "service_ax59uib",
-      'template_q154l48',
+      'contact_template',
       e.target,
       'rvhOsx5t6duYAWuVK'
     )

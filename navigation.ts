@@ -14,7 +14,9 @@ import {
     '/menu/[branch]': '/menu/[branch]',
     '/about-us': '/about-us',
     '/branches/[branch]': '/branches/[branch]',
-    '/contact-us': '/contact-us',   
+    '/contact-us': '/contact-us',
+    '/order-online': '/order-online',
+    '/book-table': '/book-table',
   } satisfies Pathnames<typeof locales>;
    
   export const {Link, redirect, usePathname, useRouter, getPathname} =

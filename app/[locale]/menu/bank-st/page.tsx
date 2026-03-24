@@ -1,16 +1,13 @@
 import { FC } from 'react';
 import { useTranslations } from 'next-intl';
 import { LangParamProps } from '@/interfaces/commonProps.interface';
-import Link from 'next/link';
-import Image from 'next/image';
 import MealsCarousel from '../../../components/new-menu-style/MealCarousel';
 import Head from 'next/head';
 
 const BankStMenu: FC<LangParamProps> = ({ params }: { params: { locale: string } }) => {
   const canonicalUrl: string = `/${params.locale}/menu/bank-st`;
-
   const t = useTranslations();
-  const menuData = require('./menu.json'); // Import menu data
+  const menuData = require('./menu.json');
 
   const schemaMarkup = {
     "@context": "http://schema.org",
@@ -44,31 +41,58 @@ const BankStMenu: FC<LangParamProps> = ({ params }: { params: { locale: string }
     "menu": "https://www.yemengate.ca/menu/bank-st",
     "servesCuisine": "Yemeni Cuisine",
     "priceRange": "$",
-    "acceptsReservations": "No"
-};
+    "acceptsReservations": "Yes"
+  };
 
   return (
     <>
       <Head>
-          <script type="application/ld+json">
-              {JSON.stringify(schemaMarkup)}
-          </script>
+        <script type="application/ld+json">
+          {JSON.stringify(schemaMarkup)}
+        </script>
         <link rel="canonical" href={canonicalUrl} />
       </Head>
-      <div className="menu_header_image bank_st_menu_bg">
-        <h1>Bank St. <br /> {t('page.menu.menuTitle')}</h1>
+
+      {/* Menu Hero */}
+      <div className="menu-hero">
+        <div className="menu-hero-bg menu-hero-bank-st" />
+        <div className="menu-hero-content">
+          <span className="menu-hero-label">{t('page.menu.menuTitle')}</span>
+          <h1>Bank Street</h1>
+          <p>1559 Bank St, Ottawa, ON K1H 7Z3</p>
+        </div>
       </div>
-      <div className="card_box_container">
+
+      {/* Menu Content */}
+      <div className="menu-page-content">
         <MealsCarousel locale={params.locale} menuData={menuData} />
-        <div className="order_btns_container">
-          <h2>{t('page.menu.orderHeader')}</h2>
-          <div className="order_btns_wrapper">
-            <Link href="https://www.ubereats.com/ca/store/yemen-gate-bank-st/OmTvklAUU_urFj2CD2SOgQ">
-              <Image className="order-btn" src="/images/uber_eats.jpg" width='150' height='75' alt="Uber Eats Button" />
-            </Link>
-            <Link href="https://www.skipthedishes.com/yemen-gate-bank">
-              <Image className="order-btn" src="/images/skip.png" width='150' height='75' alt="Doordash Button" />
-            </Link>
+
+        {/* Order Section */}
+        <div className="menu-order-section">
+          <div className="menu-order-inner">
+            <h2>{t('page.menu.orderHeader')}</h2>
+            <p>{t('page.home.orderDesc')}</p>
+            <div className="menu-order-buttons">
+              <a
+                href="https://www.ubereats.com/ca/store/yemen-gate-bank-st/OmTvklAUU_urFj2CD2SOgQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta-btn cta-primary"
+              >
+                Uber Eats
+              </a>
+              <a
+                href="https://www.skipthedishes.com/yemen-gate-bank"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cta-btn cta-outline"
+              >
+                SkipTheDishes
+              </a>
+              <a href="tel:+16135266000" className="cta-btn cta-ghost">
+                (613) 526-6000
+              </a>
+            </div>
           </div>
         </div>
       </div>

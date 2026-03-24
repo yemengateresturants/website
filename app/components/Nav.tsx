@@ -30,10 +30,10 @@ const Nav: FC<LangParamProps> = ({ params: {locale} }) => {
         <nav className="navbar">
             <div className="navbar_container">
                 <Link className="" href='/' locale={locale} onClick={() => setMenuToggle(false)}>
-                    <Image src="/images/brown-logo.png" alt="Yemeni Gate" width="75" height="60" />
+                    <Image src="/images/yg-logo.png" alt="Yemeni Gate" width="75" height="60" />
                 </Link>
 
-                <input checked={menuToggle} type="checkbox" id="navigation" onClick={() => setMenuToggle(!menuToggle)} />
+                <input checked={menuToggle} type="checkbox" id="navigation" onChange={() => setMenuToggle(!menuToggle)} />
                 <label htmlFor="navigation" className="hamburger hamburger--htx" >
                     <span className="show-mobile">menu</span>
                 </label>
@@ -52,12 +52,12 @@ const Nav: FC<LangParamProps> = ({ params: {locale} }) => {
                             <li key="St_Joseph_Blvd"><Link href={`/menu/st-joseph-blvd`} locale={locale} onClick={() => setMenuToggle(false)}>St Joseph Blvd (Orleans)</Link></li>
                         </ul>
                     </div>
-                    <Link className="nav-link" href={`/contact-us`} locale={locale} onClick={() => setMenuToggle(false)}>
-                        {t('contact')}
+                    <Link className="nav-link" href={`/order-online`} locale={locale} onClick={() => setMenuToggle(false)}>
+                        {t('order')}
                     </Link>
-                    {/* <Link className="nav-link" href={`/about-us`} locale={locale} onClick={() => setMenuToggle(false)}>
-                        {t('about')}
-                    </Link> */}
+                    <Link className="nav-link" href={`/book-table`} locale={locale} onClick={() => setMenuToggle(false)}>
+                        {t('reserve')}
+                    </Link>
                     <div className="nav-link dropdown-wrapper">
                             <div className="vert-center">
                                 <Image className="lang_flag" src={generateFlagIcon(locale)} width="25" height="25" alt="language flag" />

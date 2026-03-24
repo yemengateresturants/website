@@ -1,14 +1,12 @@
-import MealsCarousel from "@/app/components/new-menu-style/MealCarousel";
 import { useTranslations } from "next-intl";
+import Link from "next-intl/link";
 import Head from "next/head";
-import Image from "next/image";
-import Link from "next/link";
+import MealsCarousel from "@/app/components/new-menu-style/MealCarousel";
 
-const StJospehMenu = ({ params }: { params: { locale: string } }) => {
+const StJosephMenu = ({ params }: { params: { locale: string } }) => {
   const canonicalUrl: string = `/${params.locale}/menu/st-joseph-blvd`;
-
   const t = useTranslations();
-  const menuData = require('./menu.json'); // Import menu data
+  const menuData = require('./menu.json');
 
   const schemaMarkup = {
     "@context": "http://schema.org",
@@ -43,35 +41,49 @@ const StJospehMenu = ({ params }: { params: { locale: string } }) => {
     "servesCuisine": "Yemeni Cuisine",
     "priceRange": "$",
     "acceptsReservations": "Yes"
-};
+  };
 
   return (
     <>
-        <Head>
-          <script type="application/ld+json">
-              {JSON.stringify(schemaMarkup)}
-          </script>
-          <link rel="canonical" href={canonicalUrl} />
-        </Head>
-          <div className="menu_header_image st_joseph_bg">
-          <h1>St. Joseph Blvd <br /> (Orleans) {t('page.menu.menuTitle')}</h1>
+      <Head>
+        <script type="application/ld+json">
+          {JSON.stringify(schemaMarkup)}
+        </script>
+        <link rel="canonical" href={canonicalUrl} />
+      </Head>
+
+      {/* Menu Hero */}
+      <div className="menu-hero">
+        <div className="menu-hero-bg menu-hero-st-joseph" />
+        <div className="menu-hero-content">
+          <span className="menu-hero-label">{t('page.menu.menuTitle')}</span>
+          <h1>St Joseph Blvd <span>(Orleans)</span></h1>
+          <p>2871 St Joseph Blvd, Orléans, ON K1C 1G8</p>
         </div>
-        <div className="card_box_container">
-          <MealsCarousel locale={params.locale} menuData={menuData} />
-          <div className="order_btns_container">
-            <h2>{t('page.menu.orderHeader')}</h2>
-            <div className="order_btns_wrapper">
-              <Link href="https://www.ubereats.com/ca/store/yemen-gate-bank-st/OmTvklAUU_urFj2CD2SOgQ">
-                <Image className="order-btn" src="/images/uber_eats.jpg" width='150' height='75' alt="Uber Eats Button" />
+      </div>
+
+      {/* Menu Content */}
+      <div className="menu-page-content">
+        <MealsCarousel locale={params.locale} menuData={menuData} />
+
+        {/* Reserve Section */}
+        <div className="menu-order-section">
+          <div className="menu-order-inner">
+            <h2>{t('page.home.reserveTitle')}</h2>
+            <p>{t('page.home.reserveDesc')}</p>
+            <div className="menu-order-buttons">
+              <Link href="/book-table" locale={params.locale} className="cta-btn cta-primary">
+                {t('page.home.bookTable')}
               </Link>
-              <Link href="https://www.skipthedishes.com/yemen-gate-bank">
-                <Image className="order-btn" src="/images/skip.png" width='150' height='75' alt="Doordash Button" />
-              </Link>
+              <a href="tel:+16138451715" className="cta-btn cta-ghost">
+                (613) 845-1715
+              </a>
             </div>
           </div>
         </div>
+      </div>
     </>
   );
 };
 
-export default StJospehMenu;
+export default StJosephMenu;

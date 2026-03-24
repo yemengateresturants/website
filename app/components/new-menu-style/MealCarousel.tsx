@@ -4,78 +4,67 @@ import { useTranslations } from "next-intl";
 import MealCard from "./MealCard";
 import { useState } from "react";
 
-
-const MealsCarousel = ({locale, menuData}: {locale: string, menuData: any}) => {
+const MealsCarousel = ({ locale, menuData }: { locale: string, menuData: any }) => {
     const initialCategory = menuData.soups ? 'soups' : 'signature_dishes';
     const [currentCategory, setCurrentCategory] = useState(initialCategory);
 
-
     const t = useTranslations();
-    const translateObj = require(`../../../messages/${locale}.json`); // Import menu data
+    const translateObj = require(`../../../messages/${locale}.json`);
     const menuObj = translateObj.menu;
     const categories = Object.keys(menuData);
 
     const generateMeals = (category: string): Meal[] => {
         const categoryData = menuData[category];
-        
         const branchMenu: Meal[] = [];
-        console.log("menuObj: ", menuObj);
 
-        if (!categoryData) {
-            console.error("Category data not found for: ", category);
-            return []; // Return empty array if category data is not found
-        }
-    
-        // Filter and create a new object with matching keys
+        if (!categoryData) return [];
+
         Object.fromEntries(
-          Object.entries(menuObj).filter(([key, _]: any) => {
-            console.log("key: ", key);
-            console.log("_: ", _);
+            Object.entries(menuObj).filter(([key, _]: any) => {
+                categoryData.forEach((mealKey: MealKey) => {
+                    const meal: Meal = _[mealKey.key];
+                    if (!meal) return;
+                    if (mealKey.key === meal.mealKey) {
+                        branchMenu.push({ ...meal, price: mealKey.price, isVege: mealKey.isVege })
+                    }
+                })
+            }));
 
-            categoryData.forEach((mealKey: MealKey) => {
-                console.log("menu: ", _)
-              const meal: Meal = _[mealKey.key];
-              if (!meal) return;
-              if (mealKey.key === meal.mealKey) {
-                branchMenu.push({ ...meal, price: mealKey.price, isVege: mealKey.isVege })
-              }
-            })
-          }));
-    
         return branchMenu;
-      };
+    };
+
+    const meals = generateMeals(currentCategory);
 
     return (
-        <section className="ag-card-block">
-            <div className="ag-format-container">
-                <div className="ag-category-carousel_box">
-
-                <ul id="js-category-carousel" className="js-category-carousel ag-category-carousel_list">
-                    {
-                        categories.map((category: string, i: number) => (
-                            <li key={i} className="ag-category-carousel_item" onClick={() => setCurrentCategory(category)}>
-                                <p className={`${category == currentCategory ? 'active-link': ''} ag-base_btn`}>
-                                    {t(`category.${category}`)}
-                                </p>
-                            </li>
-                        ))
-                    }
-                </ul>
-                </div>
-
-                <div className="ag-card_box">
-                    <ul className="ag-card-grid_list">
-                        {
-                            generateMeals(currentCategory).map((meal: Meal) => {
-                                console.log("meal: ", meal);
-                                return <MealCard key={meal.mealKey} meal={meal} />
-                            })
-                        }
-                    </ul>
-                </div>
+        <div className="menu-section">
+            {/* Category Navigation */}
+            <div className="menu-categories-wrapper">
+                <nav className="menu-categories">
+                    {categories.map((category: string) => (
+                        <button
+                            key={category}
+                            className={`menu-category-pill ${category === currentCategory ? 'active' : ''}`}
+                            onClick={() => setCurrentCategory(category)}
+                        >
+                            {t(`category.${category}`)}
+                        </button>
+                    ))}
+                </nav>
             </div>
-        </section>
-    )
-}
+
+            {/* Meal Count */}
+            <p className="menu-count">
+                {meals.length} {meals.length === 1 ? 'item' : 'items'}
+            </p>
+
+            {/* Meals Grid */}
+            <div className="menu-grid">
+                {meals.map((meal: Meal) => (
+                    <MealCard key={meal.mealKey} meal={meal} />
+                ))}
+            </div>
+        </div>
+    );
+};
 
 export default MealsCarousel;

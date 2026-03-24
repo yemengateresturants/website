@@ -4,16 +4,56 @@
         "menu": "Menu",
         "about": "About",
         "contact": "Contact",
-        "catering": "Catering"
+        "catering": "Catering",
+        "order": "Order Online",
+        "reserve": "Book a Table"
     },
     "page": {
         "home": {
             "title": "Authentic Yemeni Taste",
-            "subtitle": "In Yemen Gate, We offer authentic Yemeni food and adhere to health and quality standards in the selection of ingredients and in the method of preparation. Our kitchen is distinguished by its flavor, freshness and special spices. Traditional dishes are our signature, our hospitality and gratitude are our nature",
-            "occations_title": "Special Events and Catering Services - Celebrate With Us",
-            "occations_subtitle": "Oud concerts in Ottawa (musical), wedding or engagement hosting service, event catering, Ramadan iftar, annual holidays, and more. Yemen Gate restaurants are the most suitable and lovely place for family and friends, as the distinctive atmosphere, delicious food, warm welcome, and hospitality create precious memories and unforgettable moments for everyone",
+            "badge": "Authentic Yemeni Cuisine",
+            "subtitle": "From the heart of Yemen to your table — authentic dishes crafted with premium halal ingredients, recipes passed down through generations, and hospitality you deserve.",
+            "orderOnline": "Order Online",
+            "bookTable": "Book a Table",
+            "storyLabel": "Our Story",
+            "exploreMenu": "Explore Our Menu",
+            "featuredLabel": "Our Specialties",
+            "featuredTitle": "Dishes Crafted With Heritage",
+            "featuredSubtitle": "Each plate tells a story of tradition, from slow-roasted lamb to aromatic spiced rice",
+            "dishes": {
+                "lamb_mandi": "Lamb Mandi",
+                "lamb_haneeth": "Slow Roasted Lamb",
+                "fahsa": "Fahsa",
+                "maasoub": "Ma'asoub",
+                "chicken_mandi": "Chicken Mandi",
+                "liver": "Liver"
+            },
+            "locationsLabel": "Visit Us",
+            "locationsTitle": "Our Two Locations",
+            "weekdays": "Mon - Fri",
+            "weekends": "Sat - Sun",
+            "callUs": "Call Us",
+            "eventsLabel": "Events & Catering",
+            "occations_title": "Special Events and Catering Services",
+            "occations_subtitle": "Oud concerts, wedding hosting, event catering, Ramadan iftar, and more. Yemen Gate is the perfect place to celebrate with family and friends.",
+            "inquireNow": "Inquire Now",
+            "orderTitle": "Order Online",
+            "orderDesc": "Skip the wait. Order your favorite Yemeni dishes for pickup or delivery.",
+            "reserveTitle": "Reserve a Table",
+            "reserveDesc": "Plan your visit. Book a table for your family, friends, or special occasion.",
+            "reviewsLabel": "What People Say",
             "reviews": "Reviews & Testimonials",
-            "review_text": "Discover why our diners love Yemen Gate! Our reviews reflect our dedication to excellence and authenticity. Whether it's a family dinner or a quick bite, our guests leave with smiles and satisfied appetites"
+            "review_text": "Discover why our diners love Yemen Gate! Our reviews reflect our dedication to excellence and authenticity."
+        },
+        "promo": {
+            "slide_1_title": "Lunch Specials — Only $15",
+            "slide_1_subtitle": "Monday to Friday, 11AM - 3PM",
+            "slide_2_title": "Lunch Specials — Only $15",
+            "slide_2_subtitle": "Monday to Friday, 11AM - 3PM",
+            "slide_3_title": "Free Coffee or Tea with Kunafeh",
+            "slide_3_subtitle": "Monday to Friday, 11AM - 3PM",
+            "limited": "For Limited Time",
+            "branch": "St Joseph Blvd, Orleans Only"
         },
         "slider": {
             "slide_1_title": "Authentic Yemeni Cuisine - Best Yemeni restaurant in Ottawa and Orleans",
@@ -22,6 +62,17 @@
             "slide_2_subtitle": "Yemen Gate is your gateway to Yemeni culture and history through its authentic culinary heritage. We honor tradition with every dish, using locally sourced ingredients and time-honored techniques.",
             "slide_3_title": "Rich Flavor: Tradition Meets Quality",
             "slide_3_subtitle": "At Yemen Gate, culinary tradition is infused with a commitment to quality. We source the freshest ingredients and employ time-honored techniques to bring you dishes that not only taste exceptional but also resonate with the rich culinary history of Yemen"
+        },
+        "booking": {
+            "guests": "Number of Guests",
+            "occasion": "Occasion",
+            "selectOccasion": "Select an occasion (optional)",
+            "birthday": "Birthday",
+            "anniversary": "Anniversary",
+            "business": "Business Meeting",
+            "other": "Other",
+            "time": "Booking Time",
+            "stJosephOnly": "Reservations available only at St Joseph Blvd, Orleans"
         },
         "menu": {
             "orderHeader": "Ready to Order?",
@@ -32,7 +83,9 @@
             "title": "Please fill the form"
         },
         "contact": {
-            "title": "Let's keep in touch"
+            "title": "Let's keep in touch",
+            "heroTitle": "Get in Touch",
+            "heroSubtitle": "We'd love to hear from you. Whether you have a question about our menu, want to book a special event, or need any assistance — our team is here to help."
         },
         "notFound": {
             "backButton": "Back Home"
@@ -179,7 +232,7 @@
         "name": "Name",
         "email": "Email",
         "phone": "Phone",
-        "date": "Date",
+        "date": "Booking Date & Time",
         "message": "Message",
         "thanksMsg": "Thank you for sending your order!",
         "respondMsg": "We will contact you soon.",
@@ -194,6 +247,6 @@
     "footer": {
         "contact": "Contact us",
         "follow": "Follow us",
-        "rightsReserved": "2024 Yemeni Gate. All Rights Reserved"
+        "rightsReserved": "All Rights Reserved"
     }
 }

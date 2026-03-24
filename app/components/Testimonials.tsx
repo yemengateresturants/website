@@ -60,7 +60,7 @@ const Testimonials = () => {
         >
             {
                 reviewsArr.map((review) => (
-                    <ReviewCard customerName={review.name} reviewText={review.review} customerOrder={review.order} />
+                    <ReviewCard key={review.name} customerName={review.name} reviewText={review.review} customerOrder={review.order} />
                 ))
             }
         </Carousel>

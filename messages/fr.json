@@ -4,24 +4,75 @@
       "menu": "Menu",
       "about": "À propos",
       "contact": "Nous joindre",
-      "catering": "Restauration"
+      "catering": "Restauration",
+      "order": "Commander en ligne",
+      "reserve": "Réserver une table"
     },
     "page": {
         "home": {
             "title": "Goût yéménite authentique",
-            "subtitle": "Chez Yemen Gate, nous proposons une cuisine yéménite authentique et adhérons aux normes de santé et de qualité dans la sélection des ingrédients et dans la méthode de préparation. Notre cuisine se distingue par sa saveur, sa fraîcheur et ses épices particulières. Les plats traditionnels sont notre signature, notre hospitalité et notre gratitude sont notre nature.",
-            "occations_title": "Événements spéciaux et restauration - faites la fête avec nous",
-            "occations_subtitle": "Concerts de oud à Ottawa (musical), service d'hébergement de mariage ou de fiançailles, traiteur événementiel, iftar du Ramadan, congés annuels et plus encore. Les restaurants Yemen Gate sont l'endroit le plus approprié et le plus agréable pour la famille et les amis, car l'atmosphère distinctive, la cuisine délicieuse, l'accueil chaleureux et l'hospitalité créent des souvenirs précieux et des moments inoubliables pour chacun",
+            "badge": "Cuisine yéménite authentique",
+            "subtitle": "Du cœur du Yémen à votre table — des plats authentiques préparés avec des ingrédients halal de qualité, des recettes transmises de génération en génération, et une hospitalité à la hauteur.",
+            "orderOnline": "Commander en ligne",
+            "bookTable": "Réserver une table",
+            "storyLabel": "Notre histoire",
+            "exploreMenu": "Découvrir notre menu",
+            "featuredLabel": "Nos spécialités",
+            "featuredTitle": "Des plats façonnés par le patrimoine",
+            "featuredSubtitle": "Chaque assiette raconte une histoire de tradition, de l'agneau rôti lentement au riz aux épices aromatiques",
+            "dishes": {
+                "lamb_mandi": "Mandi d'agneau",
+                "lamb_haneeth": "Agneau Haneeth",
+                "fahsa": "Fahsa",
+                "maasoub": "Maasoub",
+                "chicken_mandi": "Mandi de poulet",
+                "liver": "Foie"
+            },
+            "locationsLabel": "Visitez-nous",
+            "locationsTitle": "Nos deux emplacements",
+            "weekdays": "Lun - Ven",
+            "weekends": "Sam - Dim",
+            "callUs": "Appelez-nous",
+            "eventsLabel": "Événements et restauration",
+            "occations_title": "Événements spéciaux et restauration",
+            "occations_subtitle": "Concerts de oud, hébergement de mariage, traiteur événementiel, iftar du Ramadan et plus encore. Yemen Gate est l'endroit idéal pour célébrer en famille et entre amis.",
+            "inquireNow": "Renseignez-vous",
+            "orderTitle": "Commander en ligne",
+            "orderDesc": "Ne faites pas la queue. Commandez vos plats yéménites préférés pour emporter ou livraison.",
+            "reserveTitle": "Réserver une table",
+            "reserveDesc": "Planifiez votre visite. Réservez une table pour votre famille, vos amis ou une occasion spéciale.",
+            "reviewsLabel": "Ce que disent nos clients",
             "reviews": "Avis et témoignages",
-            "review_text": "Découvrez pourquoi nos convives adorent le Yemen Gate ! Nos avis reflètent notre dévouement à l’excellence et à l’authenticité. Qu'il s'agisse d'un dîner en famille ou d'une bouchée sur le pouce, nos convives repartent avec le sourire et l'appétit satisfait"
+            "review_text": "Découvrez pourquoi nos convives adorent Yemen Gate ! Nos avis reflètent notre dévouement à l'excellence et à l'authenticité."
+        },
+        "promo": {
+            "slide_1_title": "Spéciaux du midi — Seulement 15$",
+            "slide_1_subtitle": "Du lundi au vendredi, 11h - 15h",
+            "slide_2_title": "Spéciaux du midi — Seulement 15$",
+            "slide_2_subtitle": "Du lundi au vendredi, 11h - 15h",
+            "slide_3_title": "Café ou thé gratuit avec le Kunafeh",
+            "slide_3_subtitle": "Du lundi au vendredi, 11h - 15h",
+            "limited": "Offre limitée",
+            "branch": "St Joseph Blvd, Orléans seulement"
         },
         "slider": {
             "slide_1_title": "Cuisine yéménite authentique - Meilleur restaurant yéménite à Ottawa et Orléans",
             "slide_1_subtitle": "Plongez au cœur du Yémen à chaque bouchée à la porte du Yémen. L'un des meilleurs restaurants d'Ottawa et d'Orléans, notre restaurant propose un voyage culinaire avec des plats traditionnels préparés selon des recettes ancestrales et les meilleurs ingrédients (Halal) comme le riz Mandi, l'agneau Haneeth, le foie, le dessert à la banane, l'Adani chai (Karak), et plus",
-            "slide_2_title": "Cuisine yéménite authentique : un avant-goût de la tradition",
+            "slide_2_title": "Cuisine yéménite authentique : un avant-goût de la tradition",
             "slide_2_subtitle": "Yémen Gate est votre porte d'entrée vers la culture et l'histoire yéménites à travers son patrimoine culinaire authentique. Nous honorons la tradition avec chaque plat, en utilisant des ingrédients locaux et des techniques ancestrales.",
-            "slide_3_title": "Saveur riche : La tradition rencontre la qualité",
+            "slide_3_title": "Saveur riche : La tradition rencontre la qualité",
             "slide_3_subtitle": "Chez Yemen Gate, la tradition culinaire est imprégnée d'un engagement envers la qualité. Nous nous approvisionnons en ingrédients les plus frais et employons des techniques ancestrales pour vous proposer des plats qui non seulement ont un goût exceptionnel, mais qui résonnent également avec la riche histoire culinaire du Yémen"
+        },
+        "booking": {
+            "guests": "Nombre de convives",
+            "occasion": "Occasion",
+            "selectOccasion": "Sélectionnez une occasion (optionnel)",
+            "birthday": "Anniversaire",
+            "anniversary": "Anniversaire de mariage",
+            "business": "Réunion d'affaires",
+            "other": "Autre",
+            "time": "Heure de réservation",
+            "stJosephOnly": "Réservations disponibles uniquement au St Joseph Blvd, Orléans"
         },
         "menu": {
             "orderHeader": "Prêt à commander?",
@@ -32,7 +83,9 @@
             "title": "Restons en contact"
         },
         "contact": {
-            "title": "Nous joindre"
+            "title": "Nous joindre",
+            "heroTitle": "Contactez-nous",
+            "heroSubtitle": "Nous serions ravis de vous entendre. Que vous ayez une question sur notre menu, souhaitiez réserver un événement spécial ou ayez besoin d'aide — notre équipe est là pour vous."
         },
         "notFound": {
             "backButton": "Retour à la page d'accueil"
@@ -197,7 +250,7 @@
       },
       "family_mix_mandi": {
         "title": "Mandi mixte familial",
-        "description": "Mélange généreux de mandi et haneeth d’agneau et poulet sur riz épicé garni d’oignons frits, d’amandes et de raisins secs avec sahawiq",
+        "description": "Mélange généreux de mandi et haneeth d'agneau et poulet sur riz épicé garni d'oignons frits, d'amandes et de raisins secs avec sahawiq",
         "mealKey": "family_mix_mandi"
       },
       "family_mandi_lamb": {
@@ -380,7 +433,7 @@
     "price": {
         "small": "Petit",
         "large": "Grand",
-        "single_price": "Prix ​​unique",
+        "single_price": "Prix unique",
         "double_price": "Double prix",
         "quart_price": "Quart de poulet",
         "half_price": "Demi poulet",
@@ -392,7 +445,7 @@
         "large_person": "Grand (pour 4-5 personnes)",
         "sandwich_price": "Prix du sandwich",
         "combo_price": "Faites-en un combo avec",
-        "single_piece": "​​Unique",
+        "single_piece": "Unique",
         "double_pieces": "Double",
         "qaurter_price": "Quart",
         "half_price": "Demi",
@@ -406,7 +459,7 @@
         "name": "Nom",
         "email": "Courriel",
         "phone": "Numéro de téléphone",
-        "date": "La datte",
+        "date": "Date et heure de réservation",
         "message": "le message",
         "thanksMsg": "Merci d'avoir envoyé votre commande!",
         "respondMsg": "Nous vous contacterons bientôt.",
@@ -421,6 +474,6 @@
     "footer": {
         "contact": "Nous joindre",
         "follow": "Suivez-nous",
-        "rightsReserved": "2024 Yemeni Gate. Tous droits réservés"
+        "rightsReserved": "Tous droits réservés"
     }
 }

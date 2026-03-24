@@ -2,49 +2,51 @@ import { CardParamProps, Meal, MealKey } from "@/interfaces/meal.interface";
 import { useTranslations } from "next-intl";
 import { FC } from "react";
 
-
-const MealCard: FC<CardParamProps> = ({ meal } : { meal: Meal }) => {
-
+const MealCard: FC<CardParamProps> = ({ meal }: { meal: Meal }) => {
     const t = useTranslations("price");
 
     const generatePrice = (price: any) => {
-        if(typeof price == 'string') {
-            return '$' + price;
-        } else {
-            return price.map((p: MealKey) => {
-                return <div key={p.key}>{t(p.key)}: ${p.price}</div>
-            })
+        if (typeof price === 'string') {
+            return <span className="menu-price-single">${price}</span>;
         }
-    }
+        return (
+            <div className="menu-price-options">
+                {price.map((p: MealKey) => (
+                    <div key={p.key} className="menu-price-option">
+                        <span className="menu-price-label">{t(p.key)}</span>
+                        <span className="menu-price-value">${p.price}</span>
+                    </div>
+                ))}
+            </div>
+        );
+    };
 
     return (
-        <li className="ag-card-grid_item">
-          <figure>
-                <img src={`/images/${meal.mealKey}.png`} width="362" height="235" className="ag-card_img" alt={`${meal.title} - ${meal.description}`}/>
-            </figure>
-
-            <div className="ag-card_info">
-                <div className="ag-card_descr">
-                    <div className="flex">
-                        <h2 className="ag-card_title">
-                            {meal?.title}
-                        </h2>
-                        {
-                            meal?.isVege &&
-                            <img className="vege_icon" src="/images/vege.png" alt="Vegeterian option" />
-                        }
-                    </div>
-                <div className="ag-card_text">
-                    {meal?.description}
-                </div>
-                </div>
-
-                <div className="ag-card_date">
-                    { generatePrice(meal?.price) }
+        <div className="menu-card">
+            <div className="menu-card-image">
+                <img
+                    src={`/images/${meal.mealKey}.png`}
+                    alt={`${meal.title} - ${meal.description || ''}`}
+                    loading="lazy"
+                />
+                {meal?.isVege && (
+                    <span className="menu-card-badge-vege">
+                        <img src="/images/vege.png" alt="Vegetarian" width="14" height="14" />
+                        Vege
+                    </span>
+                )}
+            </div>
+            <div className="menu-card-body">
+                <h3 className="menu-card-title">{meal?.title}</h3>
+                {meal?.description && (
+                    <p className="menu-card-desc">{meal.description}</p>
+                )}
+                <div className="menu-card-price">
+                    {generatePrice(meal?.price)}
                 </div>
             </div>
-        </li>
-    )
-}
+        </div>
+    );
+};
 
 export default MealCard;
